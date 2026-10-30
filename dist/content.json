@@ -685,11 +685,11 @@
     {
       "id": "institutions",
       "title": "Bienvenue à Valrivière",
-      "subtitle": "Identifier les acteurs avant d’agir",
+      "subtitle": "Préparer la fiche de décision qui accompagnera la première présentation du projet.",
       "domain": "Institutions",
       "scene": "town",
-      "mentor": "Claire, directrice générale des services",
-      "intro": "La ville prépare une nouvelle saison de services aux habitants. Claire t’accueille sur la place : « Avant de proposer, apprenons à reconnaître qui fait quoi. »",
+      "mentor": "Marianne Delmas",
+      "intro": "Préparer la fiche de décision qui accompagnera la première présentation du projet.",
       "missions": [
         {
           "id": "inst-1",
@@ -750,7 +750,7 @@
               ]
             }
           ],
-          "outro": "Claire ajoute ta fiche au dossier : les rôles sont désormais clairs."
+          "outro": "Marianne corrige le brouillon du discours avec votre fiche. Le maire présentera une ambition et les étapes à franchir, sans annoncer un budget déjà acquis. Votre carnet contient son premier document utile."
         },
         {
           "id": "inst-2",
@@ -807,7 +807,7 @@
               ]
             }
           ],
-          "outro": "La carte des partenaires est prête. La réunion peut commencer."
+          "outro": "Les badges sont corrigés et le compte rendu distingue clairement les responsabilités. Marianne vous laisse présenter la carte des acteurs : votre première intervention en réunion se termine sans confusion."
         },
         {
           "id": "inst-3",
@@ -864,18 +864,18 @@
               ]
             }
           ],
-          "outro": "Les formalités sont suivies. Le premier dossier territorial est achevé."
+          "outro": "Le bordereau mentionne les vérifications et les formalités nécessaires ; les services compétents assurent leur accomplissement. Vous classez la première séquence du projet avec ses pièces de suivi. La manufacture cesse peu à peu d’être une simple annonce."
         }
       ]
     },
     {
       "id": "culture",
       "title": "La médiathèque des possibles",
-      "subtitle": "Comprendre le service public au contact des habitants",
+      "subtitle": "Relier le futur projet de service aux principes du service public.",
       "domain": "Culture territoriale",
       "scene": "library",
-      "mentor": "Maya, responsable de la médiathèque",
-      "intro": "La médiathèque veut toucher de nouveaux lecteurs. Maya te propose trois petits dossiers pour rendre le service plus accueillant et mieux compris.",
+      "mentor": "Maya",
+      "intro": "Relier le futur projet de service aux principes du service public.",
       "missions": [
         {
           "id": "cult-1",
@@ -932,7 +932,7 @@
               ]
             }
           ],
-          "outro": "Maya peut maintenant comparer les horaires à partir des besoins et des moyens."
+          "outro": "Le groupe conserve une piste d’horaires à étudier avec les équipes. Jeanne accepte de réunir d’autres témoignages : elle voit que sa remarque devient une question de travail, et pas seulement une ligne dans un compte rendu."
         },
         {
           "id": "cult-2",
@@ -991,7 +991,7 @@
               ]
             }
           ],
-          "outro": "L’habitante s’installe. Un livre optionnel sur les ressources du concours rejoint ta bibliothèque."
+          "outro": "L’affiche distingue les usages. L’habitante s’installe à une table et Jeanne repart avec un message clair pour son association. Dans votre carnet, vous notez : « Comprendre un droit peut commencer par permettre d’entrer. »"
         },
         {
           "id": "cult-3",
@@ -1048,18 +1048,18 @@
               ]
             }
           ],
-          "outro": "La charte est prête. Les nouveaux lecteurs trouvent leur place à Valrivière."
+          "outro": "La charte est corrigée puis confiée à l’équipe pour sa mise au point. Jeanne la trouve plus rassurante : elle parle de personnes et de comportements. Le projet commence à acquérir une identité commune."
         }
       ]
     },
     {
       "id": "finances",
       "title": "Les comptes de la ville",
-      "subtitle": "Comprendre les moyens derrière les projets",
+      "subtitle": "Distinguer fonctionnement, investissement et charges futures.",
       "domain": "Finances",
       "scene": "finance",
-      "mentor": "Malik, responsable des finances",
-      "intro": "Malik ouvre un dossier de rénovation. « Un projet ne se résume pas à son prix d’achat : regardons ce qu’il coûtera et comment il sera financé. »",
+      "mentor": "Karim Benali",
+      "intro": "Distinguer fonctionnement, investissement et charges futures.",
       "missions": [
         {
           "id": "fin-1",
@@ -1118,7 +1118,7 @@
               ]
             }
           ],
-          "outro": "Le tableau distingue l’ouverture de la salle et sa vie future."
+          "outro": "Votre tableau distingue les grandes catégories et les charges futures. Le scénario le moins cher à construire n’apparaît plus automatiquement comme le plus soutenable. Le maire demande une comparaison complète."
         },
         {
           "id": "fin-2",
@@ -1177,7 +1177,7 @@
               ]
             }
           ],
-          "outro": "Le plan est moins spectaculaire, mais il repose sur des ressources examinées."
+          "outro": "Vous présentez les risques sans les dissimuler. Les élus retiennent l’étude d’un phasage et demandent des prévisions étayées. Jeanne apprend que tout n’ouvrira peut-être pas simultanément ; elle est déçue, mais remercie Marianne de l’avoir prévenue directement."
         },
         {
           "id": "fin-3",
@@ -1234,18 +1234,18 @@
               ]
             }
           ],
-          "outro": "Les rôles sont identifiés et les pièces réunies. Le dossier financier peut suivre son cours."
+          "outro": "Maya organise la vérification des livres et Malik rassemble les pièces. Vous avez relié les personnes derrière les colonnes du budget. Karim vous confie désormais la préparation des points de suivi du projet."
         }
       ]
     },
     {
       "id": "rh",
       "title": "Une équipe à faire grandir",
-      "subtitle": "Droits, responsabilités et coopération",
+      "subtitle": "Associer droits et obligations dans le livret d’accueil.",
       "domain": "Ressources humaines",
       "scene": "meeting",
-      "mentor": "Claire, directrice générale des services",
-      "intro": "L’équipe de la maison des services accueille une nouvelle collègue et change d’outil. Claire te confie l’accompagnement de cette étape.",
+      "mentor": "Claire",
+      "intro": "Associer droits et obligations dans le livret d’accueil.",
       "missions": [
         {
           "id": "rh-1",
@@ -1304,7 +1304,7 @@
               ]
             }
           ],
-          "outro": "Le livret donne des repères équilibrés à la nouvelle collègue."
+          "outro": "Le livret accueille désormais les droits autant que les obligations. Lucie propose de servir de référente aux nouveaux collègues. Vous découvrez que faire grandir le service commence aussi par rassurer celles et ceux qui le font fonctionner."
         },
         {
           "id": "rh-2",
@@ -1362,7 +1362,7 @@
               ]
             }
           ],
-          "outro": "La difficulté est expliquée et la consigne clarifiée."
+          "outro": "Une demande de clarification remplace les messages contradictoires. Les responsables examinent la consigne avec les éléments complets. Lucie sait à qui transmettre les faits et Marianne souligne votre prudence : vous avez évité une conclusion hâtive."
         },
         {
           "id": "rh-3",
@@ -1419,18 +1419,18 @@
               ]
             }
           ],
-          "outro": "L’équipe dispose d’un appui concret. Le changement devient une occasion d’apprendre."
+          "outro": "Claire organise un accompagnement ciblé et un point de suivi. Lucie retrouve progressivement ses repères. Dans votre carnet, la préparation de l’ouverture comporte désormais du temps de formation et de retour d’expérience."
         }
       ]
     },
     {
       "id": "transition",
       "title": "La rivière et les quartiers",
-      "subtitle": "Coopérer pour un territoire durable",
+      "subtitle": "Vérifier les compétences avant de répartir les interventions.",
       "domain": "Politiques publiques",
       "scene": "river",
-      "mentor": "Aïcha, ingénieure territoriale",
-      "intro": "Les berges relient plusieurs quartiers et une commune voisine. Aïcha te propose de préparer un projet attentif aux compétences, au climat et aux habitants.",
+      "mentor": "Aïcha",
+      "intro": "Vérifier les compétences avant de répartir les interventions.",
       "missions": [
         {
           "id": "trans-1",
@@ -1487,7 +1487,7 @@
               ]
             }
           ],
-          "outro": "La répartition est fondée sur les documents, pas sur une impression."
+          "outro": "Votre tableau distingue les besoins et les compétences à vérifier. La réunion partenariale partira de ces pièces, sans attribuer automatiquement tous les travaux à un acteur. Jeanne apprécie de savoir pourquoi certaines réponses demandent un délai."
         },
         {
           "id": "trans-2",
@@ -1546,7 +1546,7 @@
               ]
             }
           ],
-          "outro": "Les options seront comparées selon leurs effets et leurs contraintes."
+          "outro": "Les propositions sont classées par objectifs et leurs effets possibles sont consignés. Les services compétents poursuivent l’étude. Jeanne demande que les habitants puissent discuter des usages avant que les options soient figées."
         },
         {
           "id": "trans-3",
@@ -1603,18 +1603,18 @@
               ]
             }
           ],
-          "outro": "Les habitants pourront suivre le devenir de leurs propositions."
+          "outro": "Le cadre est clarifié et un retour est prévu. Certaines propositions alimentent la suite des études ; d’autres nécessitent des explications. Jeanne accepte de participer au groupe de suivi parce qu’elle connaît désormais la place de son avis."
         }
       ]
     },
     {
       "id": "numerique",
       "title": "La maison des services",
-      "subtitle": "Accès aux droits, données et résultats",
+      "subtitle": "Préparer un formulaire proportionné à son objectif.",
       "domain": "Numérique et évaluation",
       "scene": "forum",
-      "mentor": "Léa, coordinatrice de la maison des services",
-      "intro": "La maison des services ouvre un accueil numérique accompagné. Léa souhaite un dispositif utile, respectueux des personnes et capable d’apprendre de ses résultats.",
+      "mentor": "Léa",
+      "intro": "Préparer un formulaire proportionné à son objectif.",
       "missions": [
         {
           "id": "num-1",
@@ -1671,7 +1671,7 @@
               ]
             }
           ],
-          "outro": "Le formulaire demande moins de données et explique mieux son objectif."
+          "outro": "Le brouillon devient plus sobre et les points à faire vérifier sont consignés. Les responsables concernés arrêtent ensuite les modalités applicables. Lucie dispose d’explications plus claires pour accueillir les inscriptions."
         },
         {
           "id": "num-2",
@@ -1728,7 +1728,7 @@
               ]
             }
           ],
-          "outro": "L’habitant est accompagné sans que son dossier soit exposé inutilement."
+          "outro": "L’équipe organise un accompagnement et garde les accès dans le périmètre nécessaire. L’habitant retrouve un interlocuteur. Jeanne vous dit que la manufacture commence enfin à ressembler au lieu qu’elle imaginait : un endroit où l’on peut demander de l’aide."
         },
         {
           "id": "num-3",
@@ -1788,7 +1788,7 @@
               ]
             }
           ],
-          "outro": "Ton bilan distingue les activités réalisées et les résultats recherchés. La campagne est terminée ; les lectures et révisions restent accessibles."
+          "outro": "Votre présentation distingue ce qui est observé de ce qui reste à établir. Les élus disposent de repères pour poursuivre l’action. À la sortie, Marianne vous rend votre carnet : « Vous savez maintenant relier les textes, les moyens et les personnes. Gardez cette habitude. » Dans la cour, Jeanne attend Lucie pour un nouvel atelier. La manufacture a changé ; votre manière de regarder la ville aussi."
         }
       ]
     }
@@ -1798,7 +1798,7 @@
       "id": "side-institutions",
       "chapterId": "institutions",
       "title": "Le carnet de la République",
-      "story": "À l’accueil, Claire a laissé un petit essai sur la liberté locale. Lis-le pour enrichir ta bibliothèque et expliquer ce que signifie l’autonomie communale.",
+      "story": "Aux archives, Marianne retrouve un petit carnet sur la libre administration. « Le maire parle souvent de liberté d’action. Ce texte vous aidera à comprendre ce que cette liberté permet, et ce qui l’encadre. Gardez-le dans votre sacoche. »",
       "bookId": "libre-administration",
       "question": {
         "id": "side-institutions-q",
@@ -1820,7 +1820,7 @@
       "id": "side-culture",
       "chapterId": "culture",
       "title": "Le rayon des futurs attachés",
-      "story": "Maya te propose de retrouver les vraies ressources du concours dans la bibliothèque. Distingue les créations du jeu des sujets officiels.",
+      "story": "Au fond de la médiathèque, Maya prépare un rayon consacré aux métiers publics. Elle sait que vous préparez le concours d’attaché. « Nous pouvons travailler les notions ici ; pour voir les vrais sujets, il faut aussi reconnaître les sources officielles. »",
       "bookId": "culture-concours",
       "question": {
         "id": "side-culture-q",
@@ -1842,7 +1842,7 @@
       "id": "side-finances",
       "chapterId": "finances",
       "title": "Le petit atlas des recettes",
-      "story": "Malik te prête son guide des financements. Une aide ponctuelle peut-elle suffire à faire vivre durablement un service ?",
+      "story": "À la fin d’une réunion, Karim vous prête son atlas des recettes. « Jeanne a trouvé une piste d’aide pour du matériel. C’est utile. Mais comment fera-t-on vivre le service les années suivantes ? Prenez le temps de lire avant de répondre. »",
       "bookId": "ressources-livre",
       "question": {
         "id": "side-finances-q",
@@ -1864,7 +1864,7 @@
       "id": "side-rh",
       "chapterId": "rh",
       "title": "Le marque-page de la déontologie",
-      "story": "Une collègue hésite : un proche travaille pour un organisme concerné par son dossier. Le petit guide de déontologie l’aide à poser le problème.",
+      "story": "Une collègue confie à Claire qu’un proche travaille pour un organisme concerné par son dossier. Elle n’a accordé aucune faveur, mais veut savoir comment prévenir une difficulté. Claire vous propose de relire ensemble le marque-page de déontologie.",
       "bookId": "interets",
       "question": {
         "id": "side-rh-q",
@@ -1886,7 +1886,7 @@
       "id": "side-transition",
       "chapterId": "transition",
       "title": "Le banc qui dure",
-      "story": "Aïcha te confie un carnet consacré à l’achat public. Avant de choisir les bancs, identifie les besoins du quartier.",
+      "story": "Sur les berges, Jeanne imagine des bancs où attendre avant les ateliers. Aïcha vous prête un carnet d’achat public : « Avant de comparer les catalogues, demandons-nous à qui serviront ces bancs, où et dans quelles conditions. »",
       "bookId": "achat-livre",
       "question": {
         "id": "side-transition-q",
@@ -1908,7 +1908,7 @@
       "id": "side-numerique",
       "chapterId": "numerique",
       "title": "Les chiffres racontent-ils tout ?",
-      "story": "Léa trouve un questionnaire de satisfaction rempli par quelques volontaires. Consulte le carnet de lecture critique avant d’en tirer une conclusion générale.",
+      "story": "Après la première saison, Léa reçoit quelques questionnaires enthousiastes. Jeanne s’en réjouit, puis demande : « Et ceux qui ne sont jamais venus ? » Un carnet de lecture critique vous aide à préparer une conclusion mesurée.",
       "bookId": "preuves",
       "question": {
         "id": "side-numerique-q",
@@ -2028,5 +2028,692 @@
         "besoin"
       ]
     }
-  ]
+  ],
+  "campaign": {
+    "title": "Une année pour faire ses preuves",
+    "prologue": [
+      "Le premier lundi de votre nouvelle mission, vous arrivez à Valrivière avec un carnet neuf et une nomination comme chargé de mission auprès de la direction générale. Sur le trajet de la mairie, vous avez aperçu la manufacture des Tilleuls : de grandes fenêtres fermées, des portes vertes et une cour envahie par la végétation.",
+      "La commune veut y réunir une bibliothèque de proximité, des ateliers associatifs et un accueil pour les démarches du quotidien. Pour Jeanne, dont l’association accompagne des familles, ce lieu doit ouvrir de vraies portes. Pour Lucie, qui reçoit chaque jour les habitants au guichet, il doit surtout leur éviter de repartir sans réponse.",
+      "Marianne Delmas, la directrice générale des services, vous confie le carnet de liaison du projet. « Vous ne déciderez pas seul. Votre rôle sera de comprendre, de vérifier, puis de nous aider à choisir. Nous avons une année pour construire un service qui tienne ses promesses. »",
+      "Votre premier rendez-vous commence dans dix minutes. Le maire prépare une annonce, le budget reste à discuter et personne n’a encore réuni toutes les pièces. Vous glissez le carnet dans votre sacoche. À la première page, Marianne a écrit votre nom : {name}."
+    ],
+    "characters": [
+      {
+        "id": "marianne",
+        "name": "Marianne Delmas",
+        "role": "Directrice générale des services",
+        "description": "Votre tutrice. Exigeante sur les faits, elle apprend à vous laisser conduire les réunions. Carré court argenté, veste bleu marine, foulard ocre."
+      },
+      {
+        "id": "karim",
+        "name": "Karim Benali",
+        "role": "Responsable des finances",
+        "description": "Il veut que le lieu vive longtemps après la photographie de son ouverture. Il prête ses carnets et préfère une difficulté clairement expliquée à une promesse fragile."
+      },
+      {
+        "id": "lucie",
+        "name": "Lucie Morel",
+        "role": "Agente d’accueil",
+        "description": "Elle connaît les trajets et les obstacles des habitants. Elle vous rappelle souvent ce que les tableaux de bord ne montrent pas."
+      },
+      {
+        "id": "jeanne",
+        "name": "Jeanne Perrin",
+        "role": "Présidente de l’association Les Passerelles",
+        "description": "Elle défend les besoins des familles et la mémoire de la manufacture. Elle soutient le projet, mais refuse de servir de caution à des décisions déjà arrêtées."
+      },
+      {
+        "id": "etienne",
+        "name": "Étienne Roussel",
+        "role": "Maire de Valrivière",
+        "description": "Il porte le projet et souhaite en montrer les avancées. Il doit apprendre à annoncer un calendrier compatible avec les vérifications et les décisions nécessaires."
+      },
+      {
+        "id": "maya",
+        "name": "Maya",
+        "role": "Responsable de la médiathèque",
+        "description": "Elle prépare les collections, les horaires et la charte de la future bibliothèque."
+      },
+      {
+        "id": "aicha",
+        "name": "Aïcha",
+        "role": "Chargée de transition écologique",
+        "description": "Elle relie le projet aux berges voisines et fait préciser les objectifs derrière chaque aménagement."
+      },
+      {
+        "id": "claire",
+        "name": "Claire",
+        "role": "Responsable des ressources humaines",
+        "description": "Elle prépare l’arrivée de l’équipe et veille à ce que le changement soit accompagné."
+      },
+      {
+        "id": "malik",
+        "name": "Malik",
+        "role": "Gestionnaire comptable",
+        "description": "Il travaille avec Karim et suit les pièces nécessaires au circuit de la dépense."
+      },
+      {
+        "id": "lea",
+        "name": "Léa",
+        "role": "Coordinatrice des services numériques",
+        "description": "Elle prépare les démarches et cherche à mesurer leurs effets sur l’autonomie des habitants."
+      }
+    ],
+    "missions": {
+      "inst-1": {
+        "time": "Acte I · Première semaine",
+        "place": "Bureau de la DGS · Annexe face à la mairie",
+        "scene": "office",
+        "character": "marianne",
+        "opening": [
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Bienvenue, {name}. Le maire veut présenter la manufacture aux associations vendredi. Avant de parler de travaux, nous devons savoir qui décide et qui signe."
+          },
+          {
+            "speaker": "Étienne Roussel",
+            "text": "Je peux annoncer que les crédits sont votés ? Nous avons évoqué le projet en réunion hier."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Pas encore. Préparez une fiche claire sur les rôles de chacun. Elle nous évitera de confondre une intention et une décision."
+          }
+        ],
+        "objective": "Préparer la fiche de décision qui accompagnera la première présentation du projet.",
+        "document": {
+          "title": "Courriel du cabinet · Préparer vendredi",
+          "text": "Merci de préciser l’organe compétent pour le budget, l’autorité chargée d’exécuter les décisions et les vérifications nécessaires avant toute signature. Le projet n’a pas encore reçu toutes ses autorisations."
+        },
+        "questionContexts": [
+          "Le brouillon du discours annonce des crédits « validés par les services ». Marianne vous demande d’identifier l’organe qui doit effectivement voter le budget.",
+          "Le maire demande ensuite qui transformera les délibérations adoptées en actes d’exécution. Votre fiche doit distinguer cette fonction de celle du conseil.",
+          "Un document arrive avec deux emplacements de signature différents. Avant d’inscrire un nom, vous devez retrouver la pièce qui permettra de vérifier les pouvoirs de signature."
+        ],
+        "outcome": "Marianne corrige le brouillon du discours avec votre fiche. Le maire présentera une ambition et les étapes à franchir, sans annoncer un budget déjà acquis. Votre carnet contient son premier document utile.",
+        "hook": "La préfecture propose un échange sur le montage du projet. Une nouvelle page du carnet s’ouvre : qui représente qui ?"
+      },
+      "inst-2": {
+        "time": "Acte I · Deuxième semaine",
+        "place": "Salle de réunion de la mairie",
+        "scene": "meeting",
+        "character": "marianne",
+        "opening": [
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Notre réunion réunit des interlocuteurs de la commune et de l’État. Chacun peut nous aider, mais pas au même titre."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "J’ai préparé les badges. Sur celui de la préfecture, un collègue a écrit « collectivité partenaire ». Je préfère vous demander."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Reconstituez la carte des acteurs. Nous saurons alors à qui adresser nos demandes sans attribuer à chacun les pouvoirs de l’autre."
+          }
+        ],
+        "objective": "Distinguer les acteurs de l’État et ceux de la commune avant la réunion partenariale.",
+        "document": {
+          "title": "Liste des participants annotée",
+          "text": "Mairie : direction générale et élus. Préfecture : interlocuteurs des services de l’État. Les demandes de conseil et de financement seront précisées pendant la réunion ; aucune réponse favorable n’est présumée."
+        },
+        "questionContexts": [
+          "Lucie hésite sur la catégorie à inscrire au-dessus du badge de la préfecture. Vous devez lui donner le bon repère institutionnel.",
+          "Un participant explique que certains pouvoirs sont exercés au plus près du territoire par les services de l’État. Votre schéma doit nommer les destinataires de cette déconcentration.",
+          "Le maire vous demande pourquoi la commune ne peut pas être dessinée comme une simple antenne de l’État. La dernière case de votre schéma porte sur cette distinction."
+        ],
+        "outcome": "Les badges sont corrigés et le compte rendu distingue clairement les responsabilités. Marianne vous laisse présenter la carte des acteurs : votre première intervention en réunion se termine sans confusion.",
+        "hook": "Le conseil municipal doit maintenant examiner un premier acte relatif au local. Le circuit ne s’arrêtera pas à la signature."
+      },
+      "inst-3": {
+        "time": "Acte I · Après le conseil",
+        "place": "Archives municipales",
+        "scene": "archive",
+        "character": "marianne",
+        "opening": [
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Le conseil a adopté une première délibération relative au local. Elle ne vaut pas, à elle seule, feu vert pour toutes les étapes du projet."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "La version signée est arrivée. Est-ce que je peux classer la chemise comme terminée ?"
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, vérifiez la fiche de circulation. Aux archives, les anciennes chemises montrent pourquoi les traces de publicité et de transmission comptent autant que la belle signature."
+          }
+        ],
+        "objective": "Préparer le suivi des formalités de l’acte et comprendre le contrôle de légalité.",
+        "document": {
+          "title": "Bordereau de circulation · Pièces à vérifier",
+          "text": "Une délibération signée vient d’être versée au dossier. La fiche de suivi distingue signature, formalités applicables, transmission éventuelle et conservation. Les travaux restent soumis à leur propre instruction."
+        },
+        "questionContexts": [
+          "La signature est présente, mais les autres cases du bordereau sont vides. Lucie attend votre réponse avant de considérer le circuit terminé.",
+          "La préfecture demande une précision juridique sur l’acte. Le maire craint qu’elle n’évalue simplement l’intérêt politique du projet : vous expliquez l’objet du contrôle.",
+          "Marianne prépare une note sur l’hypothèse d’un désaccord persistant avec le préfet. Vous devez identifier l’autorité qui pourrait prononcer l’annulation contentieuse."
+        ],
+        "outcome": "Le bordereau mentionne les vérifications et les formalités nécessaires ; les services compétents assurent leur accomplissement. Vous classez la première séquence du projet avec ses pièces de suivi. La manufacture cesse peu à peu d’être une simple annonce.",
+        "hook": "Jeanne souhaite savoir ce qui changera réellement pour les habitants. Le prochain dossier commence devant une bibliothèque déjà fermée."
+      },
+      "cult-1": {
+        "time": "Acte II · Fin de journée",
+        "place": "Médiathèque municipale",
+        "scene": "library",
+        "character": "maya",
+        "opening": [
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Les parents que j’accompagne sortent du travail après la fermeture. Si la manufacture reprend les mêmes horaires, qu’aurons-nous changé ?"
+          },
+          {
+            "speaker": "Maya",
+            "text": "Nous ne pouvons pas ouvrir tout le temps. Mais nous pouvons examiner les usages et notre organisation."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "{name}, aidez-nous à poser les bons principes avant de débattre des créneaux. Les habitants doivent comprendre les raisons de notre proposition."
+          }
+        ],
+        "objective": "Relier le futur projet de service aux principes du service public.",
+        "document": {
+          "title": "Carnet d’observation · Portes fermées à 18 heures",
+          "text": "Plusieurs habitants évoquent un décalage entre leurs disponibilités et les horaires actuels. Ces retours ouvrent une étude des besoins et des moyens ; ils ne constituent pas encore un planning arrêté."
+        },
+        "questionContexts": [
+          "Maya envisage de faire évoluer les horaires à partir des besoins observés. Quel principe éclaire cette évolution ?",
+          "Jeanne demande si la continuité signifie que les portes devraient rester ouvertes à toute heure. Vous devez éviter une promesse impossible.",
+          "Pour la prochaine réunion, Lucie veut trois repères communs permettant de discuter du service. Vous complétez l’en-tête de la fiche."
+        ],
+        "outcome": "Le groupe conserve une piste d’horaires à étudier avec les équipes. Jeanne accepte de réunir d’autres témoignages : elle voit que sa remarque devient une question de travail, et pas seulement une ligne dans un compte rendu.",
+        "hook": "Lors de la visite suivante, une habitante sans carte s’arrête devant le bureau d’accueil."
+      },
+      "cult-2": {
+        "time": "Acte II · Une matinée de visite",
+        "place": "Médiathèque municipale",
+        "scene": "library",
+        "character": "maya",
+        "opening": [
+          {
+            "speaker": "Lucie Morel",
+            "text": "Une habitante souhaite lire une encyclopédie ici. Elle n’a pas de carte et pense devoir repartir."
+          },
+          {
+            "speaker": "Maya",
+            "text": "La carte de prêt et l’accès au lieu ne sont pas la même chose. Nous devons l’expliquer simplement, dans la bibliothèque actuelle comme dans la future."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Je vais relayer cette information aux familles. {name}, choisissez les mots justes : une affiche ambiguë peut fermer une porte sans qu’on s’en rende compte."
+          }
+        ],
+        "objective": "Clarifier l’accès à la bibliothèque et la consultation sur place.",
+        "document": {
+          "title": "Projet d’affiche · Bienvenue à la bibliothèque",
+          "text": "Le panneau d’accueil doit distinguer l’entrée dans les lieux, la consultation sur place et les modalités du prêt. Seules les deux premières questions sont examinées dans ce dossier."
+        },
+        "questionContexts": [
+          "L’habitante hésite encore sur le seuil. Lucie vous demande quel principe annoncer concernant l’accès à la bibliothèque municipale.",
+          "Elle précise qu’elle veut seulement consulter l’encyclopédie sur place. Votre réponse doit porter exactement sur cette prestation.",
+          "Maya relit le projet de service de la manufacture. Vous devez choisir la mission générale qui donne un sens à cet accueil ouvert."
+        ],
+        "outcome": "L’affiche distingue les usages. L’habitante s’installe à une table et Jeanne repart avec un message clair pour son association. Dans votre carnet, vous notez : « Comprendre un droit peut commencer par permettre d’entrer. »",
+        "hook": "Avant d’accueillir une nouvelle équipe, Maya veut maintenant une charte que chacun puisse appliquer."
+      },
+      "cult-3": {
+        "time": "Acte II · Atelier de rédaction",
+        "place": "Salle de réunion de la médiathèque",
+        "scene": "meeting",
+        "character": "maya",
+        "opening": [
+          {
+            "speaker": "Maya",
+            "text": "La future bibliothèque accueillera des personnes de tous horizons. Notre charte doit tenir dans des phrases concrètes."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Certains habitants craignent d’être moins bien reçus parce qu’ils ne connaissent personne à la mairie."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "Faisons relire les situations difficiles à {name}. Nous avons besoin de repères pour agir, pas d’un texte décoratif au mur."
+          }
+        ],
+        "objective": "Préparer les engagements de neutralité et de respect pour l’accueil.",
+        "document": {
+          "title": "Brouillon de charte · Trois situations",
+          "text": "L’équipe relit des exemples d’accueil : préférences personnelles, expression des convictions dans les fonctions et respect des personnes. La charte accompagnera la formation, sans remplacer les obligations applicables."
+        },
+        "questionContexts": [
+          "Un exemple du brouillon propose un accueil prioritaire fondé sur des convictions communes. Maya vous demande de vérifier s’il peut être conservé.",
+          "Une agente demande dans quel cadre la neutralité lui est imposée. Il faut préciser la portée de l’obligation sans inventer une règle générale sur toute sa vie privée.",
+          "Lucie cherche la phrase de conclusion de la charte. Vous devez retenir celle qui guide le respect de toutes les personnes accueillies."
+        ],
+        "outcome": "La charte est corrigée puis confiée à l’équipe pour sa mise au point. Jeanne la trouve plus rassurante : elle parle de personnes et de comportements. Le projet commence à acquérir une identité commune.",
+        "hook": "Karim vous attend avec une autre question : combien coûtera cette promesse d’accueil, chaque année ?"
+      },
+      "fin-1": {
+        "time": "Acte III · Réunion de programmation",
+        "place": "Service des finances",
+        "scene": "finance",
+        "character": "karim",
+        "opening": [
+          {
+            "speaker": "Karim Benali",
+            "text": "Le premier tableau affiche les travaux en grand. Les salaires, l’entretien et les consommations tiennent dans une note en bas de page."
+          },
+          {
+            "speaker": "Étienne Roussel",
+            "text": "Je veux connaître le coût du projet entier avant de défendre le programme. Pas seulement le prix du bâtiment."
+          },
+          {
+            "speaker": "Karim Benali",
+            "text": "{name}, aidons les services à séparer ce qui construit le lieu et ce qui le fera vivre. Après seulement, nous comparerons les scénarios."
+          }
+        ],
+        "objective": "Distinguer fonctionnement, investissement et charges futures.",
+        "document": {
+          "title": "Tableau préparatoire · Construire puis faire vivre",
+          "text": "Le programme prévoit un nouvel équipement dans la manufacture, des collections et une équipe. Le tableau doit présenter les dépenses de réalisation ainsi que les charges d’exploitation à prévoir dans la durée."
+        },
+        "questionContexts": [
+          "Claire transmet une estimation des rémunérations de l’équipe. Karim vous demande dans quelle section budgétaire les dépenses courantes de personnel trouvent généralement leur place.",
+          "La construction d’un équipement complémentaire figure dans le programme. Vous devez la distinguer des charges de la vie quotidienne du service.",
+          "Deux variantes de travaux ont des prix différents. Karim refuse de conclure avant d’ajouter les coûts que la commune supportera ensuite."
+        ],
+        "outcome": "Votre tableau distingue les grandes catégories et les charges futures. Le scénario le moins cher à construire n’apparaît plus automatiquement comme le plus soutenable. Le maire demande une comparaison complète.",
+        "hook": "Un financement espéré tarde à se confirmer. La prochaine réunion risque d’être plus tendue."
+      },
+      "fin-2": {
+        "time": "Acte III · Arbitrage budgétaire",
+        "place": "Service des finances",
+        "scene": "finance",
+        "character": "karim",
+        "opening": [
+          {
+            "speaker": "Étienne Roussel",
+            "text": "Si l’aide arrive, nous pourrons garder tout le programme. Mais il faut donner une réponse rapidement aux partenaires."
+          },
+          {
+            "speaker": "Karim Benali",
+            "text": "Nous ne pouvons pas transformer une aide espérée en certitude. Et il reste les charges annuelles."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, préparez les points de vigilance. Nous devons pouvoir proposer un calendrier réaliste, même s’il faut avancer en plusieurs étapes."
+          }
+        ],
+        "objective": "Identifier les hypothèses fragiles avant de présenter le financement.",
+        "document": {
+          "title": "Note de scénario · Une aide encore incertaine",
+          "text": "Une subvention a été évoquée sans attribution acquise. Le tableau présente également des charges récurrentes supérieures aux ressources courantes envisagées. Les hypothèses doivent être reprises avant arbitrage."
+        },
+        "questionContexts": [
+          "Une ligne de recette est proposée uniquement pour faire coïncider les totaux, alors que son caractère fictif est connu. Le vote pourrait-il effacer ce problème ?",
+          "Pour les charges annuelles, quelqu’un suggère de compléter systématiquement les recettes par un emprunt. Karim vous demande de rappeler la distinction essentielle.",
+          "Le financement des travaux reste suspendu à une subvention. Votre note doit expliquer comment traiter cette hypothèse avec sérieux."
+        ],
+        "outcome": "Vous présentez les risques sans les dissimuler. Les élus retiennent l’étude d’un phasage et demandent des prévisions étayées. Jeanne apprend que tout n’ouvrira peut-être pas simultanément ; elle est déçue, mais remercie Marianne de l’avoir prévenue directement.",
+        "hook": "Pendant que le programme est réexaminé, une première livraison de livres doit suivre son propre circuit de paiement."
+      },
+      "fin-3": {
+        "time": "Acte III · Une livraison attendue",
+        "place": "Service des finances",
+        "scene": "finance",
+        "character": "malik",
+        "opening": [
+          {
+            "speaker": "Malik",
+            "text": "Les nouveaux livres sont arrivés à la médiathèque. La facture est là, mais je n’ai pas encore toutes les pièces de réception."
+          },
+          {
+            "speaker": "Maya",
+            "text": "Les cartons ont été déposés hier. Je dois encore vérifier leur contenu avec l’équipe."
+          },
+          {
+            "speaker": "Karim Benali",
+            "text": "{name}, suivez ce petit dossier jusqu’aux contrôles utiles. Le budget du grand projet n’empêche pas la rigueur des gestes quotidiens."
+          }
+        ],
+        "objective": "Repérer les rôles et vérifications dans le circuit d’une dépense.",
+        "document": {
+          "title": "Chemise de dépense · Collection inaugurale",
+          "text": "La commande de livres a été livrée. Les vérifications de réception et les pièces justificatives doivent rejoindre le dossier avant la suite du circuit. Le dossier pédagogique ne remplace pas les contrôles réels."
+        },
+        "questionContexts": [
+          "Malik vous présente le circuit de la facture. Vous commencez par identifier l’ordonnateur de la commune.",
+          "La facture est complète, mais Maya n’a pas encore vérifié les cartons. Quelle vérification faut-il préparer avant de poursuivre ?",
+          "Le dossier est régulier dans l’hypothèse étudiée, mais le comptable préfère un autre investissement. Vous devez distinguer ses contrôles d’un choix d’opportunité."
+        ],
+        "outcome": "Maya organise la vérification des livres et Malik rassemble les pièces. Vous avez relié les personnes derrière les colonnes du budget. Karim vous confie désormais la préparation des points de suivi du projet.",
+        "hook": "À l’étage, Claire prépare l’arrivée des agents qui feront vivre le lieu."
+      },
+      "rh-1": {
+        "time": "Acte IV · Préparation de l’équipe",
+        "place": "Salle de réunion de la mairie",
+        "scene": "meeting",
+        "character": "claire",
+        "opening": [
+          {
+            "speaker": "Claire",
+            "text": "Nous préparons un livret pour les agents qui rejoindront le service. Je ne veux pas une liste de contraintes sans explication."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "Il faut aussi dire où trouver de l’aide et comment développer ses compétences. Personne ne connaît tout le premier jour."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, vous avez reçu un carnet en arrivant. À vous de rendre le prochain accueil plus clair."
+          }
+        ],
+        "objective": "Associer droits et obligations dans le livret d’accueil.",
+        "document": {
+          "title": "Livret d’équipe · Première relecture",
+          "text": "Le livret doit présenter des situations concrètes : examiner une demande avec impartialité, accéder à la formation et comprendre l’articulation entre droits et obligations."
+        },
+        "questionContexts": [
+          "Pour l’impartialité, Claire demande un exemple de comportement observable dans les dossiers du service.",
+          "Lucie veut ajouter une rubrique sur les possibilités d’apprentissage des agents. Vous identifiez le droit correspondant.",
+          "Le premier brouillon ne parle que d’obligations. Marianne vous demande une présentation plus juste de la fonction publique."
+        ],
+        "outcome": "Le livret accueille désormais les droits autant que les obligations. Lucie propose de servir de référente aux nouveaux collègues. Vous découvrez que faire grandir le service commence aussi par rassurer celles et ceux qui le font fonctionner.",
+        "hook": "Une consigne mal comprise sur l’organisation de l’accueil va bientôt mettre ces principes à l’épreuve."
+      },
+      "rh-2": {
+        "time": "Acte IV · Avant la réunion d’équipe",
+        "place": "Bureau de la DGS · Annexe face à la mairie",
+        "scene": "office",
+        "character": "claire",
+        "opening": [
+          {
+            "speaker": "Claire",
+            "text": "Une consigne circule sous plusieurs versions. Certains collègues contestent simplement le planning ; d’autres signalent une difficulté qui doit être examinée."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "Je veux faire remonter les faits sans accuser quelqu’un à partir d’un message incomplet."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "C’est la bonne démarche. {name}, aidez-nous à distinguer désaccord, risque à clarifier et exception légale à l’obéissance. Nous n’allons pas qualifier la situation sans ses pièces."
+          }
+        ],
+        "objective": "Construire un signalement factuel et distinguer les critères juridiques.",
+        "document": {
+          "title": "Fiche de clarification · Versions de la consigne",
+          "text": "La portée de la consigne n’est pas encore établie. Les échanges doivent permettre de vérifier les faits, les responsabilités et le cadre applicable. Les questions portent sur les repères généraux à mobiliser."
+        },
+        "questionContexts": [
+          "Avant d’analyser les faits, Claire vous demande de rappeler les deux conditions cumulatives de l’exception légale étudiée.",
+          "Un collègue conteste uniquement le nouveau planning parce qu’il préfère l’ancien. Vous devez distinguer cette préférence de l’exception juridique.",
+          "Lucie ne dispose que d’un message partiel. Votre proposition doit permettre de clarifier la situation et de signaler le risque de manière professionnelle."
+        ],
+        "outcome": "Une demande de clarification remplace les messages contradictoires. Les responsables examinent la consigne avec les éléments complets. Lucie sait à qui transmettre les faits et Marianne souligne votre prudence : vous avez évité une conclusion hâtive.",
+        "hook": "Le changement de logiciel crée maintenant une difficulté moins spectaculaire, mais très concrète au guichet."
+      },
+      "rh-3": {
+        "time": "Acte IV · Retour d’expérience",
+        "place": "Salle de formation",
+        "scene": "meeting",
+        "character": "claire",
+        "opening": [
+          {
+            "speaker": "Lucie Morel",
+            "text": "Depuis le nouvel outil, je cherche certains dossiers plus longtemps. Les habitants attendent et je me sens moins à l’aise."
+          },
+          {
+            "speaker": "Claire",
+            "text": "La démonstration a eu lieu, mais cela ne veut pas dire que chacun dispose du temps et de l’accompagnement nécessaires."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, préparez une petite démarche d’observation avec l’équipe. Nous voulons comprendre le travail réel avant de demander simplement d’aller plus vite."
+          }
+        ],
+        "objective": "Proposer un accompagnement fondé sur les tâches et les besoins.",
+        "document": {
+          "title": "Carnet de terrain · Prendre le temps d’observer",
+          "text": "Les premiers retours évoquent des délais plus longs et des difficultés variables selon les tâches. Le suivi doit examiner les moyens, la formation et les conditions réelles d’utilisation du logiciel."
+        },
+        "questionContexts": [
+          "Les délais s’allongent. Avant de conclure à un manque d’effort, quelle première démarche donnera des informations utiles ?",
+          "Claire envisage une formation complémentaire. Vous reliez cette proposition au rôle de la formation professionnelle.",
+          "Une nouvelle démonstration est programmée. Comment vérifier ensuite que l’accompagnement améliore réellement le travail ?"
+        ],
+        "outcome": "Claire organise un accompagnement ciblé et un point de suivi. Lucie retrouve progressivement ses repères. Dans votre carnet, la préparation de l’ouverture comporte désormais du temps de formation et de retour d’expérience.",
+        "hook": "À la manufacture, Jeanne vous attend pour une visite des accès : la rivière voisine remet les frontières du projet en question."
+      },
+      "trans-1": {
+        "time": "Acte V · Visite des abords",
+        "place": "Cour de la manufacture",
+        "scene": "manufacture",
+        "character": "aicha",
+        "opening": [
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Si les habitants doivent traverser les berges pour venir, pouvons-nous traiter les accès comme un détail extérieur au projet ?"
+          },
+          {
+            "speaker": "Aïcha",
+            "text": "Ils comptent, mais il faut vérifier qui est compétent pour chaque intervention. La commune et l’intercommunalité ne se répartissent pas les missions au jugé."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, retrouvez les documents applicables. Nous préparerons ensuite une réunion où chacun saura sur quoi il peut s’engager."
+          }
+        ],
+        "objective": "Vérifier les compétences avant de répartir les interventions.",
+        "document": {
+          "title": "Plan de repérage · Accès à la manufacture",
+          "text": "La visite identifie plusieurs besoins autour du site. Le plan localise les lieux, mais il ne prouve pas qui exerce chaque compétence. Les statuts et actes applicables doivent compléter le dossier."
+        },
+        "questionContexts": [
+          "Un participant propose de confier tout ce qui se trouve autour de la manufacture à l’EPCI. Vous rappelez le principe qui encadre son champ d’action.",
+          "Aïcha vous demande quelles pièces rechercher pour vérifier la répartition des compétences.",
+          "Le projet mobilise plusieurs quartiers et paraît important. Cette dimension suffit-elle à désigner l’intercommunalité ?"
+        ],
+        "outcome": "Votre tableau distingue les besoins et les compétences à vérifier. La réunion partenariale partira de ces pièces, sans attribuer automatiquement tous les travaux à un acteur. Jeanne apprécie de savoir pourquoi certaines réponses demandent un délai.",
+        "hook": "Aïcha souhaite ensuite regarder les berges avec un autre calendrier : celui des étés à venir."
+      },
+      "trans-2": {
+        "time": "Acte V · Après-midi de chaleur",
+        "place": "Berges près de la manufacture",
+        "scene": "river",
+        "character": "aicha",
+        "opening": [
+          {
+            "speaker": "Aïcha",
+            "text": "À cette heure, le trajet jusqu’à l’entrée est difficile. Notre projet doit tenir compte des chaleurs futures et des déplacements qu’il provoquera."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Plusieurs familles viennent à pied. Mais une solution qui améliore ce côté de la rivière ne doit pas aggraver la situation en face."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, classez les objectifs des propositions. Nous ne pouvons pas comparer sérieusement des solutions sans savoir ce qu’elles cherchent à résoudre."
+          }
+        ],
+        "objective": "Distinguer atténuation, adaptation et risque de mal-adaptation.",
+        "document": {
+          "title": "Carnet des berges · Objectifs à préciser",
+          "text": "Les propositions portent sur les déplacements, le confort lors des fortes chaleurs et leurs effets sur les secteurs voisins. Ce dossier identifie les objectifs ; les solutions feront l’objet d’études techniques."
+        },
+        "questionContexts": [
+          "Aïcha commence par les émissions liées aux déplacements vers le nouvel équipement. Vous classez cet objectif climatique.",
+          "Elle présente ensuite des pistes pour mieux supporter les fortes chaleurs sur le trajet. Vous identifiez cette autre famille d’objectifs.",
+          "Une proposition protégerait un secteur tout en accroissant la vulnérabilité du voisin. Vous notez le risque à étudier avant toute décision."
+        ],
+        "outcome": "Les propositions sont classées par objectifs et leurs effets possibles sont consignés. Les services compétents poursuivent l’étude. Jeanne demande que les habitants puissent discuter des usages avant que les options soient figées.",
+        "hook": "Une réunion publique est annoncée. Il reste à décider ce qui sera réellement ouvert à la discussion."
+      },
+      "trans-3": {
+        "time": "Acte V · Réunion de quartier",
+        "place": "Forum des habitants",
+        "scene": "forum",
+        "character": "jeanne",
+        "opening": [
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Nous ne voulons pas découvrir un projet terminé et être photographiés à côté. Qu’est-ce qui peut encore évoluer ?"
+          },
+          {
+            "speaker": "Étienne Roussel",
+            "text": "Je dois dire clairement ce qui relève déjà d’une contrainte et ce qui reste à arbitrer."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, préparez le cadre de la rencontre et la manière de rendre compte des contributions. La confiance se jouera aussi après la réunion."
+          }
+        ],
+        "objective": "Clarifier la participation et les suites données aux contributions.",
+        "document": {
+          "title": "Invitation à relire · Ce qui sera discuté",
+          "text": "La rencontre doit distinguer information, échanges, marges de discussion et responsabilité des décisions. Un retour aux participants sera organisé pour expliquer les suites."
+        },
+        "questionContexts": [
+          "Le premier programme ne prévoit qu’une présentation descendante. Jeanne vous demande si cela suffit à appeler la rencontre une concertation.",
+          "Un participant pense que chacune des propositions exprimées devra être adoptée. Vous préparez une précision sur la portée de la participation.",
+          "La réunion se termine avec de nombreuses contributions. Vous proposez la pratique qui permettra aux habitants de comprendre ce qu’elles deviennent."
+        ],
+        "outcome": "Le cadre est clarifié et un retour est prévu. Certaines propositions alimentent la suite des études ; d’autres nécessitent des explications. Jeanne accepte de participer au groupe de suivi parce qu’elle connaît désormais la place de son avis.",
+        "hook": "L’ouverture approche. Léa prépare les inscriptions aux premiers ateliers et un formulaire lui paraît trop curieux."
+      },
+      "num-1": {
+        "time": "Acte VI · Préparation de l’ouverture",
+        "place": "Médiathèque · Préparation du futur accueil",
+        "scene": "library",
+        "character": "lea",
+        "opening": [
+          {
+            "speaker": "Léa",
+            "text": "Le formulaire des ateliers a récupéré les champs de plusieurs anciens modèles. Certaines informations n’ont aucun lien évident avec notre besoin."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "Si un habitant demande pourquoi nous lui réclamons un renseignement, je veux pouvoir lui répondre."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, aidez Léa à repartir de l’objectif. Les vérifications détaillées se feront avec les personnes compétentes, notamment pour la protection des données."
+          }
+        ],
+        "objective": "Préparer un formulaire proportionné à son objectif.",
+        "document": {
+          "title": "Brouillon d’inscription · Chaque champ doit avoir une raison",
+          "text": "Le formulaire préparatoire comporte des données héritées d’anciens modèles. L’équipe doit préciser la finalité, les informations nécessaires, les accès et le devenir des dossiers avant sa mise en service."
+        },
+        "questionContexts": [
+          "Léa souhaite supprimer les champs sans nécessité démontrée. Vous identifiez le principe qui guide cette sélection.",
+          "Une annotation propose de tout conserver indéfiniment « au cas où ». Vous préparez la réponse à cette proposition.",
+          "Avant même de discuter des champs, Lucie veut savoir ce que le formulaire doit permettre d’accomplir. Vous identifiez le point de départ."
+        ],
+        "outcome": "Le brouillon devient plus sobre et les points à faire vérifier sont consignés. Les responsables concernés arrêtent ensuite les modalités applicables. Lucie dispose d’explications plus claires pour accueillir les inscriptions.",
+        "hook": "Après les validations et contrôles du projet menés par les responsables compétents, les premières portes peuvent s’ouvrir. Un habitant reste pourtant bloqué devant l’écran."
+      },
+      "num-2": {
+        "time": "Acte VI · Premières semaines d’accueil",
+        "place": "Permanence de la médiathèque · Ouverture progressive",
+        "scene": "library",
+        "character": "lucie",
+        "opening": [
+          {
+            "speaker": "Lucie Morel",
+            "text": "Un habitant vient de repartir deux fois sans terminer sa démarche. Le site fonctionne, mais cela ne suffit pas pour lui."
+          },
+          {
+            "speaker": "Léa",
+            "text": "Nous devons comprendre son obstacle et lui proposer un contact. Et nous ne devons pas ouvrir son dossier à toute l’équipe par facilité."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "C’est pour ces personnes que nous attendions ce lieu. {name}, aidons-le sans lui demander de raconter sa vie à chaque guichet."
+          }
+        ],
+        "objective": "Articuler accompagnement humain et confidentialité.",
+        "document": {
+          "title": "Retour du guichet · Un service accessible en pratique",
+          "text": "La maison ouvre progressivement après les étapes nécessaires. Les premiers retours montrent qu’une démarche disponible en ligne peut rester difficile pour certains usagers. L’accompagnement doit respecter les habilitations."
+        },
+        "questionContexts": [
+          "Le tableau de suivi indique seulement que le formulaire est disponible en permanence. Lucie vous demande si cette donnée démontre à elle seule l’accès effectif de tous.",
+          "L’habitant ne parvient toujours pas à terminer. Vous identifiez l’orientation d’accompagnement étudiée dans votre lecture.",
+          "Pour gagner du temps, quelqu’un propose de rendre son dossier visible à toute la collectivité. Vous rappelez le critère d’accès pertinent."
+        ],
+        "outcome": "L’équipe organise un accompagnement et garde les accès dans le périmètre nécessaire. L’habitant retrouve un interlocuteur. Jeanne vous dit que la manufacture commence enfin à ressembler au lieu qu’elle imaginait : un endroit où l’on peut demander de l’aide.",
+        "hook": "Marianne vous confie la présentation du premier bilan. Compter les ateliers ne dira pas tout."
+      },
+      "num-3": {
+        "time": "Acte VI · Avant la séance de bilan",
+        "place": "Salle du conseil · Préparation de la séance",
+        "scene": "council",
+        "character": "marianne",
+        "opening": [
+          {
+            "speaker": "Marianne Delmas",
+            "text": "À votre arrivée, vous prépariez votre première fiche. Aujourd’hui, je vous laisse présenter le bilan. N’annoncez pas plus que ce que nous savons."
+          },
+          {
+            "speaker": "Léa",
+            "text": "Nous connaissons le nombre d’ateliers. Je voudrais aussi savoir si les participants deviennent plus autonomes."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Il reste des personnes que nous ne touchons pas encore. L’ouverture est une étape ; j’aimerais que le bilan nous aide à poursuivre."
+          }
+        ],
+        "objective": "Distinguer objectifs, moyens et effets pour préparer le bilan.",
+        "document": {
+          "title": "Note de bilan · La première saison",
+          "text": "Le lieu accueille désormais ses premiers services. Le bilan distingue l’activité réalisée, l’atteinte des objectifs, les moyens mobilisés et les effets recherchés. Les résultats précoces ne permettent pas de conclure à tout."
+        },
+        "questionContexts": [
+          "La note doit d’abord examiner si les objectifs de la maison des services sont atteints. Vous identifiez ce que cette interrogation mesure.",
+          "Léa compare deux dispositifs dont les résultats sont proches, mais les moyens différents. Vous précisez la relation examinée par l’efficience.",
+          "Le projet vise notamment une plus grande autonomie des participants. Vous retenez l’indicateur le plus directement lié à cet effet."
+        ],
+        "outcome": "Votre présentation distingue ce qui est observé de ce qui reste à établir. Les élus disposent de repères pour poursuivre l’action. À la sortie, Marianne vous rend votre carnet : « Vous savez maintenant relier les textes, les moyens et les personnes. Gardez cette habitude. » Dans la cour, Jeanne attend Lucie pour un nouvel atelier. La manufacture a changé ; votre manière de regarder la ville aussi.",
+        "hook": "La première campagne s’achève. Votre bibliothèque reste ouverte : reprenez les notions, explorez les quêtes laissées de côté et préparez la suite de votre parcours vers le concours."
+      }
+    },
+    "sideQuests": {
+      "side-institutions": {
+        "character": "marianne",
+        "context": "Aux archives, Marianne retrouve un petit carnet sur la libre administration. « Le maire parle souvent de liberté d’action. Ce texte vous aidera à comprendre ce que cette liberté permet, et ce qui l’encadre. Gardez-le dans votre sacoche. »",
+        "questionContext": "Un habitant croit que l’autonomie de la commune autorise à ignorer une loi nationale. Marianne vous demande d’utiliser votre lecture pour lui répondre.",
+        "outcome": "Vous inscrivez dans le carnet la distinction entre autonomie locale et absence de règles. Marianne vous laisse conserver l’ouvrage pour vos prochaines réunions."
+      },
+      "side-culture": {
+        "character": "maya",
+        "context": "Au fond de la médiathèque, Maya prépare un rayon consacré aux métiers publics. Elle sait que vous préparez le concours d’attaché. « Nous pouvons travailler les notions ici ; pour voir les vrais sujets, il faut aussi reconnaître les sources officielles. »",
+        "questionContext": "Maya vous tend deux marque-pages : l’un mène à des exercices de création, l’autre doit orienter vers les annales officielles. Où chercher ces dernières ?",
+        "outcome": "Vous ajoutez un marque-page vers les ressources officielles à votre bibliothèque. Maya vous réserve une place tranquille pour vos séances de préparation."
+      },
+      "side-finances": {
+        "character": "karim",
+        "context": "À la fin d’une réunion, Karim vous prête son atlas des recettes. « Jeanne a trouvé une piste d’aide pour du matériel. C’est utile. Mais comment fera-t-on vivre le service les années suivantes ? Prenez le temps de lire avant de répondre. »",
+        "questionContext": "L’équipe se demande si une aide ponctuelle suffit à rassurer sur le financement annuel futur. Votre lecture doit éclairer cette distinction.",
+        "outcome": "Vous préparez deux colonnes, aide ponctuelle et ressources récurrentes. Karim vous laisse son atlas : il servira encore après l’ouverture."
+      },
+      "side-rh": {
+        "character": "claire",
+        "context": "Une collègue confie à Claire qu’un proche travaille pour un organisme concerné par son dossier. Elle n’a accordé aucune faveur, mais veut savoir comment prévenir une difficulté. Claire vous propose de relire ensemble le marque-page de déontologie.",
+        "questionContext": "La collègue pense qu’en l’absence de faveur effective, aucun risque ne peut exister. Quelle nuance votre lecture apporte-t-elle ?",
+        "outcome": "La collègue sait qu’elle doit exposer la situation par les voies appropriées pour obtenir un avis et prévenir le risque. Vous conservez le marque-page, sans recueillir de détails personnels inutiles."
+      },
+      "side-transition": {
+        "character": "aicha",
+        "context": "Sur les berges, Jeanne imagine des bancs où attendre avant les ateliers. Aïcha vous prête un carnet d’achat public : « Avant de comparer les catalogues, demandons-nous à qui serviront ces bancs, où et dans quelles conditions. »",
+        "questionContext": "Un catalogue est déjà sur la table. Quelle étape doit cependant précéder le lancement de la consultation ?",
+        "outcome": "Vous notez des questions d’usage, de durée et d’entretien pour la définition du besoin. Jeanne comprend pourquoi le choix ne commence pas par une photographie de mobilier."
+      },
+      "side-numerique": {
+        "character": "lea",
+        "context": "Après la première saison, Léa reçoit quelques questionnaires enthousiastes. Jeanne s’en réjouit, puis demande : « Et ceux qui ne sont jamais venus ? » Un carnet de lecture critique vous aide à préparer une conclusion mesurée.",
+        "questionContext": "Les réponses proviennent de quelques volontaires. Peut-on les présenter comme l’avis de toute la population ?",
+        "outcome": "Le bilan décrit qui a répondu et qui reste absent. Léa conserve les retours utiles sans leur faire dire davantage. Votre dernier souvenir de campagne est un carnet avec une question en couverture : « Qui manque à notre regard ? »"
+      }
+    }
+  }
 }
