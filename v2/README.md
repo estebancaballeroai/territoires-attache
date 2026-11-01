@@ -1,6 +1,6 @@
-# TERRITOIRES 2.1 — prototype vertical jouable
+# TERRITOIRES 2.2 — premier acte jouable
 
-**Statut : épisode 1 jouable ; les 17 autres épisodes ne sont pas encore développés.**
+**Statut : acte I jouable (3 épisodes continus) ; 15 autres épisodes sont encore à développer.**
 
 Cette version est une branche expérimentale, indépendante de la V1.4.1 publiée. Le joueur rejoint Valrivière en septembre, rencontre Marianne, Lucie, Étienne et Jeanne, instruit trois documents, consulte trois lectures juridiques approfondies et rédige une note de conseil qui débouche sur l'un de trois épilogues et un souvenir mémorisé pour juin.
 
@@ -32,7 +32,7 @@ Décors WebP issus des créations graphiques TERRITOIRES précédentes, portrait
 
 ## Limites
 
-Ce pilote ne couvre pas encore toutes les disciplines du concours, ne propose ni déplacements libres de personnage ni mémorisation opérationnelle inter-épisodes (les événements sont sauvegardés mais les autres épisodes restent à construire). Les lectures sont des synthèses pédagogiques, non des reproductions exhaustives des codes. Tests navigateur en émulation Android et non sur tablette physique.
+Ce pilote ne couvre pas encore toutes les disciplines du concours, ne propose ni déplacements libres de personnage ni histoire complète de novembre à août (les choix de septembre et octobre sont utilisés dans les scènes suivantes et les autres actes restent à développer). Les lectures sont des synthèses pédagogiques, non des reproductions exhaustives des codes. Tests navigateur en émulation Android et non sur tablette physique.
 
 
 ## Version 2.1 — Octobre : Les partenaires du territoire
@@ -46,3 +46,14 @@ Octobre contient cinq conversations approfondies, quatre pièces fictives à vé
 **Tests :** depuis le dossier `v2`, exécuter `node --test tests/*.test.mjs`. Le script `python tests/visual_qa_inline.py` permet le contrôle Chromium sans navigation réseau (test du DOM, clics, captures, 320/390/768 px, export, reset). La navigation réelle par HTTP et le service worker ne sont pas validés par ce test.
 
 **Références officielles :** article 72 de la Constitution (Légifrance), Vie-publique sur la déconcentration, DGCL sur les compétences des EPCI et les fonds de concours. Les textes applicables doivent être vérifiés pour toute situation réelle.
+
+## V2.2 - Le dossier prêt à partir / clôture de l'acte I
+
+- Trois épisodes continus sous une seule sauvegarde locale, sans QCM parallele.
+- Nouvel episode fin octobre : archives, salle du conseil, bureau de la DGS et service de l Etat.
+- Quatre pièces administratives, cinq dialogues à huit répliques, quatre cours de fond d environ 330 à 350 mots, trois vérifications de circuit et trois stratégies narratives.
+- Souvenirs de septembre et d octobre intégrés au prologue et au bilan.
+- Nouvelles illustrations WebP : archives et salle du conseil.
+- La version publiee V1.4.1 reste distincte de ce prototype.
+
+**Validation V2.2 :** 30 tests Node réussis, simulation complète de l acte I sous Chromium à 320/390/768 px sans débordement ni erreur JavaScript ; la navigation HTTP est bloquée par l environnement de test et un essai physique Android/iOS reste nécessaire.

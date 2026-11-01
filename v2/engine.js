@@ -1,7 +1,8 @@
 import {PEOPLE,DIALOGUES,DOCUMENTS,KNOWLEDGE,NOTE,AFTER,EPISODE} from './content.js';
 import * as E2 from './episode2-engine.js';
+import * as E3 from './episode3-engine.js';
 export const SAVE_KEY='territoires.v2.pilot.v1';
-export const VERSION='2.1.0-alpha.2';
+export const VERSION='2.2.0-alpha.3';
 export const DOCUMENT_IDS=DOCUMENTS.map(x=>x.id);
 export const KNOWLEDGE_IDS=KNOWLEDGE.map(x=>x.id);
 const OBJECT=x=>!!x&&typeof x==='object'&&!Array.isArray(x);
@@ -12,7 +13,7 @@ export function newGame(name='Camille'){
  return {schema:2,version:VERSION,player:{name:text(name).slice(0,36)||'Camille'},intro:0,started:false,
   location:'bureau',visited:[],dialogue:{},relations:emptyRelations(),knowledge:[],evidence:{},openDoc:null,
   note:{qualification:null,delegation:null,communication:null},errors:0,insights:[],completed:false,finishedAt:null,
-  events:[],episode2:E2.newEpisode(),xp:0,skill:{legal:0,governance:0,relations:0},lastActive:'intro',settings:{motion:true,large:false}}
+  events:[],episode2:E2.newEpisode(),episode3:E3.newEpisode(),xp:0,skill:{legal:0,governance:0,relations:0},lastActive:'intro',settings:{motion:true,large:false}}
 }
 export function restore(input){
  if(!OBJECT(input)||input.schema!==2)throw Error('Format de sauvegarde V2 non reconnu');
@@ -30,9 +31,10 @@ export function restore(input){
  s.finishedAt=s.completed&&Number.isFinite(input.finishedAt)?input.finishedAt:null;
  s.events=s.completed&&Array.isArray(input.events)?input.events.filter(x=>OBJECT(x)&&['promise_september','jeanne_memory','trust_marianne'].includes(x.id)).slice(0,6):[];
  s.episode2=s.completed?E2.restoreEpisode(input.episode2):E2.newEpisode();
+ s.episode3=s.completed&&s.episode2.completed?E3.restoreEpisode(input.episode3):E3.newEpisode();
  s.xp=computeXP(s);
  s.skill=computeSkills(s);
- s.lastActive=['intro','hub','doc','knowledge','note','ending','journal','profile','ep2','ep2-prologue','ep2-files','ep2-doc','ep2-dialogue','ep2-knowledge','ep2-note','ep2-ending'].includes(input.lastActive)?input.lastActive:'hub';
+ s.lastActive=['intro','hub','doc','knowledge','note','ending','journal','profile','ep2','ep2-prologue','ep2-files','ep2-doc','ep2-dialogue','ep2-knowledge','ep2-note','ep2-ending','ep3','ep3-prologue','ep3-files','ep3-doc','ep3-dialogue','ep3-knowledge','ep3-note','ep3-ending'].includes(input.lastActive)?input.lastActive:'hub';
  s.settings={motion:input.settings?.motion!==false,large:input.settings?.large===true};return s;
 }
 export const documentCorrect=(s,id)=>{const doc=DOCUMENTS.find(x=>x.id===id);return !!doc&&s.evidence?.[id]===doc.correct;};
@@ -40,8 +42,8 @@ export function progress(s){const facts=DOCUMENTS.filter(d=>documentCorrect(s,d.
  const talks=Object.keys(DIALOGUES).filter(x=>!!s.dialogue?.[x]).length;
  return {facts,totalFacts:DOCUMENTS.length,talks,totalTalks:Object.keys(DIALOGUES).length,knowledge:s.knowledge.length,totalKnowledge:KNOWLEDGE.length,done:s.completed,ready:noteReady(s)};
 }
-export function computeXP(s){return s.knowledge.length*10+DOCUMENTS.filter(d=>documentCorrect(s,d.id)).length*20+Object.keys(s.dialogue).length*5+(s.completed?90:0)+E2.xp(s.episode2||E2.newEpisode());}
-export function computeSkills(s){const a=E2.skills(s.episode2||E2.newEpisode());return {legal:DOCUMENTS.filter(d=>documentCorrect(s,d.id)).length*2+s.knowledge.length*2+(s.completed?2:0)+a.legal,governance:(documentCorrect(s,'invitation')?2:0)+a.governance,relations:Object.keys(s.dialogue).length+(s.completed?2:0)+a.relations};}
+export function computeXP(s){return s.knowledge.length*10+DOCUMENTS.filter(d=>documentCorrect(s,d.id)).length*20+Object.keys(s.dialogue).length*5+(s.completed?90:0)+E2.xp(s.episode2||E2.newEpisode())+E3.xp(s.episode3||E3.newEpisode());}
+export function computeSkills(s){const a=E2.skills(s.episode2||E2.newEpisode()),b=E3.skills(s.episode3||E3.newEpisode());return {legal:DOCUMENTS.filter(d=>documentCorrect(s,d.id)).length*2+s.knowledge.length*2+(s.completed?2:0)+a.legal+b.legal,governance:(documentCorrect(s,'invitation')?2:0)+a.governance+b.governance,relations:Object.keys(s.dialogue).length+(s.completed?2:0)+a.relations+b.relations};}
 export function visit(s,id){if(!EPISODE.locations.some(x=>x.id===id))return false;s.location=id;s.lastActive='hub';if(!s.visited.includes(id))s.visited.push(id);return true;}
 export function readKnowledge(s,id){if(!KNOWLEDGE_IDS.includes(id))return false;if(!s.knowledge.includes(id))s.knowledge.push(id);s.xp=computeXP(s);s.skill=computeSkills(s);return true;}
 export function answerEvidence(s,docId,choice){let d=DOCUMENTS.find(x=>x.id===docId);if(!d||!d.choices.some(x=>x.id===choice)||s.completed)return false;s.evidence[docId]=choice;if(choice!==d.correct)s.errors++;s.xp=computeXP(s);s.skill=computeSkills(s);return true;}

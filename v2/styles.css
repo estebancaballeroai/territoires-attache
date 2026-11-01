@@ -23,3 +23,9 @@
 .october-reading .notice{margin-top:18px}.october-reading .opening-step{padding:25px}
 @media(max-width:520px){.october-overlay{left:17px;right:17px;bottom:18px}.october-overlay h1{font-size:2rem}.october-splash{min-height:315px}.october-story{font-size:1.2rem}.october-reading .opening-step{padding:18px}.october-people{gap:8px}.october-person{padding:7px}}
 @media(max-width:340px){.brand small{font-size:.55rem}.top-pill.gold{padding:5px 7px}.bottom-nav button{font-size:.59rem}.map-stage h1{font-size:1.95rem}}
+
+/* V2.2 - acte I, ecrans du dernier dossier */
+.act-one-scene .october-overlay{background:linear-gradient(0deg,rgba(7,32,29,.92),transparent 92%)}
+.memo-echo{background:#fff7e5;border-left:4px solid #cba25d;border-radius:6px;padding:14px 18px;line-height:1.65;margin:16px 0}
+.note-section .option:focus-visible,.location-card:focus-visible,.document-tile:focus-visible,.knowledge-item:focus-visible{outline:3px solid #bd8841;outline-offset:2px}
+@media(max-width:520px){.memo-echo{font-size:.92rem;padding:12px}.note-section{overflow-wrap:anywhere}.october-splash.act-one-scene{min-height:330px}}

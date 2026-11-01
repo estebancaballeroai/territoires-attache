@@ -19,15 +19,20 @@ def wrap(title,script,prefix,returns):
 C1='EPISODE,OPENING,PEOPLE,DIALOGUES,DOCUMENTS,KNOWLEDGE,NOTE,AFTER,FUTURE'
 C2='OCTOBRE,OCTOBRE_TALKS,OCTOBRE_DOCS,OCTOBRE_KNOWLEDGE,OCTOBRE_NOTE,OCTOBRE_ENDINGS'
 E2='newEpisode,restoreEpisode,factCorrect,progress,relationEffects,xp,skills,visit,evidence,dialogue,study,chooseNote,canFinish,finish,report'
+C3='NOVEMBRE,NOVEMBRE_DOCS,NOVEMBRE_TALKS,NOVEMBRE_KNOWLEDGE,NOVEMBRE_CHECKS,NOVEMBRE_STRATEGIES'
+E3='newEpisode,restoreEpisode,factCorrect,relationEffects,coreReady,canFinish,progress,xp,skills,visit,evidence,dialogue,study,chooseCheck,chooseStrategy,finish,report'
 E1='SAVE_KEY,VERSION,DOCUMENT_IDS,KNOWLEDGE_IDS,emptyRelations,newGame,restore,documentCorrect,progress,computeXP,computeSkills,visit,readKnowledge,answerEvidence,answerDialogue,chooseNote,noteErrors,noteReady,mayFinish,finish,earnedBadge,reportText,refresh'
-js=wrap('C1','content.js','',C1)+wrap('C2','episode2-content.js','',C2)
+js=wrap('C1','content.js','',C1)+wrap('C2','episode2-content.js','',C2)+wrap('C3','episode3-content.js','',C3)
+js+=wrap('E3NS','episode3-engine.js',f'const {{{C3}}}=C3;',E3)
 js+=wrap('E2NS','episode2-engine.js',f'const {{{C2}}}=C2;',E2)
-js+=wrap('E1NS','engine.js',f'const {{{C1}}}=C1;const E2=E2NS;',E1)
+js+=wrap('E1NS','engine.js',f'const {{{C1}}}=C1;const E2=E2NS;const E3=E3NS;',E1)
 js+=wrap('UI2','episode2-ui.js',f'const {{{C2}}}=C2;const E2=E2NS;', 'octoberUI')
+js+=wrap('UI3','episode3-ui.js',f'const {{{C3}}}=C3;const E3=E3NS;', 'novemberUI')
 js+=f'''(()=>{{
 const {{{C1}}}=C1;
 const {{{C2}}}=C2;
-const E=E1NS;const E2=E2NS;const {{octoberUI}}=UI2;
+const {{{C3}}}=C3;
+const E=E1NS;const E2=E2NS;const E3=E3NS;const {{octoberUI}}=UI2;const {{novemberUI}}=UI3;
 const localStorage=window.__ls;
 {strip('app.js')}
 }})();'''
@@ -127,12 +132,59 @@ with sync_playwright() as p:
  assert saved['completed'] and saved['episode2']['completed'] and saved['episode2']['events'][0]['value']=='matrix'
  with page.expect_download() as dl:click('ep2-export')
  assert dl.value.suggested_filename.endswith('.txt')
+ click('ep3-begin')
+ assert 'Le dossier prêt à partir' in page.locator('#app').inner_text()
+ for _ in range(4):click('ep3-prologue-next')
+ click('ep3-prologue-end')
+ for width in [320,390,768]:
+  page.set_viewport_size({'width':width,'height':844})
+  page.wait_for_timeout(180)
+  dims=page.evaluate('({w:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth})')
+  assert dims['scroll']<=dims['w']+1,f'Overflow act I {width} {dims}'
+  page.screenshot(path=str(OUT/f'act1-archives-{width}.png'),full_page=False)
+ page.set_viewport_size({'width':390,'height':844})
+ click('ep3-location','conseil')
+ click('ep3-talk','etienne');page.screenshot(path=str(OUT/'act1-mayor-dialogue-390.png'),full_page=False)
+ for _ in range(8):click('ep3-talk-next')
+ click('ep3-talk-choice','precise');click('view','ep3')
+ for location,person,choice in [('bureau','marianne','proof'),('archives','lucie','listen'),('prefecture','nora','roles'),('conseil','jeanne','explain')]:
+  click('ep3-location',location)
+  click('ep3-talk',person)
+  for _ in range(8):click('ep3-talk-next')
+  click('ep3-talk-choice',choice);click('view','ep3')
+ click('view','ep3-files')
+ for doc,choice in [('deliberation','study'),('publication','post'),('transmission','both'),('defer','tribunal')]:
+  click('ep3-doc',doc)
+  if doc=='publication':page.screenshot(path=str(OUT/'act1-document-390.png'),full_page=False)
+  click('ep3-evidence',doc,{'choice':choice});click('view','ep3-files')
+ click('view','ep3-knowledge')
+ for k in ['entree','publication']:
+  click('ep3-read',k)
+  if k=='entree':page.screenshot(path=str(OUT/'act1-knowledge-390.png'),full_page=False)
+  click('ep3-mark',k);click('view','ep3-knowledge')
+ click('view','ep3-note')
+ for field,choice in [('publication','verify'),('transmission','send'),('control','judge')]:click('ep3-check',choice,{'field':field})
+ click('ep3-strategy','method');assert page.locator('button[data-action="ep3-finish"]').count()
+ for width in [320,390,768]:
+  page.set_viewport_size({'width':width,'height':844})
+  page.wait_for_timeout(120)
+  dims=page.evaluate('({w:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth})')
+  assert dims['scroll']<=dims['w']+1,f'Overflow note {width} {dims}'
+  page.screenshot(path=str(OUT/f'act1-note-{width}.png'),full_page=False)
+ page.set_viewport_size({'width':390,'height':844})
+ click('ep3-finish');assert 'ACTE I ACHEV' in page.locator('#app').inner_text().upper()
+ page.screenshot(path=str(OUT/'act1-ending-390.png'),full_page=False)
+ saved=json.loads(page.evaluate('window.__ls.getItem("territoires.v2.pilot.v1")'))
+ assert saved['episode3']['completed'] and saved['episode2']['completed'] and saved['completed']
+ assert saved['episode3']['events'][0]['value']=='method'
+ with page.expect_download() as dl:click('ep3-export')
+ assert dl.value.suggested_filename.endswith('.txt')
  click('view','profile');click('reset')
  assert page.locator('#restartDialog').evaluate('(el)=>el.open')
  page.locator('#restartDialog button[value="confirm"]').click()
  page.wait_for_timeout(180)
  reset=json.loads(page.evaluate('window.__ls.getItem("territoires.v2.pilot.v1")'))
- assert not reset['completed'] and not reset['episode2']['started']
+ assert not reset['completed'] and not reset['episode2']['started'] and not reset['episode3']['started']
  # Browser cannot load HTTP endpoints here; network and physical-device checks remain separate.
  assert not errors,errors
  count=page.evaluate('document.querySelectorAll("img").length')
