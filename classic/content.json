@@ -1,0 +1,2719 @@
+{
+  "version": "1.0",
+  "verifiedAt": "2026-10-30",
+  "scope": "Socle introductif de culture territoriale, droit public, finances, RH et politiques publiques. Parcours externe prioritaire et troisième concours ; aucune prétention de couverture exhaustive du concours.",
+  "editorialPolicy": "Textes pédagogiques originaux et cas fictifs. Sources officielles liées. QCM originaux, non issus des annales. Les conseils de gestion sont distingués des obligations juridiques. Les seuils évolutifs et procédures détaillées sont hors de ce socle.",
+  "sources": [
+    {
+      "id": "conseil",
+      "title": "DGCL — Le conseil municipal",
+      "url": "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/structures-territoriales/les-communes/le-conseil-municipal",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "maire",
+      "title": "DGCL — Le maire, chef de l’administration municipale",
+      "url": "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/elus-locaux/le-maire/le-maire-chef-de-ladministration-municipale",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "deconcentration",
+      "title": "Vie publique — Qu’est-ce que la déconcentration ?",
+      "url": "https://www.vie-publique.fr/fiches/20167-quest-ce-que-la-deconcentration",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "legalite",
+      "title": "DGCL — Contrôle de légalité",
+      "url": "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/controle-de-legalite",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "constitution",
+      "title": "Constitution de la Cinquième République, notamment articles 72 et 72-2",
+      "url": "https://www.elysee.fr/la-presidence/la-constitution-de-la-cinquieme-republique",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "service",
+      "title": "Gouvernement — L’État facilitateur : principes du service public",
+      "url": "https://www.info.gouv.fr/l-etat-et-moi/accompagnement-du-quotidien",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "bibliotheques",
+      "title": "Code du patrimoine — Articles L320-3 et L320-4",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000034505677/",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "missions-bib",
+      "title": "Code du patrimoine — Article L310-1 A, missions des bibliothèques",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006129162",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "neutralite",
+      "title": "Code général de la fonction publique — Article L121-2",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427911",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "budget",
+      "title": "DGCL — Les documents budgétaires",
+      "url": "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/budget/les-documents-budgetaires",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "equilibre",
+      "title": "DGCL/DGFiP — Guide des imputations budgétaires et comptables, septembre 2025",
+      "url": "https://www.collectivites-locales.gouv.fr/files/finances-locales/Documentation/Guide%20des%20imputations%20budgetaires%20et%20comptables.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "comptable",
+      "title": "DGCL — La distinction ordonnateur-comptable",
+      "url": "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/execution-des-recettes-et-des-depenses-locales/la-distinction-ordonnateur-comptable",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "controle-comptable",
+      "title": "CGCT — Articles L1617-1 à L1617-3",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006164506/2026-02-23",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "ressources",
+      "title": "Ministère chargé des collectivités — Budget et dotations",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/budget-dotations-collectivites-locales",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "probite",
+      "title": "Code général de la fonction publique — Article L121-1",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427913/2026-05-10",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "obeissance",
+      "title": "Code général de la fonction publique — Article L121-10",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427895",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "droits",
+      "title": "DGAFP — Mes droits et obligations",
+      "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "formation",
+      "title": "DGAFP — Former tout au long de la vie",
+      "url": "https://www.fonction-publique.gouv.fr/la-dgafp/notre-coeur-dactivite/animer-la-politique-interministerielle-de-formation/former-tout-au-long-de-la-vie",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "qvct",
+      "title": "CNFPT — Qualité de vie et conditions de travail",
+      "url": "https://www.cnfpt.fr/nous-connaitre/strategie/engagements/qualite-vie-conditions-travail/national",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "deontologie",
+      "title": "Code général de la fonction publique — Articles L121-4 à L121-9",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000044416551/2026-05-15",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "interco",
+      "title": "DGCL — Guide de l’intercommunalité, principes régissant les EPCI, 2025",
+      "url": "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/1.%20Structures%20territoriales/Les%20intercommunalit%C3%A9s%20et%20groupements%20de%20collectivit%C3%A9s/guide%20interco%202025/2.2-Les%20principes%20r%C3%A9gissant%20les%20EPCI%20COM.pdf",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "climat",
+      "title": "Ministère de la Transition écologique — Adaptation au changement climatique",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/adaptation-france-changement-climatique",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "participation",
+      "title": "CNDP — Participation, information et suites du débat",
+      "url": "https://www.debatpublic.fr/foire-aux-questions-168",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "achat",
+      "title": "Code de la commande publique — Article L3",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "besoin",
+      "title": "Code de la commande publique — Article L2111-1",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393960",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "donnees",
+      "title": "CNIL — Collectivités : principes de protection des données",
+      "url": "https://www.cnil.fr/fr/collectivites-territoriales/les-principes-cles-de-la-protection-des-donnees",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "securite",
+      "title": "CNIL — Conformité des collectivités en quatre étapes",
+      "url": "https://www.cnil.fr/fr/principes-cles/collectivites-territoriales-comment-assurer-votre-conformite-avec-un-plan-daction-en",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "inclusion",
+      "title": "Défenseur des droits — Dématérialisation des services publics",
+      "url": "https://www.defenseurdesdroits.fr/dematerialisation-des-services-publics-1247",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "evaluation",
+      "title": "Ministère de l’Agriculture — Évaluation des politiques publiques",
+      "url": "https://agriculture.gouv.fr/evaluation-des-politiques-publiques",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "igas",
+      "title": "IGAS — Évaluer",
+      "url": "https://igas.gouv.fr/nous-connaitre/activites-et-metiers/quels-sont-les-types-dintervention-de-ligas/evaluer",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "annales",
+      "title": "Concours-Territorial — Attaché, administration générale : annales et cadrages",
+      "url": "https://www.concours-territorial.fr/preparation.aspx?id=275&spe=102",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "epreuves",
+      "title": "Concours-Territorial — Attaché : épreuves externe et troisième concours",
+      "url": "https://www.concours-territorial.fr/epreuves.aspx?id=275&spe=102",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "annales-cdg",
+      "title": "CDG2A — Annales d’attaché, notamment session 2024",
+      "url": "https://www.cdg2a.com/annales-des-epreuves/",
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "equilibre-legal",
+      "title": "CGCT — Article L1612-4, équilibre réel du budget",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051731697/2026-08-01",
+      "checked": "2026-10-30"
+    }
+  ],
+  "books": [
+    {
+      "id": "acteurs",
+      "title": "Qui décide dans la commune ?",
+      "domain": "Institutions",
+      "sourceIds": [
+        "conseil",
+        "maire"
+      ],
+      "paragraphs": [
+        "Une commune agit par plusieurs organes. Le conseil municipal, composé d’élus, règle les affaires communales par ses délibérations. Il vote notamment le budget. La compétence générale de la commune ne l’autorise pas à empiéter sur une attribution réservée par les textes à une autre personne publique.",
+        "Le maire prépare et exécute les délibérations et le budget. Il dirige l’administration municipale et dispose aussi de compétences propres. Certaines attributions du conseil peuvent lui être déléguées dans les limites légales : il faut donc lire les délégations avant de déterminer qui décide dans un dossier.",
+        "À Valrivière, la DGS te demande une proposition d’ouverture d’un équipement. Ton travail consiste à éclairer l’autorité compétente : besoin, contraintes, moyens et options. Une proposition rédigée par un service ne constitue pas, à elle seule, une décision de la commune."
+      ],
+      "keyPoints": [
+        "Conseil : délibération et budget.",
+        "Maire : exécutif et administration.",
+        "Vérifier compétence et délégation."
+      ],
+      "optional": false
+    },
+    {
+      "id": "etat-local",
+      "title": "État local et décentralisation",
+      "domain": "Institutions",
+      "sourceIds": [
+        "deconcentration"
+      ],
+      "paragraphs": [
+        "La déconcentration organise l’action de l’État dans les territoires. Le préfet et les services déconcentrés mettent en œuvre ses politiques au niveau local. Ils agissent pour la même personne morale, l’État ; ils ne deviennent pas des collectivités territoriales.",
+        "La décentralisation confie des compétences à des personnes publiques distinctes de l’État, notamment les collectivités territoriales. Il faut donc distinguer la commune, dirigée par des organes élus, de la préfecture, qui représente l’État. Leurs missions peuvent se compléter sans se confondre.",
+        "Dans la mission, une carte présente mairie, préfecture et services partenaires. Pour orienter un dossier, commence par identifier la personne publique concernée et sa compétence. Une adresse située dans la même ville ne signifie pas que tous les services dépendent du maire."
+      ],
+      "keyPoints": [
+        "Déconcentration : l’État agit localement.",
+        "Décentralisation : personnes publiques distinctes.",
+        "Un territoire accueille plusieurs administrations."
+      ],
+      "optional": false
+    },
+    {
+      "id": "actes",
+      "title": "Un acte peut-il être appliqué ?",
+      "domain": "Droit public",
+      "sourceIds": [
+        "legalite"
+      ],
+      "paragraphs": [
+        "Une décision administrative doit être prise par l’autorité compétente et selon les règles applicables. Sa mise en application suppose aussi des formalités. Selon sa nature, elle est publiée ou notifiée ; certains actes doivent également être transmis au représentant de l’État.",
+        "Le contrôle de légalité exercé par le préfet porte sur la conformité au droit. Il ne consiste pas à choisir à la place de la commune le projet qu’il préfère. Lorsqu’il estime un acte illégal, le préfet peut notamment saisir le tribunal administratif ; il n’annule pas lui-même l’acte dans le cadre ordinaire de ce contrôle.",
+        "Le dossier de Valrivière est prêt sur le fond, mais il faut vérifier sa circulation. Une fiche de suivi indique l’auteur, la date, les formalités et les justificatifs. Cette méthode de travail aide à éviter de confondre une signature avec l’accomplissement de toutes les conditions nécessaires."
+      ],
+      "keyPoints": [
+        "Compétence, procédure et formalités.",
+        "Contrôle de légalité, pas d’opportunité.",
+        "Le juge peut annuler un acte."
+      ],
+      "optional": false
+    },
+    {
+      "id": "libre-administration",
+      "title": "La liberté locale dans un État unitaire",
+      "domain": "Culture territoriale",
+      "sourceIds": [
+        "constitution"
+      ],
+      "paragraphs": [
+        "La Constitution reconnaît la libre administration des collectivités territoriales par des conseils élus, dans les conditions prévues par la loi. Cette liberté s’exerce donc dans un cadre juridique commun. Elle ne transforme pas une commune en État souverain.",
+        "Aucune collectivité territoriale ne peut exercer une tutelle sur une autre. Cela n’empêche pas les coopérations organisées par les textes. Le représentant de l’État veille notamment au contrôle administratif et au respect des lois.",
+        "Pour le concours, cette articulation permet de discuter un sujet de fond : comment concilier proximité des choix, cohérence nationale et égalité entre territoires ? Cherche des exemples concrets plutôt qu’une opposition simpliste entre autonomie totale et centralisation totale."
+      ],
+      "keyPoints": [
+        "Libre administration encadrée par la loi.",
+        "Absence de tutelle d’une collectivité sur une autre.",
+        "Autonomie locale et unité de l’État."
+      ],
+      "optional": true
+    },
+    {
+      "id": "principes-sp",
+      "title": "Les trois repères du service public",
+      "domain": "Droit public",
+      "sourceIds": [
+        "service"
+      ],
+      "paragraphs": [
+        "Un service public répond à un besoin d’intérêt général et est organisé ou encadré par une personne publique. Trois repères structurent son fonctionnement : l’égalité, la continuité et l’adaptation. Ils servent à examiner la façon dont le service répond effectivement aux habitants.",
+        "La continuité signifie un fonctionnement régulier compatible avec la nature du service ; une bibliothèque n’a pas à ouvrir en permanence. L’adaptation, aussi appelée mutabilité, permet de faire évoluer l’organisation avec les besoins. Une modification d’horaires doit donc être pensée avec ses effets sur les usagers.",
+        "Dans la mission, deux publics fréquentent peu la médiathèque : les personnes qui travaillent tard et celles qui ont des difficultés de déplacement. Comparer les usages et chercher des modalités d’accès constitue une démarche de gestion. Le QCM t’aide à reconnaître le principe mobilisé, sans imposer un horaire unique."
+      ],
+      "keyPoints": [
+        "Égalité, continuité, adaptation.",
+        "Continuité ne signifie pas ouverture permanente.",
+        "Partir des besoins des usagers."
+      ],
+      "optional": false
+    },
+    {
+      "id": "bibliotheque",
+      "title": "La bibliothèque, un lieu ouvert",
+      "domain": "Culture territoriale",
+      "sourceIds": [
+        "bibliotheques",
+        "missions-bib"
+      ],
+      "paragraphs": [
+        "Les bibliothèques des collectivités et de leurs groupements contribuent à l’accès à la culture, à l’information, aux savoirs et aux loisirs. Leurs missions vont au-delà du rangement des livres : elles donnent accès à des collections et accompagnent la rencontre entre ces ressources et le public.",
+        "Le code du patrimoine prévoit la liberté d’accès aux bibliothèques municipales et intercommunales, ainsi que la gratuité de cet accès et de la consultation sur place. Cette règle ne signifie pas que toutes les prestations, notamment toutes les modalités de prêt, seraient automatiquement gratuites.",
+        "À Valrivière, une habitante veut consulter un ouvrage sans emprunter. La réponse doit distinguer l’entrée, la consultation sur place et les autres services. La précision évite de créer une barrière qui n’existe pas dans les textes ou de promettre une gratuité générale non vérifiée."
+      ],
+      "keyPoints": [
+        "Entrée libre.",
+        "Accès et consultation sur place gratuits.",
+        "Distinguer consultation et autres prestations."
+      ],
+      "optional": false
+    },
+    {
+      "id": "accueil",
+      "title": "Accueillir avec neutralité",
+      "domain": "Ressources humaines",
+      "sourceIds": [
+        "neutralite"
+      ],
+      "paragraphs": [
+        "L’agent public est tenu à la neutralité dans l’exercice de ses fonctions. Il respecte le principe de laïcité et s’abstient notamment de manifester ses opinions religieuses dans ce cadre. Il doit traiter les personnes de façon égale et respecter leur liberté de conscience et leur dignité.",
+        "Le service n’est pas un lieu où l’agent favorise les personnes partageant ses convictions. La qualité de l’accueil dépend du besoin de l’usager et des règles du service. L’obligation de neutralité de l’agent ne doit pas être mécaniquement confondue avec les règles applicables aux usagers.",
+        "La médiathèque prépare une charte d’accueil. Tu repères les engagements pertinents : écouter, expliquer les règles avec clarté et traiter chacun sans préférence personnelle. Les exemples servent à comprendre une posture professionnelle ; ils ne remplacent pas l’analyse des situations particulières."
+      ],
+      "keyPoints": [
+        "Neutralité dans les fonctions.",
+        "Respect de la liberté de conscience.",
+        "Distinguer agent et usager."
+      ],
+      "optional": false
+    },
+    {
+      "id": "culture-concours",
+      "title": "Une bibliothèque pour préparer le concours",
+      "domain": "Culture territoriale",
+      "sourceIds": [
+        "annales",
+        "epreuves",
+        "annales-cdg"
+      ],
+      "paragraphs": [
+        "Le portail Concours-Territorial réunit des annales et des notes de cadrage d’attaché en administration générale. Les sujets officiels permettent de découvrir l’étendue des questions territoriales. Les cadrages éclairent les attentes des différentes épreuves et doivent être distingués des textes réglementaires.",
+        "Le parcours externe comprend notamment une composition et une note sur dossier, puis un entretien et une langue vivante obligatoire. Le troisième concours comporte un rapport dégageant des solutions opérationnelles, un entretien et une langue facultative. Le choix d’un parcours dans le jeu ne vérifie pas les conditions d’inscription.",
+        "Les missions et QCM de Territoires sont des créations pédagogiques originales, pas des annales officielles. Utilise les liens de cette fiche pour consulter les vrais sujets. Le jeu consolide des connaissances ; une préparation complète demande aussi des productions écrites longues et un entraînement oral."
+      ],
+      "keyPoints": [
+        "Annales officielles accessibles dans les sources.",
+        "Externe prioritaire ; troisième concours distinct.",
+        "QCM du jeu : créations originales."
+      ],
+      "optional": true
+    },
+    {
+      "id": "sections",
+      "title": "Le budget en deux sections",
+      "domain": "Finances",
+      "sourceIds": [
+        "budget"
+      ],
+      "paragraphs": [
+        "Le budget distingue le fonctionnement et l’investissement. Le fonctionnement retrace les opérations courantes nécessaires aux services, comme les rémunérations ou l’énergie. L’investissement concerne notamment les équipements durables et les opérations affectant le patrimoine ; la classification précise dépend des règles comptables applicables.",
+        "Construire un équipement et le faire vivre sont deux questions liées. La construction relève généralement de l’investissement ; les agents, le nettoyage ou l’énergie entraînent ensuite des charges de fonctionnement. Un projet subventionné peut donc rester coûteux à exploiter pour la collectivité.",
+        "Dans notre simulation, la ville compare une salle neuve et la rénovation d’un local. Les montants sont fictifs. L’objectif est de repérer le coût initial et les charges annuelles, puis d’éviter une comparaison limitée au seul prix des travaux."
+      ],
+      "keyPoints": [
+        "Fonctionnement : activité courante.",
+        "Investissement : patrimoine et équipements.",
+        "Anticiper les dépenses futures."
+      ],
+      "optional": false
+    },
+    {
+      "id": "equilibre-livre",
+      "title": "L’équilibre n’est pas un simple total",
+      "domain": "Finances",
+      "sourceIds": [
+        "equilibre",
+        "equilibre-legal"
+      ],
+      "paragraphs": [
+        "L’équilibre réel du budget local ne se réduit pas à inscrire deux totaux identiques. Les prévisions doivent être sincères et les sections équilibrées. Inventer une recette improbable pour masquer une difficulté ne constitue pas une solution budgétaire.",
+        "Le recours à l’emprunt finance l’investissement dans le cadre légal ; il ne sert pas à combler un déficit courant de fonctionnement. Le remboursement du capital des emprunts doit être couvert par les ressources prévues à cet effet, hors nouvel emprunt, selon la règle d’équilibre réel.",
+        "La simulation propose une recette annoncée mais non acquise. Avant de la retenir, tu examines son degré de certitude et les conditions d’attribution. Face à un besoin récurrent, compare des recettes durables, une réorganisation ou une réduction de charges plutôt que de déplacer simplement le problème."
+      ],
+      "keyPoints": [
+        "Prévisions sincères.",
+        "Ne pas financer le fonctionnement par l’emprunt.",
+        "Le capital de la dette ne se rembourse pas par un nouvel emprunt dans l’équilibre réel."
+      ],
+      "optional": false
+    },
+    {
+      "id": "payer",
+      "title": "De la commande au paiement",
+      "domain": "Finances",
+      "sourceIds": [
+        "comptable",
+        "controle-comptable"
+      ],
+      "paragraphs": [
+        "La gestion publique distingue l’ordonnateur et le comptable. L’ordonnateur prescrit les recettes et les dépenses. Dans la commune, cette fonction appartient au maire. Le comptable public assure les opérations relevant de sa mission, notamment le paiement après les contrôles prévus.",
+        "Une facture ne suffit pas à elle seule à raconter toute la dépense. Les services vérifient notamment la réalité de la prestation et préparent les pièces nécessaires. Le comptable ne remplace pas l’autorité locale pour décider de l’opportunité politique du projet : il exerce ses contrôles dans le cadre fixé par les textes.",
+        "Dans la mission, des livres ont été commandés pour la médiathèque. Vérifier la livraison et rapprocher les pièces permet de préparer correctement le paiement. Un document manquant appelle une recherche ou une régularisation adaptée, pas une invention de justificatif."
+      ],
+      "keyPoints": [
+        "Ordonnateur et comptable : fonctions distinctes.",
+        "Vérifier la prestation et les pièces.",
+        "Contrôle de régularité distinct du choix politique."
+      ],
+      "optional": false
+    },
+    {
+      "id": "ressources-livre",
+      "title": "D’où vient l’argent local ?",
+      "domain": "Finances",
+      "sourceIds": [
+        "ressources",
+        "constitution"
+      ],
+      "paragraphs": [
+        "Les ressources locales proviennent de plusieurs familles : fiscalité, dotations, produits des services, subventions et, pour l’investissement, emprunts dans les conditions légales. Ces recettes n’ont ni la même origine ni la même stabilité. Elles ne sont pas toutes librement modulables par les élus.",
+        "Les dotations correspondent à des concours financiers et obéissent à des règles de répartition. Une subvention liée à une opération doit être distinguée d’une ressource régulière. L’emprunt, quant à lui, apporte un financement mais crée une obligation future de remboursement.",
+        "Un bon raisonnement compare la durée de la dépense avec la fiabilité de sa ressource. Pour un service permanent, une aide ponctuelle peut faciliter le démarrage sans garantir la suite. Dans ta sacoche, note toujours l’origine, les conditions et la durée des financements envisagés."
+      ],
+      "keyPoints": [
+        "Diversité des recettes.",
+        "Distinguer ressources ponctuelles et récurrentes.",
+        "Un emprunt crée une dette."
+      ],
+      "optional": true
+    },
+    {
+      "id": "agent",
+      "title": "Les repères de l’agent public",
+      "domain": "Ressources humaines",
+      "sourceIds": [
+        "probite",
+        "droits"
+      ],
+      "paragraphs": [
+        "Le code général de la fonction publique demande à l’agent d’exercer ses fonctions avec dignité, impartialité, intégrité et probité. Ces obligations orientent les décisions quotidiennes : traiter un dossier sans favoritisme, utiliser les moyens publics conformément à leur objet et conserver une posture professionnelle.",
+        "Les agents disposent également de droits, notamment la liberté d’opinion, le droit syndical, la formation et, dans les conditions prévues, la protection fonctionnelle. Présenter la fonction publique comme un ensemble d’obligations sans droits donnerait une vision incomplète de son fonctionnement.",
+        "Une nouvelle collègue arrive à Valrivière. Son livret d’accueil doit expliquer les règles de travail, les interlocuteurs et les possibilités d’accompagnement. L’objectif de la mission est de reconnaître les principes communs, sans confondre les modalités propres à chaque situation statutaire."
+      ],
+      "keyPoints": [
+        "Droits et obligations se complètent.",
+        "Impartialité et probité.",
+        "Liberté d’opinion et obligations professionnelles."
+      ],
+      "optional": false
+    },
+    {
+      "id": "instructions",
+      "title": "Instructions et responsabilité",
+      "domain": "Droit public",
+      "sourceIds": [
+        "obeissance",
+        "deontologie"
+      ],
+      "paragraphs": [
+        "L’agent public doit suivre les instructions de son supérieur hiérarchique. Le code prévoit toutefois une exception lorsque l’ordre est manifestement illégal et de nature à compromettre gravement un intérêt public. Ces deux conditions sont cumulatives : un simple désaccord ne suffit pas.",
+        "Chaque agent demeure responsable des tâches qui lui sont confiées. Une difficulté doit être exposée avec des faits et, si possible, une solution conforme. Demander une précision ou signaler un risque permet d’éclairer la hiérarchie ; cela ne signifie pas décider seul de toute la politique du service.",
+        "Dans le dossier, une consigne semble incompatible avec une règle. Tu commences par la qualifier et par documenter le problème. La mission distingue le désaccord sur une préférence, l’incertitude à clarifier et le cas strict prévu par le code. Les situations réelles peuvent demander un conseil juridique."
+      ],
+      "keyPoints": [
+        "Principe d’obéissance hiérarchique.",
+        "Exception : deux conditions cumulatives.",
+        "Documenter et expliquer une difficulté."
+      ],
+      "optional": false
+    },
+    {
+      "id": "collectif",
+      "title": "Faire progresser une équipe",
+      "domain": "Ressources humaines",
+      "sourceIds": [
+        "qvct",
+        "formation"
+      ],
+      "paragraphs": [
+        "La qualité du travail dépend de l’organisation, des moyens, du dialogue professionnel, de la prévention et des parcours. Une difficulté collective ne s’explique pas automatiquement par un manque de motivation individuelle. Examiner les tâches et les contraintes aide à comprendre la situation.",
+        "La formation professionnelle tout au long de la vie accompagne l’évolution des métiers et les parcours des agents. Elle constitue un droit encadré par des dispositifs. Un changement d’outil appelle donc une réflexion sur l’apprentissage, le temps disponible et l’accompagnement, pas seulement une annonce.",
+        "À Valrivière, l’équipe adopte un nouveau logiciel. La démarche proposée est une bonne pratique de management : identifier les besoins, organiser une prise en main et prévoir un point de suivi. Ce conseil n’est pas présenté comme une procédure légale universelle imposant un format unique."
+      ],
+      "keyPoints": [
+        "Observer l’organisation réelle.",
+        "Accompagner les évolutions par la formation.",
+        "Faire un suivi après le changement."
+      ],
+      "optional": false
+    },
+    {
+      "id": "interets",
+      "title": "Reconnaître un conflit d’intérêts",
+      "domain": "Droit public",
+      "sourceIds": [
+        "deontologie"
+      ],
+      "paragraphs": [
+        "Un conflit d’intérêts peut apparaître lorsqu’un intérêt public interfère avec des intérêts publics ou privés au point d’influencer, ou de paraître influencer, l’exercice indépendant et impartial des fonctions. Il n’est donc pas nécessaire d’attendre une faveur effectivement accordée pour identifier un risque.",
+        "L’agent doit prévenir ou faire cesser les situations dans lesquelles il se trouve ou pourrait se trouver. Une relation personnelle dans un dossier appelle un examen et un signalement appropriés. Affirmer que l’on restera objectif ne suffit pas toujours à traiter l’apparence de conflit.",
+        "Dans l’histoire, un proche d’un agent est lié à un organisme concerné par une décision. Le bon réflexe consiste à exposer la situation et à rechercher les mesures adaptées, par exemple une réattribution du dossier. Les modalités dépendent des fonctions et du contexte."
+      ],
+      "keyPoints": [
+        "L’apparence d’influence compte.",
+        "Prévenir avant la décision.",
+        "Signaler et organiser le traitement adapté."
+      ],
+      "optional": true
+    },
+    {
+      "id": "interco-livre",
+      "title": "Travailler au-delà de la commune",
+      "domain": "Institutions",
+      "sourceIds": [
+        "interco"
+      ],
+      "paragraphs": [
+        "Un établissement public de coopération intercommunale, ou EPCI, permet aux communes d’exercer ensemble certaines compétences. Son action est encadrée par les compétences que les textes et les transferts lui attribuent. Ce principe de spécialité interdit de supposer qu’il peut intervenir sur tout sujet local.",
+        "Le transfert d’une compétence entraîne en principe son exercice par l’EPCI à la place des communes dans le périmètre transféré. Les textes organisent des nuances et des mécanismes de coopération. Les statuts, les décisions de transfert et, lorsqu’il intervient, l’intérêt communautaire doivent être consultés.",
+        "Valrivière prépare une liaison avec une commune voisine. Avant de répartir les tâches, tu recherches qui détient la compétence précise. La taille du projet et sa visibilité ne suffisent pas à désigner le maître d’ouvrage. Le dossier fournit les documents locaux nécessaires à la réponse."
+      ],
+      "keyPoints": [
+        "EPCI : établissement public, compétences attribuées.",
+        "Consulter les statuts et transferts.",
+        "Ne pas déduire la compétence de la seule taille du projet."
+      ],
+      "optional": false
+    },
+    {
+      "id": "climat-livre",
+      "title": "Atténuer et s’adapter",
+      "domain": "Politiques publiques",
+      "sourceIds": [
+        "climat"
+      ],
+      "paragraphs": [
+        "L’atténuation vise les causes du changement climatique, notamment par la réduction des émissions de gaz à effet de serre. L’adaptation cherche à limiter les conséquences du climat actuel et futur sur les populations, les activités et les milieux. Les deux démarches se complètent.",
+        "Une action doit être appréciée dans son contexte. Créer de l’ombre peut contribuer à mieux supporter la chaleur ; réduire des consommations énergétiques peut diminuer des émissions. Certaines réponses déplacent toutefois le risque ou augmentent la vulnérabilité : c’est le problème de la mal-adaptation.",
+        "Pour les berges de Valrivière, tu compares plusieurs options au regard de la chaleur, de l’eau, des usages et de l’entretien. Le jeu ne prétend pas calculer une performance environnementale réelle. Il entraîne à poser les bonnes questions et à rechercher les données utiles avant l’arbitrage."
+      ],
+      "keyPoints": [
+        "Atténuation : causes et émissions.",
+        "Adaptation : impacts et vulnérabilité.",
+        "Éviter de déplacer le risque."
+      ],
+      "optional": false
+    },
+    {
+      "id": "concertation",
+      "title": "Faire une place à la parole habitante",
+      "domain": "Culture territoriale",
+      "sourceIds": [
+        "participation"
+      ],
+      "paragraphs": [
+        "Une participation utile suppose que le public puisse comprendre le projet, exprimer des arguments et savoir ce qu’ils deviennent. Informer est nécessaire, mais une présentation sans possibilité d’échange ne constitue pas, à elle seule, une démarche de concertation.",
+        "La participation peut influencer une décision sans transférer automatiquement la responsabilité de celle-ci aux participants. Il faut annoncer ce qui est ouvert à la discussion, les contraintes et la manière dont les contributions seront restituées. Les obligations précises dépendent du projet et des textes applicables.",
+        "La mission propose une démarche volontaire de quartier : partager un dossier accessible, recueillir plusieurs points de vue et expliquer les suites. C’est une mise en pratique de principes de qualité, pas l’affirmation que tout projet communal doit suivre une procédure CNDP."
+      ],
+      "keyPoints": [
+        "Information accessible et échange.",
+        "Participation ne signifie pas automatiquement codécision.",
+        "Expliquer les suites données."
+      ],
+      "optional": false
+    },
+    {
+      "id": "achat-livre",
+      "title": "Acheter pour répondre à un besoin",
+      "domain": "Droit public",
+      "sourceIds": [
+        "achat",
+        "besoin"
+      ],
+      "paragraphs": [
+        "La commande publique est encadrée par l’égalité de traitement, la liberté d’accès et la transparence des procédures. Ces principes concourent à une utilisation efficace des deniers publics. Préférer une entreprise parce qu’elle est connue personnellement n’est pas un critère de décision acceptable.",
+        "La définition précise du besoin intervient avant le lancement de la consultation. Le code demande de prendre en compte le développement durable dans ses dimensions économique, sociale et environnementale. Les règles concrètes de procédure dépendent ensuite des caractéristiques du contrat.",
+        "Pour les bancs des berges, la mission t’invite à préciser usages, entretien, durabilité et accessibilité attendue. Ce livre expose des fondamentaux : il ne fournit ni seuils de procédure ni modèle universel de marché. Le lien vers le code permet d’approfondir avec la version applicable."
+      ],
+      "keyPoints": [
+        "Définir le besoin avant de consulter.",
+        "Égalité, accès, transparence.",
+        "Considérer le développement durable."
+      ],
+      "optional": true
+    },
+    {
+      "id": "rgpd",
+      "title": "Des données utiles, pas une collecte sans limite",
+      "domain": "Droit public",
+      "sourceIds": [
+        "donnees"
+      ],
+      "paragraphs": [
+        "Une donnée personnelle concerne une personne identifiée ou identifiable. La collectivité doit préciser l’objectif d’un traitement et limiter les informations collectées à ce qui est nécessaire. Une donnée disponible ou intéressante n’est pas, pour cette seule raison, légitime à recueillir.",
+        "Les personnes doivent être informées du traitement et de leurs droits. La conservation n’a pas vocation à être indéfinie : une durée et un devenir doivent être définis selon les finalités et les obligations applicables, notamment celles relatives aux archives publiques.",
+        "Le formulaire de la maison des services demande des informations sans lien avec l’inscription à un atelier. Tu proposes de retirer les champs inutiles. Le dossier ne demande pas d’appliquer une durée unique à tous les fichiers : il apprend à relier collecte et conservation à une finalité précise."
+      ],
+      "keyPoints": [
+        "Finalité précise.",
+        "Minimisation des données.",
+        "Durée et information des personnes."
+      ],
+      "optional": false
+    },
+    {
+      "id": "inclusion-livre",
+      "title": "Un service numérique accessible à tous",
+      "domain": "Politiques publiques",
+      "sourceIds": [
+        "inclusion",
+        "securite"
+      ],
+      "paragraphs": [
+        "La dématérialisation peut simplifier les démarches et éviter des déplacements. Mais une démarche uniquement numérique peut aussi créer des obstacles : difficulté d’usage, absence d’équipement, handicap ou blocage technique. La réussite se mesure à l’accès effectif au service, pas seulement à la mise en ligne.",
+        "Le Défenseur des droits recommande de maintenir des possibilités de contact et d’accompagnement humaines. Cette recommandation aide à concevoir l’accueil. En parallèle, les données ne doivent être accessibles qu’aux agents habilités qui en ont besoin, avec des mesures de sécurité adaptées.",
+        "Dans la mission, un usager n’arrive pas à finaliser une demande. Tu prévois une orientation et un accompagnement sans diffuser son dossier à toute l’équipe. L’aide humaine et la protection de la confidentialité se renforcent plutôt qu’elles ne s’excluent."
+      ],
+      "keyPoints": [
+        "Mesurer l’accès réel.",
+        "Prévoir l’accompagnement.",
+        "Limiter les accès aux données."
+      ],
+      "optional": false
+    },
+    {
+      "id": "evaluer",
+      "title": "Une action produit-elle les effets attendus ?",
+      "domain": "Politiques publiques",
+      "sourceIds": [
+        "evaluation",
+        "igas"
+      ],
+      "paragraphs": [
+        "Évaluer une politique publique consiste à examiner ses objectifs, ses moyens et ses résultats. L’efficacité porte sur l’atteinte des objectifs ; l’efficience met les résultats en relation avec les moyens employés. La pertinence interroge l’adéquation entre la réponse et les besoins.",
+        "Un compteur d’activité ne prouve pas à lui seul un effet. Le nombre d’ateliers organisés renseigne sur les réalisations ; l’évolution de l’autonomie des participants renseigne davantage sur un résultat recherché. Les données doivent être interprétées et confrontées à d’autres éléments, notamment la parole des usagers.",
+        "Valrivière fait le bilan de sa maison des services. Tu proposes un indicateur, une situation de départ et une méthode de suivi. La mission apprend à argumenter une conclusion prudente : une évolution favorable ne démontre pas automatiquement que l’action est son unique cause."
+      ],
+      "keyPoints": [
+        "Objectifs, moyens, résultats.",
+        "Efficacité et efficience sont distinctes.",
+        "Un volume d’activité ne suffit pas."
+      ],
+      "optional": false
+    },
+    {
+      "id": "preuves",
+      "title": "Lire un bilan avec esprit critique",
+      "domain": "Analyse",
+      "sourceIds": [
+        "igas",
+        "evaluation"
+      ],
+      "paragraphs": [
+        "Une évaluation peut mobiliser des statistiques, des entretiens et des observations. Croiser les méthodes aide à comprendre ce qui fonctionne et pour qui. Les personnes qui répondent spontanément à un questionnaire ne représentent pas nécessairement tous les usagers, encore moins les non-usagers.",
+        "Un indicateur prend son sens avec son périmètre, sa période et son mode de calcul. Comparer deux nombres sans vérifier ces éléments peut conduire à une conclusion fragile. Les limites doivent être expliquées pour que la décision reste éclairée.",
+        "Pour approfondir le dernier chapitre, relis un graphique ou un tableau public et pose trois questions : que mesure-t-il, qui manque dans les données et quelle autre information aiderait à comprendre ? Cette méthode est transférable aux dossiers du concours et au travail territorial."
+      ],
+      "keyPoints": [
+        "Croiser les informations.",
+        "Vérifier périmètre et période.",
+        "Exprimer les limites."
+      ],
+      "optional": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "institutions",
+      "title": "Bienvenue à Valrivière",
+      "subtitle": "Préparer la fiche de décision qui accompagnera la première présentation du projet.",
+      "domain": "Institutions",
+      "scene": "town",
+      "mentor": "Marianne Delmas",
+      "intro": "Préparer la fiche de décision qui accompagnera la première présentation du projet.",
+      "missions": [
+        {
+          "id": "inst-1",
+          "title": "La porte de la mairie",
+          "story": "Un groupe d’habitants souhaite utiliser un local communal. Claire te confie la première fiche du dossier : repérer les rôles du conseil, du maire et des services. Lis le carnet trouvé à l’accueil, puis prépare ton orientation.",
+          "requiredBooks": [
+            "acteurs"
+          ],
+          "optionalBooks": [
+            "libre-administration"
+          ],
+          "questions": [
+            {
+              "id": "q01",
+              "prompt": "Quel organe vote le budget communal ?",
+              "choices": [
+                "Le conseil municipal",
+                "Le maire seul, au titre de ses fonctions d’ordonnateur",
+                "Le préfet, au titre du contrôle budgétaire ordinaire",
+                "Le comptable public, au titre du contrôle des comptes"
+              ],
+              "answer": 0,
+              "explanation": "Le conseil municipal vote le budget. Les services préparent les éléments utiles et le maire assure les fonctions d’exécutif.",
+              "sourceIds": [
+                "conseil",
+                "maire"
+              ]
+            },
+            {
+              "id": "q02",
+              "prompt": "Qui prépare et exécute les délibérations du conseil municipal ?",
+              "choices": [
+                "Le conseil municipal, qui assure directement toute l’exécution",
+                "Le maire",
+                "Le comptable public, dès lors que la décision a un coût",
+                "Le préfet, après transmission de la délibération"
+              ],
+              "answer": 1,
+              "explanation": "Le maire est l’exécutif communal. Une délégation ou une compétence propre doit être vérifiée selon le dossier.",
+              "sourceIds": [
+                "maire"
+              ]
+            },
+            {
+              "id": "q03",
+              "prompt": "Avant de désigner le signataire d’un dossier, quel document local est particulièrement utile ?",
+              "choices": [
+                "Le seul organigramme des services",
+                "Le budget de l’exercice précédent",
+                "Les délégations applicables",
+                "Le règlement intérieur du personnel, quel que soit le dossier"
+              ],
+              "answer": 2,
+              "explanation": "Les délégations complètent l’analyse des compétences. La fonction occupée ne suffit pas à déduire toute habilitation.",
+              "sourceIds": [
+                "conseil",
+                "maire"
+              ]
+            }
+          ],
+          "outro": "Marianne corrige le brouillon du discours avec votre fiche. Le maire présentera une ambition et les étapes à franchir, sans annoncer un budget déjà acquis. Votre carnet contient son premier document utile."
+        },
+        {
+          "id": "inst-2",
+          "title": "Les partenaires du territoire",
+          "story": "Une réunion rassemble mairie et préfecture. Les badges sont prêts, mais les fonctions ont été mélangées. Consulte ton guide pour rétablir la carte des acteurs.",
+          "requiredBooks": [
+            "etat-local"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q04",
+              "prompt": "La préfecture relève principalement de quelle organisation ?",
+              "choices": [
+                "L’administration de la commune chef-lieu",
+                "L’administration du conseil départemental",
+                "L’État déconcentré",
+                "La communauté d’agglomération"
+              ],
+              "answer": 2,
+              "explanation": "Le préfet représente l’État dans le territoire. Il n’est pas un service de la mairie.",
+              "sourceIds": [
+                "deconcentration"
+              ]
+            },
+            {
+              "id": "q05",
+              "prompt": "La déconcentration transfère des pouvoirs à…",
+              "choices": [
+                "Des personnes morales locales indépendantes de l’État",
+                "Des services territoriaux de l’État",
+                "Des collectivités exerçant les missions en leur propre nom",
+                "Des établissements privés titulaires d’une concession"
+              ],
+              "answer": 1,
+              "explanation": "La déconcentration organise l’action locale au sein de l’État, sans créer une nouvelle personne morale autonome.",
+              "sourceIds": [
+                "deconcentration"
+              ]
+            },
+            {
+              "id": "q06",
+              "prompt": "La commune reçoit une compétence qu’elle exercera en son propre nom. Quel trait la distingue d’un service déconcentré de l’État ?",
+              "choices": [
+                "Elle confie les mêmes missions à un service préfectoral",
+                "Elle transforme les services ministériels en directions régionales",
+                "Elle soumet toutes les décisions communales à une autorisation préalable",
+                "La commune est une personne publique distincte de l’État, exerçant des compétences décentralisées"
+              ],
+              "answer": 3,
+              "explanation": "La décentralisation se distingue de l’organisation interne des services de l’État.",
+              "sourceIds": [
+                "deconcentration"
+              ]
+            }
+          ],
+          "outro": "Les badges sont corrigés et le compte rendu distingue clairement les responsabilités. Marianne vous laisse présenter la carte des acteurs : votre première intervention en réunion se termine sans confusion."
+        },
+        {
+          "id": "inst-3",
+          "title": "Le dossier prêt à partir",
+          "story": "La délibération relative au local vient d’être adoptée. Une collègue te demande si la signature termine toutes les démarches. Ouvre la fiche des actes dans ta sacoche.",
+          "requiredBooks": [
+            "actes"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q07",
+              "prompt": "La délibération du local communal vient d’être signée. Peut-on en déduire que toutes les conditions pour l’appliquer sont remplies ?",
+              "choices": [
+                "Non, des formalités de publicité ou notification et parfois de transmission sont nécessaires",
+                "Oui, dès lors que l’auteur est compétent",
+                "Oui, dès lors que la commission municipale a donné son avis",
+                "Oui, dès lors que les crédits sont inscrits au budget"
+              ],
+              "answer": 0,
+              "explanation": "Les formalités dépendent de la nature de l’acte. Il faut vérifier celles qui lui sont applicables.",
+              "sourceIds": [
+                "legalite"
+              ]
+            },
+            {
+              "id": "q08",
+              "prompt": "La préfecture examine la délibération de Valrivière. Dans le contrôle de légalité, quelle question lui appartient ?",
+              "choices": [
+                "Le caractère politiquement prioritaire du projet",
+                "Sa conformité au droit",
+                "L’intérêt d’affecter les crédits à un autre équipement",
+                "L’adhésion de la population à la décision"
+              ],
+              "answer": 1,
+              "explanation": "Ce contrôle examine la légalité, et non l’opportunité politique de la décision locale.",
+              "sourceIds": [
+                "legalite"
+              ]
+            },
+            {
+              "id": "q09",
+              "prompt": "Le préfet estime la délibération illégale. Qui peut prononcer son annulation contentieuse dans ce cadre ?",
+              "choices": [
+                "Le préfet, par une lettre d’observation",
+                "La chambre régionale des comptes, pour tout acte communal",
+                "Le juge administratif",
+                "Le comptable public, à l’occasion du paiement"
+              ],
+              "answer": 2,
+              "explanation": "Le préfet peut déférer l’acte au tribunal administratif. Il ne l’annule pas lui-même dans ce cadre.",
+              "sourceIds": [
+                "legalite"
+              ]
+            }
+          ],
+          "outro": "Le bordereau mentionne les vérifications et les formalités nécessaires ; les services compétents assurent leur accomplissement. Vous classez la première séquence du projet avec ses pièces de suivi. La manufacture cesse peu à peu d’être une simple annonce."
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "La médiathèque des possibles",
+      "subtitle": "Relier le futur projet de service aux principes du service public.",
+      "domain": "Culture territoriale",
+      "scene": "library",
+      "mentor": "Maya",
+      "intro": "Relier le futur projet de service aux principes du service public.",
+      "missions": [
+        {
+          "id": "cult-1",
+          "title": "Des horaires qui ont du sens",
+          "story": "Des actifs arrivent après la fermeture. Maya souhaite examiner de nouveaux horaires. Lis les principes du service public avant de comparer les propositions.",
+          "requiredBooks": [
+            "principes-sp"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q10",
+              "prompt": "Faire évoluer les horaires pour mieux répondre aux besoins renvoie surtout à…",
+              "choices": [
+                "L’obligation de maintenir définitivement l’organisation existante",
+                "La mutabilité ou adaptation",
+                "La seule règle de séparation ordonnateur-comptable",
+                "Le transfert automatique de compétence à l’intercommunalité"
+              ],
+              "answer": 1,
+              "explanation": "L’adaptation permet de faire évoluer le service avec les besoins, dans le respect des règles applicables.",
+              "sourceIds": [
+                "service"
+              ]
+            },
+            {
+              "id": "q11",
+              "prompt": "La continuité impose-t-elle que toute bibliothèque ouvre jour et nuit ?",
+              "choices": [
+                "Oui, tout service public doit être accessible vingt-quatre heures sur vingt-quatre",
+                "Oui, dès lors que le service est financé par l’impôt",
+                "Non, elle s’apprécie selon la nature du service",
+                "Non, la continuité ne concerne que les administrations de l’État"
+              ],
+              "answer": 2,
+              "explanation": "La continuité signifie un fonctionnement régulier adapté à la mission, pas une ouverture permanente de chaque équipement.",
+              "sourceIds": [
+                "service"
+              ]
+            },
+            {
+              "id": "q12",
+              "prompt": "Quel ensemble réunit les trois principes classiques étudiés ?",
+              "choices": [
+                "Gratuité générale, rentabilité, permanence absolue",
+                "Neutralité budgétaire, concurrence, spécialisation",
+                "Autonomie, subsidiarité, transparence comptable",
+                "Égalité, continuité, adaptation"
+              ],
+              "answer": 3,
+              "explanation": "Ces trois repères structurent l’analyse du fonctionnement d’un service public.",
+              "sourceIds": [
+                "service"
+              ]
+            }
+          ],
+          "outro": "Le groupe conserve une piste d’horaires à étudier avec les équipes. Jeanne accepte de réunir d’autres témoignages : elle voit que sa remarque devient une question de travail, et pas seulement une ligne dans un compte rendu."
+        },
+        {
+          "id": "cult-2",
+          "title": "Une visite sans carte",
+          "story": "Une habitante souhaite entrer pour consulter une encyclopédie. Elle n’a pas de carte d’emprunt. Le code du patrimoine est à portée de main.",
+          "requiredBooks": [
+            "bibliotheque"
+          ],
+          "optionalBooks": [
+            "culture-concours"
+          ],
+          "questions": [
+            {
+              "id": "q13",
+              "prompt": "L’accès à une bibliothèque municipale est…",
+              "choices": [
+                "Libre",
+                "Réservé aux personnes ayant une carte de prêt payante",
+                "Réservé aux habitants inscrits sur les listes électorales",
+                "Obligatoirement limité aux seuls résidents de la commune"
+              ],
+              "answer": 0,
+              "explanation": "Le code du patrimoine prévoit la liberté d’accès aux bibliothèques municipales et intercommunales.",
+              "sourceIds": [
+                "bibliotheques"
+              ]
+            },
+            {
+              "id": "q14",
+              "prompt": "Une habitante sans carte de prêt veut lire une encyclopédie dans la bibliothèque municipale. Quelle prestation est expressément gratuite ?",
+              "choices": [
+                "Toute impression de documents effectuée par un usager",
+                "La consultation sur place des collections",
+                "Toute prestation de prêt, sans examen des règles locales",
+                "Toute réservation payante d’une salle attenante"
+              ],
+              "answer": 1,
+              "explanation": "La gratuité légale de la consultation sur place ne doit pas être étendue sans vérification à toute prestation.",
+              "sourceIds": [
+                "bibliotheques"
+              ]
+            },
+            {
+              "id": "q15",
+              "prompt": "Maya prépare le projet de service. Quelle mission correspond aux bibliothèques territoriales selon le code du patrimoine ?",
+              "choices": [
+                "La seule conservation des documents anciens",
+                "La seule mise à disposition de livres imprimés",
+                "L’accès à la culture, à l’information et aux savoirs",
+                "La seule organisation d’activités scolaires"
+              ],
+              "answer": 2,
+              "explanation": "La bibliothèque est un service d’accès aux ressources et aux connaissances, pas seulement un lieu de stockage.",
+              "sourceIds": [
+                "missions-bib"
+              ]
+            }
+          ],
+          "outro": "L’affiche distingue les usages. L’habitante s’installe à une table et Jeanne repart avec un message clair pour son association. Dans votre carnet, vous notez : « Comprendre un droit peut commencer par permettre d’entrer. »"
+        },
+        {
+          "id": "cult-3",
+          "title": "La charte de l’accueil",
+          "story": "L’équipe prépare une charte pour les nouveaux agents. À toi de reconnaître les engagements compatibles avec la neutralité.",
+          "requiredBooks": [
+            "accueil"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q16",
+              "prompt": "Un agent propose de faire passer d’abord un lecteur qui partage ses convictions. Cette préférence est-elle compatible avec ses obligations ?",
+              "choices": [
+                "Oui, si le règlement du service ne mentionne pas les convictions",
+                "Oui, si cette préférence reste sans incidence financière",
+                "Oui, si l’usager a déjà participé à une activité municipale",
+                "Non, il doit traiter les personnes de façon égale"
+              ],
+              "answer": 3,
+              "explanation": "Les convictions personnelles ne doivent pas déterminer le traitement d’un usager par l’agent.",
+              "sourceIds": [
+                "neutralite"
+              ]
+            },
+            {
+              "id": "q17",
+              "prompt": "La charte rappelle la neutralité. Dans quel cadre cette obligation s’impose-t-elle à l’agent public ?",
+              "choices": [
+                "Dans l’exercice de ses fonctions",
+                "Seulement lorsqu’il représente officiellement le maire",
+                "Seulement lorsqu’il occupe un poste de direction",
+                "Seulement pendant les périodes électorales"
+              ],
+              "answer": 0,
+              "explanation": "La neutralité est une obligation de l’agent public dans l’exercice de ses fonctions.",
+              "sourceIds": [
+                "neutralite"
+              ]
+            },
+            {
+              "id": "q18",
+              "prompt": "Quelle formulation retenir pour la charte de la médiathèque ?",
+              "choices": [
+                "Réserver l’accueil prioritaire aux usagers partageant les orientations de l’équipe",
+                "Respecter la liberté de conscience et la dignité de chacun",
+                "Étendre automatiquement aux usagers toutes les obligations de neutralité des agents",
+                "Autoriser l’agent à manifester ses opinions religieuses s’il traite ensuite les dossiers rapidement"
+              ],
+              "answer": 1,
+              "explanation": "La neutralité s’accompagne du respect de chaque personne et de sa liberté de conscience.",
+              "sourceIds": [
+                "neutralite"
+              ]
+            }
+          ],
+          "outro": "La charte est corrigée puis confiée à l’équipe pour sa mise au point. Jeanne la trouve plus rassurante : elle parle de personnes et de comportements. Le projet commence à acquérir une identité commune."
+        }
+      ]
+    },
+    {
+      "id": "finances",
+      "title": "Les comptes de la ville",
+      "subtitle": "Distinguer fonctionnement, investissement et charges futures.",
+      "domain": "Finances",
+      "scene": "finance",
+      "mentor": "Karim Benali",
+      "intro": "Distinguer fonctionnement, investissement et charges futures.",
+      "missions": [
+        {
+          "id": "fin-1",
+          "title": "Construire et faire vivre",
+          "story": "Une salle va être rénovée. Classe les dépenses principales avant de présenter le projet. Les cas sont simplifiés et les montants fictifs.",
+          "requiredBooks": [
+            "sections"
+          ],
+          "optionalBooks": [
+            "ressources-livre"
+          ],
+          "questions": [
+            {
+              "id": "q19",
+              "prompt": "Les rémunérations courantes des agents relèvent généralement de…",
+              "choices": [
+                "La section d’investissement, car elles développent les compétences",
+                "La section de fonctionnement",
+                "La section d’investissement lorsqu’elles sont récurrentes",
+                "Un budget autonome obligatoire distinct du budget communal"
+              ],
+              "answer": 1,
+              "explanation": "Les charges de personnel nécessaires au fonctionnement courant sont des dépenses de fonctionnement.",
+              "sourceIds": [
+                "budget"
+              ]
+            },
+            {
+              "id": "q20",
+              "prompt": "La construction d’un nouvel équipement relève généralement de…",
+              "choices": [
+                "La section de fonctionnement, car l’équipement accueille un service public",
+                "La section de fonctionnement dès lors qu’une subvention est obtenue",
+                "L’investissement",
+                "Les seules opérations de trésorerie sans incidence budgétaire"
+              ],
+              "answer": 2,
+              "explanation": "Une construction enrichit le patrimoine. Son exploitation générera ensuite des dépenses courantes.",
+              "sourceIds": [
+                "budget"
+              ]
+            },
+            {
+              "id": "q21",
+              "prompt": "Pour comparer deux projets, que faut-il ajouter au coût des travaux ?",
+              "choices": [
+                "Uniquement les subventions attendues pour les travaux",
+                "Uniquement les dépenses payées avant l’ouverture",
+                "Aucune dépense supplémentaire si le bâtiment appartient à la commune",
+                "Les charges futures d’exploitation et d’entretien"
+              ],
+              "answer": 3,
+              "explanation": "L’énergie, l’entretien et les moyens humains peuvent peser durablement sur le fonctionnement.",
+              "sourceIds": [
+                "budget"
+              ]
+            }
+          ],
+          "outro": "Votre tableau distingue les grandes catégories et les charges futures. Le scénario le moins cher à construire n’apparaît plus automatiquement comme le plus soutenable. Le maire demande une comparaison complète."
+        },
+        {
+          "id": "fin-2",
+          "title": "Un budget sincère",
+          "story": "Une aide financière est évoquée mais pas acquise. Le projet présente aussi des charges annuelles. Examine les propositions de financement.",
+          "requiredBooks": [
+            "equilibre-livre"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q22",
+              "prompt": "Pour équilibrer le projet, un service propose une recette qu’il sait fictive. Le vote du conseil suffirait-il à rendre cette prévision acceptable ?",
+              "choices": [
+                "Non, les prévisions doivent être sincères",
+                "Oui, si l’assemblée délibérante accepte cette hypothèse",
+                "Oui, à condition de la présenter comme une recette exceptionnelle",
+                "Oui, si une décision modificative pourra être votée plus tard"
+              ],
+              "answer": 0,
+              "explanation": "L’équilibre réel exige la sincérité des évaluations ; un total équilibré artificiellement ne suffit pas.",
+              "sourceIds": [
+                "equilibre",
+                "equilibre-legal"
+              ]
+            },
+            {
+              "id": "q23",
+              "prompt": "Les charges annuelles du nouvel équipement dépassent les recettes courantes. Un emprunt peut-il normalement combler ce déficit de fonctionnement ?",
+              "choices": [
+                "Oui, si l’emprunt est remboursé avant la fin du mandat",
+                "Non, il finance l’investissement dans le cadre légal",
+                "Oui, dès lors que le service répond à un intérêt général",
+                "Oui, si le prêteur est un établissement public"
+              ],
+              "answer": 1,
+              "explanation": "La règle d’équilibre réel exclut le recours à l’emprunt pour financer un déséquilibre courant de fonctionnement.",
+              "sourceIds": [
+                "equilibre",
+                "equilibre-legal"
+              ]
+            },
+            {
+              "id": "q24",
+              "prompt": "Une subvention est évoquée pour les travaux, sans attribution acquise. Quel raisonnement retenir pour la prévision budgétaire ?",
+              "choices": [
+                "Inscrire automatiquement l’intégralité de la somme demandée",
+                "Assimiler l’annonce à une attribution ferme sans examiner les conditions",
+                "Examiner ses conditions et la fiabilité de la prévision",
+                "Supprimer par principe toute recette qui provient d’une autre personne publique"
+              ],
+              "answer": 2,
+              "explanation": "La construction du budget demande une évaluation sincère des recettes attendues et de leurs conditions.",
+              "sourceIds": [
+                "equilibre"
+              ]
+            }
+          ],
+          "outro": "Vous présentez les risques sans les dissimuler. Les élus retiennent l’étude d’un phasage et demandent des prévisions étayées. Jeanne apprend que tout n’ouvrira peut-être pas simultanément ; elle est déçue, mais remercie Marianne de l’avoir prévenue directement."
+        },
+        {
+          "id": "fin-3",
+          "title": "La facture des nouveaux livres",
+          "story": "La médiathèque a reçu sa commande. Malik t’invite à suivre le dossier jusqu’au paiement et à identifier les rôles.",
+          "requiredBooks": [
+            "payer"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q25",
+              "prompt": "La facture des livres rejoint le circuit de la dépense. Qui exerce la fonction d’ordonnateur dans la commune ?",
+              "choices": [
+                "Le directeur des finances, du seul fait de sa fonction",
+                "Le comptable public affecté à la commune",
+                "Le préfet, parce qu’il représente l’État",
+                "Le maire"
+              ],
+              "answer": 3,
+              "explanation": "Le maire exerce la fonction d’ordonnateur communal ; le comptable public a une fonction distincte.",
+              "sourceIds": [
+                "comptable"
+              ]
+            },
+            {
+              "id": "q26",
+              "prompt": "Une facture arrive alors que la réception des livres n’est pas encore vérifiée. Quel contrôle faut-il préparer ?",
+              "choices": [
+                "Vérifier les biens livrés et les pièces du dossier",
+                "Considérer la seule réception de la facture comme preuve suffisante de livraison",
+                "Demander au comptable de décider si les ouvrages sont culturellement pertinents",
+                "Payer avant toute vérification dès lors que les crédits étaient prévus"
+              ],
+              "answer": 0,
+              "explanation": "La réalité de la prestation et la cohérence des pièces permettent de préparer une dépense régulière.",
+              "sourceIds": [
+                "comptable"
+              ]
+            },
+            {
+              "id": "q27",
+              "prompt": "Le comptable préfère consacrer l’argent à un autre équipement. Peut-il refuser le paiement pour ce seul motif d’opportunité ?",
+              "choices": [
+                "Oui, car son contrôle remplace l’arbitrage de l’ordonnateur",
+                "Non, son contrôle ne porte pas sur l’opportunité de la décision",
+                "Oui, dès lors qu’un autre projet aurait été moins coûteux",
+                "Oui, lorsqu’il n’a pas été associé au choix politique initial"
+              ],
+              "answer": 1,
+              "explanation": "Le CGCT distingue les contrôles du comptable de l’appréciation de l’opportunité des décisions de l’ordonnateur.",
+              "sourceIds": [
+                "controle-comptable"
+              ]
+            }
+          ],
+          "outro": "Maya organise la vérification des livres et Malik rassemble les pièces. Vous avez relié les personnes derrière les colonnes du budget. Karim vous confie désormais la préparation des points de suivi du projet."
+        }
+      ]
+    },
+    {
+      "id": "rh",
+      "title": "Une équipe à faire grandir",
+      "subtitle": "Associer droits et obligations dans le livret d’accueil.",
+      "domain": "Ressources humaines",
+      "scene": "meeting",
+      "mentor": "Claire",
+      "intro": "Associer droits et obligations dans le livret d’accueil.",
+      "missions": [
+        {
+          "id": "rh-1",
+          "title": "Le premier jour",
+          "story": "Prépare les repères essentiels du livret d’accueil. Les agents ont des obligations, mais aussi des droits.",
+          "requiredBooks": [
+            "agent"
+          ],
+          "optionalBooks": [
+            "interets"
+          ],
+          "questions": [
+            {
+              "id": "q28",
+              "prompt": "Quel comportement illustre l’impartialité ?",
+              "choices": [
+                "Traiter prioritairement le dossier d’un proche pour gagner du temps",
+                "Écarter un dossier parce que son auteur critique la collectivité",
+                "Examiner les dossiers sans préférence personnelle",
+                "Accorder un avantage à un usager soutenant le projet municipal"
+              ],
+              "answer": 2,
+              "explanation": "L’impartialité conduit à traiter les dossiers selon les critères pertinents et les règles applicables.",
+              "sourceIds": [
+                "probite"
+              ]
+            },
+            {
+              "id": "q29",
+              "prompt": "Quel élément fait partie des droits des agents publics ?",
+              "choices": [
+                "Le droit d’écarter toute instruction jugée inadaptée",
+                "Le droit d’utiliser les fichiers du service à des fins privées",
+                "Le droit d’accorder des avantages aux usagers connus",
+                "Le droit à la formation professionnelle"
+              ],
+              "answer": 3,
+              "explanation": "La formation tout au long de la vie fait partie des droits des agents, selon des dispositifs encadrés.",
+              "sourceIds": [
+                "droits"
+              ]
+            },
+            {
+              "id": "q30",
+              "prompt": "Quelle présentation de la fonction publique est la plus juste ?",
+              "choices": [
+                "Elle associe droits et obligations",
+                "Les obligations de neutralité suppriment toute liberté d’opinion personnelle",
+                "Les droits des agents permettent d’écarter les règles de fonctionnement du service",
+                "Les obligations déontologiques ne concernent que les agents chargés de marchés"
+              ],
+              "answer": 0,
+              "explanation": "Les droits, comme la liberté d’opinion, coexistent avec les obligations liées à l’exercice des fonctions.",
+              "sourceIds": [
+                "droits"
+              ]
+            }
+          ],
+          "outro": "Le livret accueille désormais les droits autant que les obligations. Lucie propose de servir de référente aux nouveaux collègues. Vous découvrez que faire grandir le service commence aussi par rassurer celles et ceux qui le font fonctionner."
+        },
+        {
+          "id": "rh-2",
+          "title": "Une consigne à clarifier",
+          "story": "Une instruction soulève une difficulté. Lis le code dans ta sacoche avant de choisir une réaction et sa justification.",
+          "requiredBooks": [
+            "instructions"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q31",
+              "prompt": "Une consigne pose une difficulté. Quelle combinaison correspond à l’exception légale à l’obéissance hiérarchique ?",
+              "choices": [
+                "Controversé au sein de l’équipe, même s’il est légal",
+                "Un ordre manifestement illégal et susceptible de compromettre gravement un intérêt public",
+                "Moins efficace que la solution préférée par l’agent",
+                "Illégal de manière seulement supposée, sans autre condition"
+              ],
+              "answer": 1,
+              "explanation": "Les deux conditions légales sont cumulatives. Un simple désaccord ne caractérise pas cette exception.",
+              "sourceIds": [
+                "obeissance"
+              ]
+            },
+            {
+              "id": "q32",
+              "prompt": "Un agent préfère l’ancien planning et propose une meilleure organisation. Ce seul désaccord suffit-il à écarter toute instruction ?",
+              "choices": [
+                "Oui, dès que la majorité de l’équipe partage ce désaccord",
+                "Oui, si l’agent propose une autre organisation",
+                "Non, ce n’est pas en soi l’exception prévue par le code",
+                "Oui, si l’instruction n’a pas été précédée d’un vote du conseil municipal"
+              ],
+              "answer": 2,
+              "explanation": "Il faut distinguer le désaccord professionnel du cas strict de l’ordre manifestement illégal compromettant gravement un intérêt public.",
+              "sourceIds": [
+                "obeissance"
+              ]
+            },
+            {
+              "id": "q33",
+              "prompt": "Tu repères une difficulté dans une consigne, mais son cadre doit encore être clarifié. Quel réflexe professionnel est le plus utile ?",
+              "choices": [
+                "Appliquer une règle différente sans en informer la hiérarchie",
+                "Traiter toute incertitude comme une autorisation générale de désobéir",
+                "Suspendre systématiquement toutes les activités du service",
+                "Exposer les faits, demander une clarification et signaler le risque"
+              ],
+              "answer": 3,
+              "explanation": "Cette démarche de gestion aide à comprendre et traiter la difficulté ; elle ne remplace pas les conditions légales de l’exception.",
+              "sourceIds": [
+                "obeissance",
+                "deontologie"
+              ]
+            }
+          ],
+          "outro": "Une demande de clarification remplace les messages contradictoires. Les responsables examinent la consigne avec les éléments complets. Lucie sait à qui transmettre les faits et Marianne souligne votre prudence : vous avez évité une conclusion hâtive."
+        },
+        {
+          "id": "rh-3",
+          "title": "Un nouvel outil pour tous",
+          "story": "Le logiciel d’accueil change. Certains agents ont besoin d’aide. Ton objectif est d’organiser une transition utile au service.",
+          "requiredBooks": [
+            "collectif"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q34",
+              "prompt": "Après le changement de logiciel, les délais augmentent. Quelle première démarche aide à comprendre la situation ?",
+              "choices": [
+                "Observer les tâches, les moyens et les besoins",
+                "Conclure immédiatement à une insuffisance individuelle de tous les agents",
+                "Modifier l’organisation sans recueillir d’information sur le travail",
+                "Évaluer uniquement le nombre de courriels envoyés par chaque agent"
+              ],
+              "answer": 0,
+              "explanation": "Observer l’organisation réelle est une bonne pratique pour identifier les obstacles et les besoins d’accompagnement.",
+              "sourceIds": [
+                "qvct"
+              ]
+            },
+            {
+              "id": "q35",
+              "prompt": "Claire propose un accompagnement au nouvel outil. Quel objectif correspond au rôle de la formation professionnelle ?",
+              "choices": [
+                "Garantir automatiquement une promotion après chaque session",
+                "Accompagner l’évolution des métiers et des compétences",
+                "Remplacer toute définition des responsabilités",
+                "Réserver l’apprentissage aux seuls agents nouvellement recrutés"
+              ],
+              "answer": 1,
+              "explanation": "La formation accompagne l’adaptation et les parcours. Ses effets ne se confondent pas avec une promotion automatique.",
+              "sourceIds": [
+                "formation"
+              ]
+            },
+            {
+              "id": "q36",
+              "prompt": "La démonstration du logiciel est terminée. Quelle démarche aide à vérifier que le changement fonctionne dans le travail réel ?",
+              "choices": [
+                "Considérer toute difficulté ultérieure comme un refus d’obéissance",
+                "Évaluer uniquement la présence à la première démonstration",
+                "Un point de suivi pour ajuster l’accompagnement",
+                "Supprimer toute assistance pour vérifier l’autonomie immédiatement"
+              ],
+              "answer": 2,
+              "explanation": "Un suivi permet d’identifier les difficultés persistantes. Il s’agit ici d’une bonne pratique de management.",
+              "sourceIds": [
+                "qvct"
+              ]
+            }
+          ],
+          "outro": "Claire organise un accompagnement ciblé et un point de suivi. Lucie retrouve progressivement ses repères. Dans votre carnet, la préparation de l’ouverture comporte désormais du temps de formation et de retour d’expérience."
+        }
+      ]
+    },
+    {
+      "id": "transition",
+      "title": "La rivière et les quartiers",
+      "subtitle": "Vérifier les compétences avant de répartir les interventions.",
+      "domain": "Politiques publiques",
+      "scene": "river",
+      "mentor": "Aïcha",
+      "intro": "Vérifier les compétences avant de répartir les interventions.",
+      "missions": [
+        {
+          "id": "trans-1",
+          "title": "À qui appartient la mission ?",
+          "story": "Avant de répartir le projet, retrouve la compétence dans les documents intercommunaux. Le dossier local doit être consulté : la carte ne suffit pas.",
+          "requiredBooks": [
+            "interco-livre"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q37",
+              "prompt": "Le principe de spécialité signifie qu’un EPCI…",
+              "choices": [
+                "Peut intervenir sur toute question d’intérêt local",
+                "Dispose de toutes les compétences communales dès sa création",
+                "Peut modifier seul les compétences que la loi lui attribue",
+                "Agit dans le champ des compétences qui lui sont attribuées"
+              ],
+              "answer": 3,
+              "explanation": "L’EPCI exerce les compétences qui lui appartiennent en vertu des textes et transferts.",
+              "sourceIds": [
+                "interco"
+              ]
+            },
+            {
+              "id": "q38",
+              "prompt": "Quel document aide à déterminer la compétence intercommunale ?",
+              "choices": [
+                "Les statuts et actes de transfert applicables",
+                "Le seul nom commercial du projet",
+                "Le montant de la subvention envisagée",
+                "L’identité du service qui a formulé l’idée en premier"
+              ],
+              "answer": 0,
+              "explanation": "Les statuts, transferts et précisions telles que l’intérêt communautaire sont essentiels à cette analyse.",
+              "sourceIds": [
+                "interco"
+              ]
+            },
+            {
+              "id": "q39",
+              "prompt": "La grande taille d’un projet suffit-elle à le rendre intercommunal ?",
+              "choices": [
+                "Oui, dès lors qu’il dépasse les moyens financiers d’une commune",
+                "Non, il faut vérifier la compétence",
+                "Oui, dès lors qu’un financement intercommunal est envisagé",
+                "Oui, dès lors que plusieurs élus soutiennent le projet"
+              ],
+              "answer": 1,
+              "explanation": "La compétence ne se déduit pas de la seule taille ou notoriété d’un projet.",
+              "sourceIds": [
+                "interco"
+              ]
+            }
+          ],
+          "outro": "Votre tableau distingue les besoins et les compétences à vérifier. La réunion partenariale partira de ces pièces, sans attribuer automatiquement tous les travaux à un acteur. Jeanne apprécie de savoir pourquoi certaines réponses demandent un délai."
+        },
+        {
+          "id": "trans-2",
+          "title": "Des berges pour les étés futurs",
+          "story": "Aïcha présente plusieurs aménagements. Apprends à distinguer les objectifs climatiques avant de comparer les options.",
+          "requiredBooks": [
+            "climat-livre"
+          ],
+          "optionalBooks": [
+            "achat-livre"
+          ],
+          "questions": [
+            {
+              "id": "q40",
+              "prompt": "Aïcha propose de réduire les émissions liées aux déplacements du projet. À quelle démarche climatique rattacher cet objectif ?",
+              "choices": [
+                "La seule adaptation aux dommages déjà produits",
+                "La déconcentration des services environnementaux",
+                "L’atténuation",
+                "Le transfert automatique de compétence climatique"
+              ],
+              "answer": 2,
+              "explanation": "L’atténuation agit sur les causes du changement climatique, notamment les émissions.",
+              "sourceIds": [
+                "climat"
+              ]
+            },
+            {
+              "id": "q41",
+              "prompt": "Une seconde proposition vise à rendre les berges plus supportables lors des fortes chaleurs. Quel objectif vise-t-elle principalement ?",
+              "choices": [
+                "L’atténuation, à l’exclusion de toute autre démarche",
+                "La seule politique de communication du territoire",
+                "La neutralité administrative du projet",
+                "L’adaptation"
+              ],
+              "answer": 3,
+              "explanation": "L’adaptation cherche à réduire les effets dommageables du climat actuel et futur.",
+              "sourceIds": [
+                "climat"
+              ]
+            },
+            {
+              "id": "q42",
+              "prompt": "Un aménagement protège un secteur mais accroît la vulnérabilité d’un autre. Quel risque faut-il examiner ?",
+              "choices": [
+                "Une mal-adaptation",
+                "Une atténuation nécessairement efficace",
+                "Une adaptation réussie dès lors que le coût initial est faible",
+                "Un transfert de compétence au sens du CGCT"
+              ],
+              "answer": 0,
+              "explanation": "Une réponse apparemment utile peut augmenter la vulnérabilité ailleurs ou plus tard : il faut examiner ces effets.",
+              "sourceIds": [
+                "climat"
+              ]
+            }
+          ],
+          "outro": "Les propositions sont classées par objectifs et leurs effets possibles sont consignés. Les services compétents poursuivent l’étude. Jeanne demande que les habitants puissent discuter des usages avant que les options soient figées."
+        },
+        {
+          "id": "trans-3",
+          "title": "La table des habitants",
+          "story": "Les riverains sont invités à discuter du projet. Prépare une démarche où les contributions peuvent être comprises et suivies.",
+          "requiredBooks": [
+            "concertation"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q43",
+              "prompt": "La mairie présente un projet fini sans permettre d’échange. Cette information constitue-t-elle à elle seule une concertation ?",
+              "choices": [
+                "Oui, dès lors que le public reçoit une information complète",
+                "Non, l’information ne suffit pas à elle seule",
+                "Oui, dès lors qu’un élu présente le projet",
+                "Oui, dès lors que la réunion est ouverte à tous"
+              ],
+              "answer": 1,
+              "explanation": "Une démarche participative comporte une possibilité réelle d’expression et d’échange, au-delà de l’information.",
+              "sourceIds": [
+                "participation"
+              ]
+            },
+            {
+              "id": "q44",
+              "prompt": "Des participants pensent que chaque proposition exprimée obligera la commune. Quelle précision apporter ?",
+              "choices": [
+                "Oui, toute concertation équivaut à un référendum décisionnel",
+                "Oui, le responsable du projet est lié par chaque avis exprimé",
+                "Non, il faut distinguer influence et responsabilité de décision",
+                "Oui, dès qu’une majorité des personnes présentes soutient une option"
+              ],
+              "answer": 2,
+              "explanation": "La participation peut influencer la décision sans constituer automatiquement une codécision.",
+              "sourceIds": [
+                "participation"
+              ]
+            },
+            {
+              "id": "q45",
+              "prompt": "Les contributions sur les berges ont été recueillies. Quelle pratique donne de la lisibilité à la suite du processus ?",
+              "choices": [
+                "Publier uniquement le nombre de participants sans autre restitution",
+                "Affirmer que tout avis exprimé constitue une décision obligatoire",
+                "Écarter les contributions qui n’étaient pas prévues par le projet initial",
+                "Expliquer les suites données aux propositions"
+              ],
+              "answer": 3,
+              "explanation": "Rendre compte des suites permet au public de comprendre comment ses contributions ont été considérées.",
+              "sourceIds": [
+                "participation"
+              ]
+            }
+          ],
+          "outro": "Le cadre est clarifié et un retour est prévu. Certaines propositions alimentent la suite des études ; d’autres nécessitent des explications. Jeanne accepte de participer au groupe de suivi parce qu’elle connaît désormais la place de son avis."
+        }
+      ]
+    },
+    {
+      "id": "numerique",
+      "title": "La maison des services",
+      "subtitle": "Préparer un formulaire proportionné à son objectif.",
+      "domain": "Numérique et évaluation",
+      "scene": "forum",
+      "mentor": "Léa",
+      "intro": "Préparer un formulaire proportionné à son objectif.",
+      "missions": [
+        {
+          "id": "num-1",
+          "title": "Le formulaire juste nécessaire",
+          "story": "Le formulaire d’inscription aux ateliers comporte trop de champs. Consulte le guide de protection des données pour proposer une version plus sobre.",
+          "requiredBooks": [
+            "rgpd"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q46",
+              "prompt": "Quel principe limite les informations collectées au nécessaire ?",
+              "choices": [
+                "La minimisation",
+                "La conservation patrimoniale de toutes les données",
+                "L’ouverture systématique des fichiers à tous les agents",
+                "La collecte préventive de toute information potentiellement utile"
+              ],
+              "answer": 0,
+              "explanation": "La collecte doit être proportionnée à la finalité poursuivie. Une information disponible n’est pas forcément nécessaire.",
+              "sourceIds": [
+                "donnees"
+              ]
+            },
+            {
+              "id": "q47",
+              "prompt": "Peut-on conserver tous les dossiers sans limite par simple précaution ?",
+              "choices": [
+                "Oui, dès lors que les données ont été collectées par un service public",
+                "Non, il faut définir durée et devenir selon les règles applicables",
+                "Oui, si aucun usager ne demande leur suppression",
+                "Oui, dès lors qu’elles sont stockées sur un serveur sécurisé"
+              ],
+              "answer": 1,
+              "explanation": "La conservation doit être justifiée, avec prise en compte des obligations légales, notamment d’archivage.",
+              "sourceIds": [
+                "donnees"
+              ]
+            },
+            {
+              "id": "q48",
+              "prompt": "Avant de choisir les données d’un formulaire, il faut d’abord préciser…",
+              "choices": [
+                "Le nombre de champs déjà utilisés dans un autre service",
+                "Le maximum de données que le logiciel peut stocker",
+                "La finalité du traitement",
+                "La préférence du prestataire pour un formulaire complet"
+              ],
+              "answer": 2,
+              "explanation": "La finalité permet de déterminer quelles informations sont réellement nécessaires.",
+              "sourceIds": [
+                "donnees"
+              ]
+            }
+          ],
+          "outro": "Le brouillon devient plus sobre et les points à faire vérifier sont consignés. Les responsables concernés arrêtent ensuite les modalités applicables. Lucie dispose d’explications plus claires pour accueillir les inscriptions."
+        },
+        {
+          "id": "num-2",
+          "title": "Personne au bord du chemin",
+          "story": "Un habitant est bloqué dans sa démarche en ligne. Léa souhaite l’aider tout en protégeant la confidentialité de son dossier.",
+          "requiredBooks": [
+            "inclusion-livre"
+          ],
+          "optionalBooks": [],
+          "questions": [
+            {
+              "id": "q49",
+              "prompt": "Le formulaire est en ligne vingt-quatre heures sur vingt-quatre. Cela suffit-il à démontrer que tous les habitants peuvent accéder au service ?",
+              "choices": [
+                "Oui, dès lors que le site est disponible en permanence",
+                "Oui, dès lors que les agents savent l’utiliser",
+                "Oui, dès lors que le formulaire remplace une démarche papier",
+                "Non, des obstacles d’usage ou d’équipement peuvent subsister"
+              ],
+              "answer": 3,
+              "explanation": "La dématérialisation peut simplifier et aussi exclure. L’accès effectif doit être examiné.",
+              "sourceIds": [
+                "inclusion"
+              ]
+            },
+            {
+              "id": "q50",
+              "prompt": "Un usager reste bloqué dans la démarche numérique. Quelle orientation suit la recommandation étudiée du Défenseur des droits ?",
+              "choices": [
+                "Maintenir des contacts et un accompagnement humains",
+                "Réserver toute aide aux seuls usagers possédant déjà un compte en ligne",
+                "Considérer les blocages techniques comme sans effet sur l’accès aux droits",
+                "Supprimer l’accueil physique dès qu’un formulaire existe"
+              ],
+              "answer": 0,
+              "explanation": "Le Défenseur des droits recommande des alternatives et un accompagnement pour éviter la perte d’accès aux droits.",
+              "sourceIds": [
+                "inclusion"
+              ]
+            },
+            {
+              "id": "q51",
+              "prompt": "Pour accompagner cet usager, l’équipe envisage d’ouvrir son dossier à toute la collectivité. Qui devrait pouvoir y accéder ?",
+              "choices": [
+                "Tous les agents de la collectivité, quel que soit leur rôle",
+                "Les personnes habilitées qui en ont besoin pour leur mission",
+                "Tous les partenaires du projet, dès lors qu’ils sont publics",
+                "Tout encadrant, même sans lien avec le dossier"
+              ],
+              "answer": 1,
+              "explanation": "Les accès doivent être limités aux besoins des missions et aux habilitations adaptées.",
+              "sourceIds": [
+                "securite"
+              ]
+            }
+          ],
+          "outro": "L’équipe organise un accompagnement et garde les accès dans le périmètre nécessaire. L’habitant retrouve un interlocuteur. Jeanne vous dit que la manufacture commence enfin à ressembler au lieu qu’elle imaginait : un endroit où l’on peut demander de l’aide."
+        },
+        {
+          "id": "num-3",
+          "title": "Ce que notre action a changé",
+          "story": "La première saison s’achève. Le nombre d’ateliers est connu, mais Léa veut comprendre ce qu’ils ont apporté. Prépare le bilan.",
+          "requiredBooks": [
+            "evaluer"
+          ],
+          "optionalBooks": [
+            "preuves"
+          ],
+          "questions": [
+            {
+              "id": "q52",
+              "prompt": "Le bilan doit déterminer si la maison des services a atteint ses objectifs. Quelle dimension examine-t-on ?",
+              "choices": [
+                "Du seul montant des crédits consommés",
+                "Du seul nombre de réunions organisées",
+                "De l’atteinte des objectifs",
+                "De la seule conformité des factures"
+              ],
+              "answer": 2,
+              "explanation": "L’efficacité examine les résultats par rapport aux objectifs fixés.",
+              "sourceIds": [
+                "evaluation"
+              ]
+            },
+            {
+              "id": "q53",
+              "prompt": "Deux dispositifs obtiennent des résultats comparables avec des moyens différents. Quelle relation examine l’efficience ?",
+              "choices": [
+                "Le respect formel du calendrier et le nombre de pages du bilan",
+                "La satisfaction des élus et la couverture médiatique",
+                "Le montant dépensé et le montant voté, sans examiner les résultats",
+                "Les résultats obtenus et les moyens mobilisés"
+              ],
+              "answer": 3,
+              "explanation": "L’efficience interroge les moyens employés pour obtenir les résultats.",
+              "sourceIds": [
+                "evaluation"
+              ]
+            },
+            {
+              "id": "q54",
+              "prompt": "L’objectif est que les participants deviennent plus autonomes. Quel indicateur est le plus proche de cet effet recherché ?",
+              "choices": [
+                "Leur capacité à réaliser une démarche après l’accompagnement",
+                "Le nombre d’ateliers programmés, sans observation des participants",
+                "Le nombre d’heures d’ouverture de la salle, sans suivi des usages",
+                "Le montant des crédits engagés, indépendamment des effets"
+              ],
+              "answer": 0,
+              "explanation": "L’autonomie observée est plus proche de l’effet recherché qu’un simple compteur d’activité ou de communication.",
+              "sourceIds": [
+                "igas",
+                "evaluation"
+              ]
+            }
+          ],
+          "outro": "Votre présentation distingue ce qui est observé de ce qui reste à établir. Les élus disposent de repères pour poursuivre l’action. À la sortie, Marianne vous rend votre carnet : « Vous savez maintenant relier les textes, les moyens et les personnes. Gardez cette habitude. » Dans la cour, Jeanne attend Lucie pour un nouvel atelier. La manufacture a changé ; votre manière de regarder la ville aussi."
+        }
+      ]
+    }
+  ],
+  "sideQuests": [
+    {
+      "id": "side-institutions",
+      "chapterId": "institutions",
+      "title": "Le carnet de la République",
+      "story": "Aux archives, Marianne retrouve un petit carnet sur la libre administration. « Le maire parle souvent de liberté d’action. Ce texte vous aidera à comprendre ce que cette liberté permet, et ce qui l’encadre. Gardez-le dans votre sacoche. »",
+      "bookId": "libre-administration",
+      "question": {
+        "id": "side-institutions-q",
+        "prompt": "La libre administration permet-elle à une commune d’écarter toute loi nationale ?",
+        "choices": [
+          "Oui, si le conseil municipal adopte une délibération unanime",
+          "Non, elle s’exerce dans les conditions prévues par la loi",
+          "Oui, si l’action est financée exclusivement par les ressources communales",
+          "Oui, si la décision ne concerne que les habitants de la commune"
+        ],
+        "answer": 1,
+        "explanation": "La libre administration est constitutionnellement reconnue et s’exerce dans un cadre légal.",
+        "sourceIds": [
+          "constitution"
+        ]
+      }
+    },
+    {
+      "id": "side-culture",
+      "chapterId": "culture",
+      "title": "Le rayon des futurs attachés",
+      "story": "Au fond de la médiathèque, Maya prépare un rayon consacré aux métiers publics. Elle sait que vous préparez le concours d’attaché. « Nous pouvons travailler les notions ici ; pour voir les vrais sujets, il faut aussi reconnaître les sources officielles. »",
+      "bookId": "culture-concours",
+      "question": {
+        "id": "side-culture-q",
+        "prompt": "Où consulter des annales officielles d’attaché en administration générale ?",
+        "choices": [
+          "Dans les seuls QCM originaux du jeu",
+          "Dans tout guide commercial, sans vérifier sa provenance",
+          "Sur le portail officiel Concours-Territorial et les sites des centres de gestion",
+          "Uniquement dans les rapports annuels d’activité des communes"
+        ],
+        "answer": 2,
+        "explanation": "Les sources liées à ce livre donnent accès aux annales et cadrages. Les QCM de Territoires restent des créations originales.",
+        "sourceIds": [
+          "annales"
+        ]
+      }
+    },
+    {
+      "id": "side-finances",
+      "chapterId": "finances",
+      "title": "Le petit atlas des recettes",
+      "story": "À la fin d’une réunion, Karim vous prête son atlas des recettes. « Jeanne a trouvé une piste d’aide pour du matériel. C’est utile. Mais comment fera-t-on vivre le service les années suivantes ? Prenez le temps de lire avant de répondre. »",
+      "bookId": "ressources-livre",
+      "question": {
+        "id": "side-finances-q",
+        "prompt": "Une subvention ponctuelle garantit-elle à elle seule le financement annuel futur d’un service ?",
+        "choices": [
+          "Oui, dès lors que son montant couvre les frais de lancement",
+          "Oui, car toute subvention est reconduite automatiquement",
+          "Oui, si le service correspond à un besoin durable",
+          "Non, il faut examiner les ressources et charges récurrentes"
+        ],
+        "answer": 3,
+        "explanation": "Une aide liée à une opération ne garantit pas la pérennité du financement du fonctionnement.",
+        "sourceIds": [
+          "ressources"
+        ]
+      }
+    },
+    {
+      "id": "side-rh",
+      "chapterId": "rh",
+      "title": "Le marque-page de la déontologie",
+      "story": "Une collègue confie à Claire qu’un proche travaille pour un organisme concerné par son dossier. Elle n’a accordé aucune faveur, mais veut savoir comment prévenir une difficulté. Claire vous propose de relire ensemble le marque-page de déontologie.",
+      "bookId": "interets",
+      "question": {
+        "id": "side-rh-q",
+        "prompt": "Un conflit d’intérêts peut-il exister sans faveur effectivement accordée ?",
+        "choices": [
+          "Oui, l’apparence d’une influence peut suffire à caractériser un risque",
+          "Non, il faut qu’un avantage financier ait déjà été versé",
+          "Non, tant que l’agent affirme être personnellement impartial",
+          "Non, seuls les élus peuvent être en conflit d’intérêts"
+        ],
+        "answer": 0,
+        "explanation": "Le code vise aussi une interférence de nature à paraître influencer l’exercice impartial des fonctions.",
+        "sourceIds": [
+          "deontologie"
+        ]
+      }
+    },
+    {
+      "id": "side-transition",
+      "chapterId": "transition",
+      "title": "Le banc qui dure",
+      "story": "Sur les berges, Jeanne imagine des bancs où attendre avant les ateliers. Aïcha vous prête un carnet d’achat public : « Avant de comparer les catalogues, demandons-nous à qui serviront ces bancs, où et dans quelles conditions. »",
+      "bookId": "achat-livre",
+      "question": {
+        "id": "side-transition-q",
+        "prompt": "Quelle étape précède le lancement de la consultation d’un marché ?",
+        "choices": [
+          "Choisir l’entreprise avant de définir les caractéristiques attendues",
+          "Définir précisément la nature et l’étendue du besoin",
+          "Arrêter la liste des factures à payer avant d’examiner l’usage",
+          "Retenir le seul prix d’achat sans préciser les prestations nécessaires"
+        ],
+        "answer": 1,
+        "explanation": "Le code de la commande publique impose de déterminer précisément les besoins avant le lancement de la consultation.",
+        "sourceIds": [
+          "besoin"
+        ]
+      }
+    },
+    {
+      "id": "side-numerique",
+      "chapterId": "numerique",
+      "title": "Les chiffres racontent-ils tout ?",
+      "story": "Après la première saison, Léa reçoit quelques questionnaires enthousiastes. Jeanne s’en réjouit, puis demande : « Et ceux qui ne sont jamais venus ? » Un carnet de lecture critique vous aide à préparer une conclusion mesurée.",
+      "bookId": "preuves",
+      "question": {
+        "id": "side-numerique-q",
+        "prompt": "Un questionnaire rempli spontanément par quelques usagers représente-t-il nécessairement toute la population ?",
+        "choices": [
+          "Oui, dès lors que le questionnaire est public",
+          "Oui, si les répondants sont très satisfaits",
+          "Non, il faut examiner qui répond et qui manque",
+          "Oui, si toutes les réponses ont été saisies dans le même logiciel"
+        ],
+        "answer": 2,
+        "explanation": "La méthode et les publics présents ou absents doivent être examinés. Croiser les informations renforce l’analyse.",
+        "sourceIds": [
+          "igas"
+        ]
+      }
+    }
+  ],
+  "codeEntries": [
+    {
+      "id": "const72",
+      "code": "Constitution",
+      "article": "Article 72",
+      "title": "Libre administration",
+      "summary": "Les collectivités s’administrent librement par des conseils élus dans les conditions prévues par la loi. Aucune collectivité ne peut exercer une tutelle sur une autre.",
+      "sourceIds": [
+        "constitution"
+      ]
+    },
+    {
+      "id": "cgct2121",
+      "code": "CGCT",
+      "article": "Article L2121-29",
+      "title": "Affaires de la commune",
+      "summary": "Le conseil municipal règle par délibérations les affaires communales, sous réserve des compétences attribuées à d’autres autorités.",
+      "sourceIds": [
+        "conseil"
+      ]
+    },
+    {
+      "id": "cgct1612",
+      "code": "CGCT",
+      "article": "Article L1612-4",
+      "title": "Équilibre réel",
+      "summary": "Les sections doivent être équilibrées avec des prévisions sincères. Les ressources prévues par ce texte, hors emprunt nouveau, doivent couvrir le remboursement du capital de la dette.",
+      "sourceIds": [
+        "equilibre-legal"
+      ]
+    },
+    {
+      "id": "cgct1617",
+      "code": "CGCT",
+      "article": "Article L1617-2",
+      "title": "Contrôle du comptable",
+      "summary": "Le comptable ne juge pas l’opportunité de la décision de l’ordonnateur. Il exerce notamment le contrôle des pièces requis par les textes.",
+      "sourceIds": [
+        "controle-comptable"
+      ]
+    },
+    {
+      "id": "cgfp1211",
+      "code": "CGFP",
+      "article": "Article L121-1",
+      "title": "Déontologie",
+      "summary": "Les fonctions de l’agent s’exercent avec dignité, impartialité, intégrité et probité.",
+      "sourceIds": [
+        "probite"
+      ]
+    },
+    {
+      "id": "cgfp1212",
+      "code": "CGFP",
+      "article": "Article L121-2",
+      "title": "Neutralité et laïcité",
+      "summary": "Dans ses fonctions, l’agent respecte la neutralité et la laïcité ; il traite les personnes de façon égale et respecte leur liberté de conscience.",
+      "sourceIds": [
+        "neutralite"
+      ]
+    },
+    {
+      "id": "cgfp12110",
+      "code": "CGFP",
+      "article": "Article L121-10",
+      "title": "Obéissance hiérarchique",
+      "summary": "L’exception au devoir d’obéissance suppose un ordre manifestement illégal et susceptible de compromettre gravement un intérêt public : les deux conditions se cumulent.",
+      "sourceIds": [
+        "obeissance"
+      ]
+    },
+    {
+      "id": "patrimoine320",
+      "code": "Code du patrimoine",
+      "article": "Articles L320-3 et L320-4",
+      "title": "Accès aux bibliothèques",
+      "summary": "Les bibliothèques municipales et intercommunales sont librement accessibles. Leur accès et la consultation sur place sont gratuits.",
+      "sourceIds": [
+        "bibliotheques"
+      ]
+    },
+    {
+      "id": "ccp3",
+      "code": "Code de la commande publique",
+      "article": "Article L3",
+      "title": "Principes de l’achat",
+      "summary": "Égalité de traitement, liberté d’accès et transparence encadrent la commande publique pour son efficacité et la bonne utilisation des deniers publics.",
+      "sourceIds": [
+        "achat"
+      ]
+    },
+    {
+      "id": "ccp2111",
+      "code": "Code de la commande publique",
+      "article": "Article L2111-1",
+      "title": "Définition du besoin",
+      "summary": "Le besoin doit être précisément défini avant la consultation, en considérant les dimensions économique, sociale et environnementale du développement durable.",
+      "sourceIds": [
+        "besoin"
+      ]
+    }
+  ],
+  "campaign": {
+    "title": "Une année pour faire ses preuves",
+    "prologue": [
+      "Le premier lundi de votre nouvelle mission, vous arrivez à Valrivière avec un carnet neuf et une nomination comme chargé de mission auprès de la direction générale. Sur le trajet de la mairie, vous avez aperçu la manufacture des Tilleuls : de grandes fenêtres fermées, des portes vertes et une cour envahie par la végétation.",
+      "La commune veut y réunir une bibliothèque de proximité, des ateliers associatifs et un accueil pour les démarches du quotidien. Pour Jeanne, dont l’association accompagne des familles, ce lieu doit ouvrir de vraies portes. Pour Lucie, qui reçoit chaque jour les habitants au guichet, il doit surtout leur éviter de repartir sans réponse.",
+      "Marianne Delmas, la directrice générale des services, vous confie le carnet de liaison du projet. « Vous ne déciderez pas seul. Votre rôle sera de comprendre, de vérifier, puis de nous aider à choisir. Nous avons une année pour construire un service qui tienne ses promesses. »",
+      "Votre premier rendez-vous commence dans dix minutes. Le maire prépare une annonce, le budget reste à discuter et personne n’a encore réuni toutes les pièces. Vous glissez le carnet dans votre sacoche. À la première page, Marianne a écrit votre nom : {name}."
+    ],
+    "characters": [
+      {
+        "id": "marianne",
+        "name": "Marianne Delmas",
+        "role": "Directrice générale des services",
+        "description": "Votre tutrice. Exigeante sur les faits, elle apprend à vous laisser conduire les réunions. Carré court argenté, veste bleu marine, foulard ocre."
+      },
+      {
+        "id": "karim",
+        "name": "Karim Benali",
+        "role": "Responsable des finances",
+        "description": "Il veut que le lieu vive longtemps après la photographie de son ouverture. Il prête ses carnets et préfère une difficulté clairement expliquée à une promesse fragile."
+      },
+      {
+        "id": "lucie",
+        "name": "Lucie Morel",
+        "role": "Agente d’accueil",
+        "description": "Elle connaît les trajets et les obstacles des habitants. Elle vous rappelle souvent ce que les tableaux de bord ne montrent pas."
+      },
+      {
+        "id": "jeanne",
+        "name": "Jeanne Perrin",
+        "role": "Présidente de l’association Les Passerelles",
+        "description": "Elle défend les besoins des familles et la mémoire de la manufacture. Elle soutient le projet, mais refuse de servir de caution à des décisions déjà arrêtées."
+      },
+      {
+        "id": "etienne",
+        "name": "Étienne Roussel",
+        "role": "Maire de Valrivière",
+        "description": "Il porte le projet et souhaite en montrer les avancées. Il doit apprendre à annoncer un calendrier compatible avec les vérifications et les décisions nécessaires."
+      },
+      {
+        "id": "maya",
+        "name": "Maya",
+        "role": "Responsable de la médiathèque",
+        "description": "Elle prépare les collections, les horaires et la charte de la future bibliothèque."
+      },
+      {
+        "id": "aicha",
+        "name": "Aïcha",
+        "role": "Chargée de transition écologique",
+        "description": "Elle relie le projet aux berges voisines et fait préciser les objectifs derrière chaque aménagement."
+      },
+      {
+        "id": "claire",
+        "name": "Claire",
+        "role": "Responsable des ressources humaines",
+        "description": "Elle prépare l’arrivée de l’équipe et veille à ce que le changement soit accompagné."
+      },
+      {
+        "id": "malik",
+        "name": "Malik",
+        "role": "Gestionnaire comptable",
+        "description": "Il travaille avec Karim et suit les pièces nécessaires au circuit de la dépense."
+      },
+      {
+        "id": "lea",
+        "name": "Léa",
+        "role": "Coordinatrice des services numériques",
+        "description": "Elle prépare les démarches et cherche à mesurer leurs effets sur l’autonomie des habitants."
+      }
+    ],
+    "missions": {
+      "inst-1": {
+        "time": "Acte I · Première semaine",
+        "place": "Bureau de la DGS · Annexe face à la mairie",
+        "scene": "office",
+        "character": "marianne",
+        "opening": [
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Bienvenue, {name}. Le maire veut présenter la manufacture aux associations vendredi. Avant de parler de travaux, nous devons savoir qui décide et qui signe."
+          },
+          {
+            "speaker": "Étienne Roussel",
+            "text": "Je peux annoncer que les crédits sont votés ? Nous avons évoqué le projet en réunion hier."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Pas encore. Préparez une fiche claire sur les rôles de chacun. Elle nous évitera de confondre une intention et une décision."
+          }
+        ],
+        "objective": "Préparer la fiche de décision qui accompagnera la première présentation du projet.",
+        "document": {
+          "title": "Courriel du cabinet · Préparer vendredi",
+          "text": "Merci de préciser l’organe compétent pour le budget, l’autorité chargée d’exécuter les décisions et les vérifications nécessaires avant toute signature. Le projet n’a pas encore reçu toutes ses autorisations."
+        },
+        "questionContexts": [
+          "Le brouillon du discours annonce des crédits « validés par les services ». Marianne vous demande d’identifier l’organe qui doit effectivement voter le budget.",
+          "Le maire demande ensuite qui transformera les délibérations adoptées en actes d’exécution. Votre fiche doit distinguer cette fonction de celle du conseil.",
+          "Un document arrive avec deux emplacements de signature différents. Avant d’inscrire un nom, vous devez retrouver la pièce qui permettra de vérifier les pouvoirs de signature."
+        ],
+        "outcome": "Marianne corrige le brouillon du discours avec votre fiche. Le maire présentera une ambition et les étapes à franchir, sans annoncer un budget déjà acquis. Votre carnet contient son premier document utile.",
+        "hook": "La préfecture propose un échange sur le montage du projet. Une nouvelle page du carnet s’ouvre : qui représente qui ?"
+      },
+      "inst-2": {
+        "time": "Acte I · Deuxième semaine",
+        "place": "Salle de réunion de la mairie",
+        "scene": "meeting",
+        "character": "marianne",
+        "opening": [
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Notre réunion réunit des interlocuteurs de la commune et de l’État. Chacun peut nous aider, mais pas au même titre."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "J’ai préparé les badges. Sur celui de la préfecture, un collègue a écrit « collectivité partenaire ». Je préfère vous demander."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Reconstituez la carte des acteurs. Nous saurons alors à qui adresser nos demandes sans attribuer à chacun les pouvoirs de l’autre."
+          }
+        ],
+        "objective": "Distinguer les acteurs de l’État et ceux de la commune avant la réunion partenariale.",
+        "document": {
+          "title": "Liste des participants annotée",
+          "text": "Mairie : direction générale et élus. Préfecture : interlocuteurs des services de l’État. Les demandes de conseil et de financement seront précisées pendant la réunion ; aucune réponse favorable n’est présumée."
+        },
+        "questionContexts": [
+          "Lucie hésite sur la catégorie à inscrire au-dessus du badge de la préfecture. Vous devez lui donner le bon repère institutionnel.",
+          "Un participant explique que certains pouvoirs sont exercés au plus près du territoire par les services de l’État. Votre schéma doit nommer les destinataires de cette déconcentration.",
+          "Le maire vous demande pourquoi la commune ne peut pas être dessinée comme une simple antenne de l’État. La dernière case de votre schéma porte sur cette distinction."
+        ],
+        "outcome": "Les badges sont corrigés et le compte rendu distingue clairement les responsabilités. Marianne vous laisse présenter la carte des acteurs : votre première intervention en réunion se termine sans confusion.",
+        "hook": "Le conseil municipal doit maintenant examiner un premier acte relatif au local. Le circuit ne s’arrêtera pas à la signature."
+      },
+      "inst-3": {
+        "time": "Acte I · Après le conseil",
+        "place": "Archives municipales",
+        "scene": "archive",
+        "character": "marianne",
+        "opening": [
+          {
+            "speaker": "Marianne Delmas",
+            "text": "Le conseil a adopté une première délibération relative au local. Elle ne vaut pas, à elle seule, feu vert pour toutes les étapes du projet."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "La version signée est arrivée. Est-ce que je peux classer la chemise comme terminée ?"
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, vérifiez la fiche de circulation. Aux archives, les anciennes chemises montrent pourquoi les traces de publicité et de transmission comptent autant que la belle signature."
+          }
+        ],
+        "objective": "Préparer le suivi des formalités de l’acte et comprendre le contrôle de légalité.",
+        "document": {
+          "title": "Bordereau de circulation · Pièces à vérifier",
+          "text": "Une délibération signée vient d’être versée au dossier. La fiche de suivi distingue signature, formalités applicables, transmission éventuelle et conservation. Les travaux restent soumis à leur propre instruction."
+        },
+        "questionContexts": [
+          "La signature est présente, mais les autres cases du bordereau sont vides. Lucie attend votre réponse avant de considérer le circuit terminé.",
+          "La préfecture demande une précision juridique sur l’acte. Le maire craint qu’elle n’évalue simplement l’intérêt politique du projet : vous expliquez l’objet du contrôle.",
+          "Marianne prépare une note sur l’hypothèse d’un désaccord persistant avec le préfet. Vous devez identifier l’autorité qui pourrait prononcer l’annulation contentieuse."
+        ],
+        "outcome": "Le bordereau mentionne les vérifications et les formalités nécessaires ; les services compétents assurent leur accomplissement. Vous classez la première séquence du projet avec ses pièces de suivi. La manufacture cesse peu à peu d’être une simple annonce.",
+        "hook": "Jeanne souhaite savoir ce qui changera réellement pour les habitants. Le prochain dossier commence devant une bibliothèque déjà fermée."
+      },
+      "cult-1": {
+        "time": "Acte II · Fin de journée",
+        "place": "Médiathèque municipale",
+        "scene": "library",
+        "character": "maya",
+        "opening": [
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Les parents que j’accompagne sortent du travail après la fermeture. Si la manufacture reprend les mêmes horaires, qu’aurons-nous changé ?"
+          },
+          {
+            "speaker": "Maya",
+            "text": "Nous ne pouvons pas ouvrir tout le temps. Mais nous pouvons examiner les usages et notre organisation."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "{name}, aidez-nous à poser les bons principes avant de débattre des créneaux. Les habitants doivent comprendre les raisons de notre proposition."
+          }
+        ],
+        "objective": "Relier le futur projet de service aux principes du service public.",
+        "document": {
+          "title": "Carnet d’observation · Portes fermées à 18 heures",
+          "text": "Plusieurs habitants évoquent un décalage entre leurs disponibilités et les horaires actuels. Ces retours ouvrent une étude des besoins et des moyens ; ils ne constituent pas encore un planning arrêté."
+        },
+        "questionContexts": [
+          "Maya envisage de faire évoluer les horaires à partir des besoins observés. Quel principe éclaire cette évolution ?",
+          "Jeanne demande si la continuité signifie que les portes devraient rester ouvertes à toute heure. Vous devez éviter une promesse impossible.",
+          "Pour la prochaine réunion, Lucie veut trois repères communs permettant de discuter du service. Vous complétez l’en-tête de la fiche."
+        ],
+        "outcome": "Le groupe conserve une piste d’horaires à étudier avec les équipes. Jeanne accepte de réunir d’autres témoignages : elle voit que sa remarque devient une question de travail, et pas seulement une ligne dans un compte rendu.",
+        "hook": "Lors de la visite suivante, une habitante sans carte s’arrête devant le bureau d’accueil."
+      },
+      "cult-2": {
+        "time": "Acte II · Une matinée de visite",
+        "place": "Médiathèque municipale",
+        "scene": "library",
+        "character": "maya",
+        "opening": [
+          {
+            "speaker": "Lucie Morel",
+            "text": "Une habitante souhaite lire une encyclopédie ici. Elle n’a pas de carte et pense devoir repartir."
+          },
+          {
+            "speaker": "Maya",
+            "text": "La carte de prêt et l’accès au lieu ne sont pas la même chose. Nous devons l’expliquer simplement, dans la bibliothèque actuelle comme dans la future."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Je vais relayer cette information aux familles. {name}, choisissez les mots justes : une affiche ambiguë peut fermer une porte sans qu’on s’en rende compte."
+          }
+        ],
+        "objective": "Clarifier l’accès à la bibliothèque et la consultation sur place.",
+        "document": {
+          "title": "Projet d’affiche · Bienvenue à la bibliothèque",
+          "text": "Le panneau d’accueil doit distinguer l’entrée dans les lieux, la consultation sur place et les modalités du prêt. Seules les deux premières questions sont examinées dans ce dossier."
+        },
+        "questionContexts": [
+          "L’habitante hésite encore sur le seuil. Lucie vous demande quel principe annoncer concernant l’accès à la bibliothèque municipale.",
+          "Elle précise qu’elle veut seulement consulter l’encyclopédie sur place. Votre réponse doit porter exactement sur cette prestation.",
+          "Maya relit le projet de service de la manufacture. Vous devez choisir la mission générale qui donne un sens à cet accueil ouvert."
+        ],
+        "outcome": "L’affiche distingue les usages. L’habitante s’installe à une table et Jeanne repart avec un message clair pour son association. Dans votre carnet, vous notez : « Comprendre un droit peut commencer par permettre d’entrer. »",
+        "hook": "Avant d’accueillir une nouvelle équipe, Maya veut maintenant une charte que chacun puisse appliquer."
+      },
+      "cult-3": {
+        "time": "Acte II · Atelier de rédaction",
+        "place": "Salle de réunion de la médiathèque",
+        "scene": "meeting",
+        "character": "maya",
+        "opening": [
+          {
+            "speaker": "Maya",
+            "text": "La future bibliothèque accueillera des personnes de tous horizons. Notre charte doit tenir dans des phrases concrètes."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Certains habitants craignent d’être moins bien reçus parce qu’ils ne connaissent personne à la mairie."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "Faisons relire les situations difficiles à {name}. Nous avons besoin de repères pour agir, pas d’un texte décoratif au mur."
+          }
+        ],
+        "objective": "Préparer les engagements de neutralité et de respect pour l’accueil.",
+        "document": {
+          "title": "Brouillon de charte · Trois situations",
+          "text": "L’équipe relit des exemples d’accueil : préférences personnelles, expression des convictions dans les fonctions et respect des personnes. La charte accompagnera la formation, sans remplacer les obligations applicables."
+        },
+        "questionContexts": [
+          "Un exemple du brouillon propose un accueil prioritaire fondé sur des convictions communes. Maya vous demande de vérifier s’il peut être conservé.",
+          "Une agente demande dans quel cadre la neutralité lui est imposée. Il faut préciser la portée de l’obligation sans inventer une règle générale sur toute sa vie privée.",
+          "Lucie cherche la phrase de conclusion de la charte. Vous devez retenir celle qui guide le respect de toutes les personnes accueillies."
+        ],
+        "outcome": "La charte est corrigée puis confiée à l’équipe pour sa mise au point. Jeanne la trouve plus rassurante : elle parle de personnes et de comportements. Le projet commence à acquérir une identité commune.",
+        "hook": "Karim vous attend avec une autre question : combien coûtera cette promesse d’accueil, chaque année ?"
+      },
+      "fin-1": {
+        "time": "Acte III · Réunion de programmation",
+        "place": "Service des finances",
+        "scene": "finance",
+        "character": "karim",
+        "opening": [
+          {
+            "speaker": "Karim Benali",
+            "text": "Le premier tableau affiche les travaux en grand. Les salaires, l’entretien et les consommations tiennent dans une note en bas de page."
+          },
+          {
+            "speaker": "Étienne Roussel",
+            "text": "Je veux connaître le coût du projet entier avant de défendre le programme. Pas seulement le prix du bâtiment."
+          },
+          {
+            "speaker": "Karim Benali",
+            "text": "{name}, aidons les services à séparer ce qui construit le lieu et ce qui le fera vivre. Après seulement, nous comparerons les scénarios."
+          }
+        ],
+        "objective": "Distinguer fonctionnement, investissement et charges futures.",
+        "document": {
+          "title": "Tableau préparatoire · Construire puis faire vivre",
+          "text": "Le programme prévoit un nouvel équipement dans la manufacture, des collections et une équipe. Le tableau doit présenter les dépenses de réalisation ainsi que les charges d’exploitation à prévoir dans la durée."
+        },
+        "questionContexts": [
+          "Claire transmet une estimation des rémunérations de l’équipe. Karim vous demande dans quelle section budgétaire les dépenses courantes de personnel trouvent généralement leur place.",
+          "La construction d’un équipement complémentaire figure dans le programme. Vous devez la distinguer des charges de la vie quotidienne du service.",
+          "Deux variantes de travaux ont des prix différents. Karim refuse de conclure avant d’ajouter les coûts que la commune supportera ensuite."
+        ],
+        "outcome": "Votre tableau distingue les grandes catégories et les charges futures. Le scénario le moins cher à construire n’apparaît plus automatiquement comme le plus soutenable. Le maire demande une comparaison complète.",
+        "hook": "Un financement espéré tarde à se confirmer. La prochaine réunion risque d’être plus tendue."
+      },
+      "fin-2": {
+        "time": "Acte III · Arbitrage budgétaire",
+        "place": "Service des finances",
+        "scene": "finance",
+        "character": "karim",
+        "opening": [
+          {
+            "speaker": "Étienne Roussel",
+            "text": "Si l’aide arrive, nous pourrons garder tout le programme. Mais il faut donner une réponse rapidement aux partenaires."
+          },
+          {
+            "speaker": "Karim Benali",
+            "text": "Nous ne pouvons pas transformer une aide espérée en certitude. Et il reste les charges annuelles."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, préparez les points de vigilance. Nous devons pouvoir proposer un calendrier réaliste, même s’il faut avancer en plusieurs étapes."
+          }
+        ],
+        "objective": "Identifier les hypothèses fragiles avant de présenter le financement.",
+        "document": {
+          "title": "Note de scénario · Une aide encore incertaine",
+          "text": "Une subvention a été évoquée sans attribution acquise. Le tableau présente également des charges récurrentes supérieures aux ressources courantes envisagées. Les hypothèses doivent être reprises avant arbitrage."
+        },
+        "questionContexts": [
+          "Une ligne de recette est proposée uniquement pour faire coïncider les totaux, alors que son caractère fictif est connu. Le vote pourrait-il effacer ce problème ?",
+          "Pour les charges annuelles, quelqu’un suggère de compléter systématiquement les recettes par un emprunt. Karim vous demande de rappeler la distinction essentielle.",
+          "Le financement des travaux reste suspendu à une subvention. Votre note doit expliquer comment traiter cette hypothèse avec sérieux."
+        ],
+        "outcome": "Vous présentez les risques sans les dissimuler. Les élus retiennent l’étude d’un phasage et demandent des prévisions étayées. Jeanne apprend que tout n’ouvrira peut-être pas simultanément ; elle est déçue, mais remercie Marianne de l’avoir prévenue directement.",
+        "hook": "Pendant que le programme est réexaminé, une première livraison de livres doit suivre son propre circuit de paiement."
+      },
+      "fin-3": {
+        "time": "Acte III · Une livraison attendue",
+        "place": "Service des finances",
+        "scene": "finance",
+        "character": "malik",
+        "opening": [
+          {
+            "speaker": "Malik",
+            "text": "Les nouveaux livres sont arrivés à la médiathèque. La facture est là, mais je n’ai pas encore toutes les pièces de réception."
+          },
+          {
+            "speaker": "Maya",
+            "text": "Les cartons ont été déposés hier. Je dois encore vérifier leur contenu avec l’équipe."
+          },
+          {
+            "speaker": "Karim Benali",
+            "text": "{name}, suivez ce petit dossier jusqu’aux contrôles utiles. Le budget du grand projet n’empêche pas la rigueur des gestes quotidiens."
+          }
+        ],
+        "objective": "Repérer les rôles et vérifications dans le circuit d’une dépense.",
+        "document": {
+          "title": "Chemise de dépense · Collection inaugurale",
+          "text": "La commande de livres a été livrée. Les vérifications de réception et les pièces justificatives doivent rejoindre le dossier avant la suite du circuit. Le dossier pédagogique ne remplace pas les contrôles réels."
+        },
+        "questionContexts": [
+          "Malik vous présente le circuit de la facture. Vous commencez par identifier l’ordonnateur de la commune.",
+          "La facture est complète, mais Maya n’a pas encore vérifié les cartons. Quelle vérification faut-il préparer avant de poursuivre ?",
+          "Le dossier est régulier dans l’hypothèse étudiée, mais le comptable préfère un autre investissement. Vous devez distinguer ses contrôles d’un choix d’opportunité."
+        ],
+        "outcome": "Maya organise la vérification des livres et Malik rassemble les pièces. Vous avez relié les personnes derrière les colonnes du budget. Karim vous confie désormais la préparation des points de suivi du projet.",
+        "hook": "À l’étage, Claire prépare l’arrivée des agents qui feront vivre le lieu."
+      },
+      "rh-1": {
+        "time": "Acte IV · Préparation de l’équipe",
+        "place": "Salle de réunion de la mairie",
+        "scene": "meeting",
+        "character": "claire",
+        "opening": [
+          {
+            "speaker": "Claire",
+            "text": "Nous préparons un livret pour les agents qui rejoindront le service. Je ne veux pas une liste de contraintes sans explication."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "Il faut aussi dire où trouver de l’aide et comment développer ses compétences. Personne ne connaît tout le premier jour."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, vous avez reçu un carnet en arrivant. À vous de rendre le prochain accueil plus clair."
+          }
+        ],
+        "objective": "Associer droits et obligations dans le livret d’accueil.",
+        "document": {
+          "title": "Livret d’équipe · Première relecture",
+          "text": "Le livret doit présenter des situations concrètes : examiner une demande avec impartialité, accéder à la formation et comprendre l’articulation entre droits et obligations."
+        },
+        "questionContexts": [
+          "Pour l’impartialité, Claire demande un exemple de comportement observable dans les dossiers du service.",
+          "Lucie veut ajouter une rubrique sur les possibilités d’apprentissage des agents. Vous identifiez le droit correspondant.",
+          "Le premier brouillon ne parle que d’obligations. Marianne vous demande une présentation plus juste de la fonction publique."
+        ],
+        "outcome": "Le livret accueille désormais les droits autant que les obligations. Lucie propose de servir de référente aux nouveaux collègues. Vous découvrez que faire grandir le service commence aussi par rassurer celles et ceux qui le font fonctionner.",
+        "hook": "Une consigne mal comprise sur l’organisation de l’accueil va bientôt mettre ces principes à l’épreuve."
+      },
+      "rh-2": {
+        "time": "Acte IV · Avant la réunion d’équipe",
+        "place": "Bureau de la DGS · Annexe face à la mairie",
+        "scene": "office",
+        "character": "claire",
+        "opening": [
+          {
+            "speaker": "Claire",
+            "text": "Une consigne circule sous plusieurs versions. Certains collègues contestent simplement le planning ; d’autres signalent une difficulté qui doit être examinée."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "Je veux faire remonter les faits sans accuser quelqu’un à partir d’un message incomplet."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "C’est la bonne démarche. {name}, aidez-nous à distinguer désaccord, risque à clarifier et exception légale à l’obéissance. Nous n’allons pas qualifier la situation sans ses pièces."
+          }
+        ],
+        "objective": "Construire un signalement factuel et distinguer les critères juridiques.",
+        "document": {
+          "title": "Fiche de clarification · Versions de la consigne",
+          "text": "La portée de la consigne n’est pas encore établie. Les échanges doivent permettre de vérifier les faits, les responsabilités et le cadre applicable. Les questions portent sur les repères généraux à mobiliser."
+        },
+        "questionContexts": [
+          "Avant d’analyser les faits, Claire vous demande de rappeler les deux conditions cumulatives de l’exception légale étudiée.",
+          "Un collègue conteste uniquement le nouveau planning parce qu’il préfère l’ancien. Vous devez distinguer cette préférence de l’exception juridique.",
+          "Lucie ne dispose que d’un message partiel. Votre proposition doit permettre de clarifier la situation et de signaler le risque de manière professionnelle."
+        ],
+        "outcome": "Une demande de clarification remplace les messages contradictoires. Les responsables examinent la consigne avec les éléments complets. Lucie sait à qui transmettre les faits et Marianne souligne votre prudence : vous avez évité une conclusion hâtive.",
+        "hook": "Le changement de logiciel crée maintenant une difficulté moins spectaculaire, mais très concrète au guichet."
+      },
+      "rh-3": {
+        "time": "Acte IV · Retour d’expérience",
+        "place": "Salle de formation",
+        "scene": "meeting",
+        "character": "claire",
+        "opening": [
+          {
+            "speaker": "Lucie Morel",
+            "text": "Depuis le nouvel outil, je cherche certains dossiers plus longtemps. Les habitants attendent et je me sens moins à l’aise."
+          },
+          {
+            "speaker": "Claire",
+            "text": "La démonstration a eu lieu, mais cela ne veut pas dire que chacun dispose du temps et de l’accompagnement nécessaires."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, préparez une petite démarche d’observation avec l’équipe. Nous voulons comprendre le travail réel avant de demander simplement d’aller plus vite."
+          }
+        ],
+        "objective": "Proposer un accompagnement fondé sur les tâches et les besoins.",
+        "document": {
+          "title": "Carnet de terrain · Prendre le temps d’observer",
+          "text": "Les premiers retours évoquent des délais plus longs et des difficultés variables selon les tâches. Le suivi doit examiner les moyens, la formation et les conditions réelles d’utilisation du logiciel."
+        },
+        "questionContexts": [
+          "Les délais s’allongent. Avant de conclure à un manque d’effort, quelle première démarche donnera des informations utiles ?",
+          "Claire envisage une formation complémentaire. Vous reliez cette proposition au rôle de la formation professionnelle.",
+          "Une nouvelle démonstration est programmée. Comment vérifier ensuite que l’accompagnement améliore réellement le travail ?"
+        ],
+        "outcome": "Claire organise un accompagnement ciblé et un point de suivi. Lucie retrouve progressivement ses repères. Dans votre carnet, la préparation de l’ouverture comporte désormais du temps de formation et de retour d’expérience.",
+        "hook": "À la manufacture, Jeanne vous attend pour une visite des accès : la rivière voisine remet les frontières du projet en question."
+      },
+      "trans-1": {
+        "time": "Acte V · Visite des abords",
+        "place": "Cour de la manufacture",
+        "scene": "manufacture",
+        "character": "aicha",
+        "opening": [
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Si les habitants doivent traverser les berges pour venir, pouvons-nous traiter les accès comme un détail extérieur au projet ?"
+          },
+          {
+            "speaker": "Aïcha",
+            "text": "Ils comptent, mais il faut vérifier qui est compétent pour chaque intervention. La commune et l’intercommunalité ne se répartissent pas les missions au jugé."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, retrouvez les documents applicables. Nous préparerons ensuite une réunion où chacun saura sur quoi il peut s’engager."
+          }
+        ],
+        "objective": "Vérifier les compétences avant de répartir les interventions.",
+        "document": {
+          "title": "Plan de repérage · Accès à la manufacture",
+          "text": "La visite identifie plusieurs besoins autour du site. Le plan localise les lieux, mais il ne prouve pas qui exerce chaque compétence. Les statuts et actes applicables doivent compléter le dossier."
+        },
+        "questionContexts": [
+          "Un participant propose de confier tout ce qui se trouve autour de la manufacture à l’EPCI. Vous rappelez le principe qui encadre son champ d’action.",
+          "Aïcha vous demande quelles pièces rechercher pour vérifier la répartition des compétences.",
+          "Le projet mobilise plusieurs quartiers et paraît important. Cette dimension suffit-elle à désigner l’intercommunalité ?"
+        ],
+        "outcome": "Votre tableau distingue les besoins et les compétences à vérifier. La réunion partenariale partira de ces pièces, sans attribuer automatiquement tous les travaux à un acteur. Jeanne apprécie de savoir pourquoi certaines réponses demandent un délai.",
+        "hook": "Aïcha souhaite ensuite regarder les berges avec un autre calendrier : celui des étés à venir."
+      },
+      "trans-2": {
+        "time": "Acte V · Après-midi de chaleur",
+        "place": "Berges près de la manufacture",
+        "scene": "river",
+        "character": "aicha",
+        "opening": [
+          {
+            "speaker": "Aïcha",
+            "text": "À cette heure, le trajet jusqu’à l’entrée est difficile. Notre projet doit tenir compte des chaleurs futures et des déplacements qu’il provoquera."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Plusieurs familles viennent à pied. Mais une solution qui améliore ce côté de la rivière ne doit pas aggraver la situation en face."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, classez les objectifs des propositions. Nous ne pouvons pas comparer sérieusement des solutions sans savoir ce qu’elles cherchent à résoudre."
+          }
+        ],
+        "objective": "Distinguer atténuation, adaptation et risque de mal-adaptation.",
+        "document": {
+          "title": "Carnet des berges · Objectifs à préciser",
+          "text": "Les propositions portent sur les déplacements, le confort lors des fortes chaleurs et leurs effets sur les secteurs voisins. Ce dossier identifie les objectifs ; les solutions feront l’objet d’études techniques."
+        },
+        "questionContexts": [
+          "Aïcha commence par les émissions liées aux déplacements vers le nouvel équipement. Vous classez cet objectif climatique.",
+          "Elle présente ensuite des pistes pour mieux supporter les fortes chaleurs sur le trajet. Vous identifiez cette autre famille d’objectifs.",
+          "Une proposition protégerait un secteur tout en accroissant la vulnérabilité du voisin. Vous notez le risque à étudier avant toute décision."
+        ],
+        "outcome": "Les propositions sont classées par objectifs et leurs effets possibles sont consignés. Les services compétents poursuivent l’étude. Jeanne demande que les habitants puissent discuter des usages avant que les options soient figées.",
+        "hook": "Une réunion publique est annoncée. Il reste à décider ce qui sera réellement ouvert à la discussion."
+      },
+      "trans-3": {
+        "time": "Acte V · Réunion de quartier",
+        "place": "Forum des habitants",
+        "scene": "forum",
+        "character": "jeanne",
+        "opening": [
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Nous ne voulons pas découvrir un projet terminé et être photographiés à côté. Qu’est-ce qui peut encore évoluer ?"
+          },
+          {
+            "speaker": "Étienne Roussel",
+            "text": "Je dois dire clairement ce qui relève déjà d’une contrainte et ce qui reste à arbitrer."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, préparez le cadre de la rencontre et la manière de rendre compte des contributions. La confiance se jouera aussi après la réunion."
+          }
+        ],
+        "objective": "Clarifier la participation et les suites données aux contributions.",
+        "document": {
+          "title": "Invitation à relire · Ce qui sera discuté",
+          "text": "La rencontre doit distinguer information, échanges, marges de discussion et responsabilité des décisions. Un retour aux participants sera organisé pour expliquer les suites."
+        },
+        "questionContexts": [
+          "Le premier programme ne prévoit qu’une présentation descendante. Jeanne vous demande si cela suffit à appeler la rencontre une concertation.",
+          "Un participant pense que chacune des propositions exprimées devra être adoptée. Vous préparez une précision sur la portée de la participation.",
+          "La réunion se termine avec de nombreuses contributions. Vous proposez la pratique qui permettra aux habitants de comprendre ce qu’elles deviennent."
+        ],
+        "outcome": "Le cadre est clarifié et un retour est prévu. Certaines propositions alimentent la suite des études ; d’autres nécessitent des explications. Jeanne accepte de participer au groupe de suivi parce qu’elle connaît désormais la place de son avis.",
+        "hook": "L’ouverture approche. Léa prépare les inscriptions aux premiers ateliers et un formulaire lui paraît trop curieux."
+      },
+      "num-1": {
+        "time": "Acte VI · Préparation de l’ouverture",
+        "place": "Médiathèque · Préparation du futur accueil",
+        "scene": "library",
+        "character": "lea",
+        "opening": [
+          {
+            "speaker": "Léa",
+            "text": "Le formulaire des ateliers a récupéré les champs de plusieurs anciens modèles. Certaines informations n’ont aucun lien évident avec notre besoin."
+          },
+          {
+            "speaker": "Lucie Morel",
+            "text": "Si un habitant demande pourquoi nous lui réclamons un renseignement, je veux pouvoir lui répondre."
+          },
+          {
+            "speaker": "Marianne Delmas",
+            "text": "{name}, aidez Léa à repartir de l’objectif. Les vérifications détaillées se feront avec les personnes compétentes, notamment pour la protection des données."
+          }
+        ],
+        "objective": "Préparer un formulaire proportionné à son objectif.",
+        "document": {
+          "title": "Brouillon d’inscription · Chaque champ doit avoir une raison",
+          "text": "Le formulaire préparatoire comporte des données héritées d’anciens modèles. L’équipe doit préciser la finalité, les informations nécessaires, les accès et le devenir des dossiers avant sa mise en service."
+        },
+        "questionContexts": [
+          "Léa souhaite supprimer les champs sans nécessité démontrée. Vous identifiez le principe qui guide cette sélection.",
+          "Une annotation propose de tout conserver indéfiniment « au cas où ». Vous préparez la réponse à cette proposition.",
+          "Avant même de discuter des champs, Lucie veut savoir ce que le formulaire doit permettre d’accomplir. Vous identifiez le point de départ."
+        ],
+        "outcome": "Le brouillon devient plus sobre et les points à faire vérifier sont consignés. Les responsables concernés arrêtent ensuite les modalités applicables. Lucie dispose d’explications plus claires pour accueillir les inscriptions.",
+        "hook": "Après les validations et contrôles du projet menés par les responsables compétents, les premières portes peuvent s’ouvrir. Un habitant reste pourtant bloqué devant l’écran."
+      },
+      "num-2": {
+        "time": "Acte VI · Premières semaines d’accueil",
+        "place": "Permanence de la médiathèque · Ouverture progressive",
+        "scene": "library",
+        "character": "lucie",
+        "opening": [
+          {
+            "speaker": "Lucie Morel",
+            "text": "Un habitant vient de repartir deux fois sans terminer sa démarche. Le site fonctionne, mais cela ne suffit pas pour lui."
+          },
+          {
+            "speaker": "Léa",
+            "text": "Nous devons comprendre son obstacle et lui proposer un contact. Et nous ne devons pas ouvrir son dossier à toute l’équipe par facilité."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "C’est pour ces personnes que nous attendions ce lieu. {name}, aidons-le sans lui demander de raconter sa vie à chaque guichet."
+          }
+        ],
+        "objective": "Articuler accompagnement humain et confidentialité.",
+        "document": {
+          "title": "Retour du guichet · Un service accessible en pratique",
+          "text": "La maison ouvre progressivement après les étapes nécessaires. Les premiers retours montrent qu’une démarche disponible en ligne peut rester difficile pour certains usagers. L’accompagnement doit respecter les habilitations."
+        },
+        "questionContexts": [
+          "Le tableau de suivi indique seulement que le formulaire est disponible en permanence. Lucie vous demande si cette donnée démontre à elle seule l’accès effectif de tous.",
+          "L’habitant ne parvient toujours pas à terminer. Vous identifiez l’orientation d’accompagnement étudiée dans votre lecture.",
+          "Pour gagner du temps, quelqu’un propose de rendre son dossier visible à toute la collectivité. Vous rappelez le critère d’accès pertinent."
+        ],
+        "outcome": "L’équipe organise un accompagnement et garde les accès dans le périmètre nécessaire. L’habitant retrouve un interlocuteur. Jeanne vous dit que la manufacture commence enfin à ressembler au lieu qu’elle imaginait : un endroit où l’on peut demander de l’aide.",
+        "hook": "Marianne vous confie la présentation du premier bilan. Compter les ateliers ne dira pas tout."
+      },
+      "num-3": {
+        "time": "Acte VI · Avant la séance de bilan",
+        "place": "Salle du conseil · Préparation de la séance",
+        "scene": "council",
+        "character": "marianne",
+        "opening": [
+          {
+            "speaker": "Marianne Delmas",
+            "text": "À votre arrivée, vous prépariez votre première fiche. Aujourd’hui, je vous laisse présenter le bilan. N’annoncez pas plus que ce que nous savons."
+          },
+          {
+            "speaker": "Léa",
+            "text": "Nous connaissons le nombre d’ateliers. Je voudrais aussi savoir si les participants deviennent plus autonomes."
+          },
+          {
+            "speaker": "Jeanne Perrin",
+            "text": "Il reste des personnes que nous ne touchons pas encore. L’ouverture est une étape ; j’aimerais que le bilan nous aide à poursuivre."
+          }
+        ],
+        "objective": "Distinguer objectifs, moyens et effets pour préparer le bilan.",
+        "document": {
+          "title": "Note de bilan · La première saison",
+          "text": "Le lieu accueille désormais ses premiers services. Le bilan distingue l’activité réalisée, l’atteinte des objectifs, les moyens mobilisés et les effets recherchés. Les résultats précoces ne permettent pas de conclure à tout."
+        },
+        "questionContexts": [
+          "La note doit d’abord examiner si les objectifs de la maison des services sont atteints. Vous identifiez ce que cette interrogation mesure.",
+          "Léa compare deux dispositifs dont les résultats sont proches, mais les moyens différents. Vous précisez la relation examinée par l’efficience.",
+          "Le projet vise notamment une plus grande autonomie des participants. Vous retenez l’indicateur le plus directement lié à cet effet."
+        ],
+        "outcome": "Votre présentation distingue ce qui est observé de ce qui reste à établir. Les élus disposent de repères pour poursuivre l’action. À la sortie, Marianne vous rend votre carnet : « Vous savez maintenant relier les textes, les moyens et les personnes. Gardez cette habitude. » Dans la cour, Jeanne attend Lucie pour un nouvel atelier. La manufacture a changé ; votre manière de regarder la ville aussi.",
+        "hook": "La première campagne s’achève. Votre bibliothèque reste ouverte : reprenez les notions, explorez les quêtes laissées de côté et préparez la suite de votre parcours vers le concours."
+      }
+    },
+    "sideQuests": {
+      "side-institutions": {
+        "character": "marianne",
+        "context": "Aux archives, Marianne retrouve un petit carnet sur la libre administration. « Le maire parle souvent de liberté d’action. Ce texte vous aidera à comprendre ce que cette liberté permet, et ce qui l’encadre. Gardez-le dans votre sacoche. »",
+        "questionContext": "Un habitant croit que l’autonomie de la commune autorise à ignorer une loi nationale. Marianne vous demande d’utiliser votre lecture pour lui répondre.",
+        "outcome": "Vous inscrivez dans le carnet la distinction entre autonomie locale et absence de règles. Marianne vous laisse conserver l’ouvrage pour vos prochaines réunions."
+      },
+      "side-culture": {
+        "character": "maya",
+        "context": "Au fond de la médiathèque, Maya prépare un rayon consacré aux métiers publics. Elle sait que vous préparez le concours d’attaché. « Nous pouvons travailler les notions ici ; pour voir les vrais sujets, il faut aussi reconnaître les sources officielles. »",
+        "questionContext": "Maya vous tend deux marque-pages : l’un mène à des exercices de création, l’autre doit orienter vers les annales officielles. Où chercher ces dernières ?",
+        "outcome": "Vous ajoutez un marque-page vers les ressources officielles à votre bibliothèque. Maya vous réserve une place tranquille pour vos séances de préparation."
+      },
+      "side-finances": {
+        "character": "karim",
+        "context": "À la fin d’une réunion, Karim vous prête son atlas des recettes. « Jeanne a trouvé une piste d’aide pour du matériel. C’est utile. Mais comment fera-t-on vivre le service les années suivantes ? Prenez le temps de lire avant de répondre. »",
+        "questionContext": "L’équipe se demande si une aide ponctuelle suffit à rassurer sur le financement annuel futur. Votre lecture doit éclairer cette distinction.",
+        "outcome": "Vous préparez deux colonnes, aide ponctuelle et ressources récurrentes. Karim vous laisse son atlas : il servira encore après l’ouverture."
+      },
+      "side-rh": {
+        "character": "claire",
+        "context": "Une collègue confie à Claire qu’un proche travaille pour un organisme concerné par son dossier. Elle n’a accordé aucune faveur, mais veut savoir comment prévenir une difficulté. Claire vous propose de relire ensemble le marque-page de déontologie.",
+        "questionContext": "La collègue pense qu’en l’absence de faveur effective, aucun risque ne peut exister. Quelle nuance votre lecture apporte-t-elle ?",
+        "outcome": "La collègue sait qu’elle doit exposer la situation par les voies appropriées pour obtenir un avis et prévenir le risque. Vous conservez le marque-page, sans recueillir de détails personnels inutiles."
+      },
+      "side-transition": {
+        "character": "aicha",
+        "context": "Sur les berges, Jeanne imagine des bancs où attendre avant les ateliers. Aïcha vous prête un carnet d’achat public : « Avant de comparer les catalogues, demandons-nous à qui serviront ces bancs, où et dans quelles conditions. »",
+        "questionContext": "Un catalogue est déjà sur la table. Quelle étape doit cependant précéder le lancement de la consultation ?",
+        "outcome": "Vous notez des questions d’usage, de durée et d’entretien pour la définition du besoin. Jeanne comprend pourquoi le choix ne commence pas par une photographie de mobilier."
+      },
+      "side-numerique": {
+        "character": "lea",
+        "context": "Après la première saison, Léa reçoit quelques questionnaires enthousiastes. Jeanne s’en réjouit, puis demande : « Et ceux qui ne sont jamais venus ? » Un carnet de lecture critique vous aide à préparer une conclusion mesurée.",
+        "questionContext": "Les réponses proviennent de quelques volontaires. Peut-on les présenter comme l’avis de toute la population ?",
+        "outcome": "Le bilan décrit qui a répondu et qui reste absent. Léa conserve les retours utiles sans leur faire dire davantage. Votre dernier souvenir de campagne est un carnet avec une question en couverture : « Qui manque à notre regard ? »"
+      }
+    }
+  }
+}
