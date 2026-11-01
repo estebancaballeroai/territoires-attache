@@ -22,5 +22,8 @@ jobs:
           node --check v2/episode2-content.js
           node --check v2/episode2-engine.js
           node --check v2/episode2-ui.js
+          node --check v2/episode3-content.js
+          node --check v2/episode3-engine.js
+          node --check v2/episode3-ui.js
       - name: Regression, progression and complete narrative simulation
         run: node --test v2/tests/*.test.mjs
