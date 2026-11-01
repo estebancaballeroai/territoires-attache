@@ -39,3 +39,7 @@ Mission spéciale accessible depuis l'accueil ou l'acte III (`fin-2`). Quatre pi
 ## V1.3 — Le dossier vivant
 
 Quatre pièces à analyser, trois dialogues à embranchements courts, diagnostic, scénarios, restitution et export TXT. Illustration dédiée WebP. Sauvegardes V1/V1.2 conservées. Tests Chromium en CI.
+
+## V1.4 — Institutions en action
+
+Trois dossiers vivants : organes municipaux, acteurs de l'État et des collectivités, publicité/transmission/contrôle de légalité. Dix pièces fictives, six dialogues, neuf stratégies. Sauvegarde autonome `territoires.civic.v1`. Ancienne campagne et QCM conservés.

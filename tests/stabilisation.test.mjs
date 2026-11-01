@@ -7,9 +7,9 @@ test('V1.2: retour de mission, cache actualisé, icône et CI cohérents',()=>{
  const sw=fs.readFileSync(new URL('../dist/sw.js',import.meta.url),'utf8');
  const manifest=JSON.parse(fs.readFileSync(new URL('../dist/manifest.webmanifest',import.meta.url),'utf8'));
  const pkg=JSON.parse(fs.readFileSync(new URL('../package.json',import.meta.url),'utf8'));
- assert.equal(pkg.version,'1.3.0');
- assert.match(app,/const VERSION='1\.3\.0'/);
- assert.match(sw,/territoires-v1\.3\.0/);
+ assert.equal(pkg.version,'1.4.0');
+ assert.match(app,/const VERSION='1\.4\.0'/);
+ assert.match(sw,/territoires-v1\.4\.0/);
  assert.match(app,/state\.completed\.includes\(quiz\.id\)\?'Revenir au dossier'/);
  assert.match(app,/case'return-mission':quiz=null;nav\('mission',id\)/);
  assert.match(app,/navigator\.serviceWorker\.register\('\.\/sw\.js'\)/);
