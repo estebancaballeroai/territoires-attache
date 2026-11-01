@@ -144,8 +144,7 @@ export const AFTER={
  silent:{title:'La prudence qui laisse un vide',marianne:'« Vous avez voulu éviter l’erreur, mais le silence nourrit aussi les rumeurs. »',mayor:'« Nous avons une responsabilité d’information envers les habitants. Ce projet doit rester visible. »',jeanne:'« J’aurais préféré un calendrier imparfait mais sincère à cette absence de nouvelles. »',later:'Plus tard, Jeanne rappellera le silence de la mairie. Le joueur pourra corriger cette distance par une concertation suivie.'}
 };
 export const FUTURE=[
- {month:'Octobre',label:'Les partenaires du territoire',topic:'Décentralisation, préfet et compétences intercommunales',status:'À développer en V2' },
- {month:'Novembre',label:'À qui appartient cette maison ?',topic:'Égalité, neutralité et adaptabilité du service public',status:'À développer en V2'},
+  {month:'Novembre',label:'À qui appartient cette maison ?',topic:'Égalité, neutralité et adaptabilité du service public',status:'À développer en V2'},
  {month:'Janvier',label:'Le prix des ambitions',topic:'M57, budget, financement et dépenses',status:'À développer en V2'},
  {month:'Mars',label:'Ceux qui feront vivre le projet',topic:'Fonction publique et management',status:'À développer en V2'},
  {month:'Mai',label:'La ville sous tension',topic:'Transition écologique, intercommunalité et participation',status:'À développer en V2'},

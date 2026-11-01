@@ -1,20 +1,26 @@
 name: V2 prototype quality
 on:
   push:
-    branches: ["experimental/v2-*"]
+    branches: ["experimental/v2-*", "experimental/v2.1-*"]
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
   test-v2:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Check modules
-        run: node --check v2/app.js && node --check v2/engine.js && node --check v2/content.js
-      - name: Exercise narrative engine and simulated UI
+      - name: Syntax validation
+        run: |
+          node --check v2/app.js
+          node --check v2/content.js
+          node --check v2/engine.js
+          node --check v2/episode2-content.js
+          node --check v2/episode2-engine.js
+          node --check v2/episode2-ui.js
+      - name: Regression, progression and complete narrative simulation
         run: node --test v2/tests/*.test.mjs
