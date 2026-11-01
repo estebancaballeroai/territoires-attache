@@ -19,3 +19,5 @@ jobs:
         run: npm run check
       - name: Regression tests
         run: npm test
+      - name: Real Chromium mobile smoke test
+        run: npm run browser-test

@@ -35,3 +35,7 @@ Les tests mobiles ont été réalisés dans le navigateur ; pas de validation su
 ## V1.2 — Enquête financière interactive
 
 Mission spéciale accessible depuis l'accueil ou l'acte III (`fin-2`). Quatre pièces fictives, diagnostic, trois scénarios chiffrés, restitution à la DGS et conséquences narratives. Sauvegarde séparée `territoires.budget.v1`, sans modification des progressions V1.
+
+## V1.3 — Le dossier vivant
+
+Quatre pièces à analyser, trois dialogues à embranchements courts, diagnostic, scénarios, restitution et export TXT. Illustration dédiée WebP. Sauvegardes V1/V1.2 conservées. Tests Chromium en CI.
