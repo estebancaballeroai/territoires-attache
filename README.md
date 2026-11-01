@@ -1,4 +1,4 @@
-# TERRITOIRES — Objectif Attaché · V1.1.1
+# TERRITOIRES — Objectif Attaché · V1.2
 
 Jeu narratif de culture territoriale pour préparer le concours externe ou le troisième concours d’attaché territorial.
 
@@ -21,12 +21,17 @@ Cette édition constitue un socle introductif, pas une préparation exhaustive a
 
 ## Développement
 
-Modifier les fichiers dans dist. Exécuter `npm run check` puis `npm test` (16 tests). Aucun service payant ni appel IA pendant le jeu. Les tests sont désormais exécutés par GitHub Actions à chaque push et pull request.
+Modifier les fichiers dans dist. Exécuter `npm run check` puis `npm test` (18 tests). Aucun service payant ni appel IA pendant le jeu. Les tests sont désormais exécutés par GitHub Actions à chaque push et pull request.
 
 - [Bible de campagne](docs/CAMPAGNE.md)
 - [Ressources graphiques](docs/ASSETS.md)
-- [Vérification et limites](docs/V1.1.1-VALIDATION.md)
+- [Vérification et limites](docs/V1.2-VALIDATION.md)
 
 Les sauvegardes V1 sont conservées et démarrent en exploration libre. Le carnet permet de revenir au parcours chronologique. Les nouveaux joueurs commencent en mode campagne.
 
 Les tests mobiles ont été réalisés dans le navigateur ; pas de validation sur une ancienne tablette physique. Les liens juridiques externes nécessitent une connexion.
+
+
+## V1.2 — Enquête financière interactive
+
+Mission spéciale accessible depuis l'accueil ou l'acte III (`fin-2`). Quatre pièces fictives, diagnostic, trois scénarios chiffrés, restitution à la DGS et conséquences narratives. Sauvegarde séparée `territoires.budget.v1`, sans modification des progressions V1.
