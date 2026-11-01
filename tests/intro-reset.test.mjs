@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+const app=fs.readFileSync(new URL('../dist/app.mjs',import.meta.url),'utf8');
+test('Introduction scénarisée : Valrivière, manufacture et chemin accessible',()=>{for(const v of ['Bienvenue à Valrivière','manufacture des Tilleuls','nouveau chargé de mission','protection des données','intro:introPage','case\'intro-begin\''])assert(app.includes(v),v);assert(app.includes("location.hash='intro'"));});
+test('La remise à zéro est confirmée et couvre trois moteurs de progression',()=>{assert(app.includes("if(!confirm('Recommencer à zéro ?"));for(const v of ['KEY','territoires.budget.v1','territoires.civic.v1','INTRO_KEY','E.fresh()','B.freshBudget()','C.freshCivic()','territoires.reset.backup.v1'])assert(app.includes(v),v);assert(app.includes("case'reset-progress'"));});
+test('Les sauvegardes existantes n’imposent pas une nouvelle introduction',()=>{assert(app.includes("!localStorage.getItem(KEY)&&!localStorage.getItem(INTRO_KEY)"));assert(app.includes("goBtn('Relire l’introduction','intro'"));});

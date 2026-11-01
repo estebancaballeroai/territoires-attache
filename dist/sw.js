@@ -1,4 +1,4 @@
-const CACHE='territoires-v1.4.0';
+const CACHE='territoires-v1.4.1';
 const FILES=['./','./index.html','./style.css','./app.mjs','./engine.mjs','./budget-engine.mjs','./budget-ui.mjs','./budget-v13.css','./civic-engine.mjs','./civic-ui.mjs','./civic-v14.css','./content.json','./manifest.webmanifest','./assets/icon-192.png','./assets/budget-office.webp','./assets/civic-briefing.webp','./assets/town.webp','./assets/library.webp','./assets/finance.webp','./assets/meeting.webp','./assets/river.webp','./assets/forum.webp','./assets/hero.webp','./assets/office.webp','./assets/archive.webp','./assets/manufacture.webp','./assets/council.webp','./assets/opening.webp'];
 self.addEventListener('install',e=>{self.skipWaiting();});
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));

@@ -43,3 +43,7 @@ Quatre pièces à analyser, trois dialogues à embranchements courts, diagnostic
 ## V1.4 — Institutions en action
 
 Trois dossiers vivants : organes municipaux, acteurs de l'État et des collectivités, publicité/transmission/contrôle de légalité. Dix pièces fictives, six dialogues, neuf stratégies. Sauvegarde autonome `territoires.civic.v1`. Ancienne campagne et QCM conservés.
+
+## V1.4.1 — Introduction et nouvelle partie
+
+Une introduction présente Valrivière, la manufacture et la mission du joueur avant une première campagne. Les joueurs existants ne sont pas interrompus. Depuis Paramètres : relire l’introduction ou, après confirmation, recommencer à zéro. Avant suppression, une sauvegarde d'urgence locale est stockée sous `territoires.reset.backup.v1`. L'export JSON manuel reste recommandé. La remise à zéro porte sur la campagne, les modules financiers et institutionnels, les brouillons et les paramètres; le cache applicatif et les ressources téléchargeables restent présents.
