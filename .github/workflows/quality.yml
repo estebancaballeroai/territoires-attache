@@ -1,0 +1,21 @@
+name: Quality gate
+on:
+  push:
+    branches: [main, "experimental/**"]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax validation
+        run: npm run check
+      - name: Regression tests
+        run: npm test

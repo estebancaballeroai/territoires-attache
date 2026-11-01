@@ -1,5 +1,5 @@
-const CACHE='territoires-v1.1.0';
-const FILES=['./','./index.html','./style.css','./app.mjs','./engine.mjs','./content.json','./manifest.webmanifest','./assets/town.webp','./assets/library.webp','./assets/finance.webp','./assets/meeting.webp','./assets/river.webp','./assets/forum.webp','./assets/hero.webp','./assets/office.webp','./assets/archive.webp','./assets/manufacture.webp','./assets/council.webp','./assets/opening.webp'];
+const CACHE='territoires-v1.1.1';
+const FILES=['./','./index.html','./style.css','./app.mjs','./engine.mjs','./content.json','./manifest.webmanifest','./assets/icon-192.png','./assets/town.webp','./assets/library.webp','./assets/finance.webp','./assets/meeting.webp','./assets/river.webp','./assets/forum.webp','./assets/hero.webp','./assets/office.webp','./assets/archive.webp','./assets/manufacture.webp','./assets/council.webp','./assets/opening.webp'];
 self.addEventListener('install',e=>{self.skipWaiting();});
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
 self.addEventListener('message',e=>{if(e.data?.type!=='CACHE_ALL')return;e.waitUntil((async()=>{try{const c=await caches.open(CACHE);await c.addAll(FILES.map(p=>new Request(new URL(p,self.registration.scope),{cache:'reload'})));for(const key of await caches.keys())if(key.startsWith('territoires-')&&key!==CACHE)await caches.delete(key);e.ports[0]?.postMessage({ok:true,count:FILES.length});}catch(err){e.ports[0]?.postMessage({ok:false,error:err.message});}})());});
