@@ -19,3 +19,13 @@ jobs:
         run: npm run check
       - name: Regression tests
         run: npm test
+      - name: V2.2 narrative module syntax
+        run: |
+          node --check v2/app.js
+          node --check v2/engine.js
+          node --check v2/episode2-ui.js
+          node --check v2/episode3-content.js
+          node --check v2/episode3-engine.js
+          node --check v2/episode3-ui.js
+      - name: V2.2 complete Act I regression tests
+        run: node --test v2/tests/*.test.mjs
