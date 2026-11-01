@@ -1,4 +1,4 @@
-# TERRITOIRES 2.0 — prototype vertical jouable
+# TERRITOIRES 2.1 — prototype vertical jouable
 
 **Statut : épisode 1 jouable ; les 17 autres épisodes ne sont pas encore développés.**
 
@@ -33,3 +33,16 @@ Décors WebP issus des créations graphiques TERRITOIRES précédentes, portrait
 ## Limites
 
 Ce pilote ne couvre pas encore toutes les disciplines du concours, ne propose ni déplacements libres de personnage ni mémorisation opérationnelle inter-épisodes (les événements sont sauvegardés mais les autres épisodes restent à construire). Les lectures sont des synthèses pédagogiques, non des reproductions exhaustives des codes. Tests navigateur en émulation Android et non sur tablette physique.
+
+
+## Version 2.1 — Octobre : Les partenaires du territoire
+
+La campagne continue désormais en une seule sauvegarde : septembre (conseil, maire et délégations) conduit directement à octobre (État déconcentré, commune, EPCI et coopération). Les souvenirs de septembre modifient les dialogues d'octobre et les nouvelles décisions seront réutilisables dans la suite de l'année.
+
+Octobre contient cinq conversations approfondies, quatre pièces fictives à vérifier, trois lectures de fond, une note à présenter à la DGS et trois conclusions qui auront un écho en juin. L'interface affiche des décors WebP et les portraits de deux nouveaux interlocuteurs, Nora Vidal et Salomé Marchand.
+
+**Continuité :** même clé de sauvegarde `territoires.v2.pilot.v1`, restauration des anciennes parties V2 de septembre, export et remise à zéro communs aux deux épisodes. La V1.4.1 reste indépendante dans la racine GitHub Pages.
+
+**Tests :** depuis le dossier `v2`, exécuter `node --test tests/*.test.mjs`. Le script `python tests/visual_qa_inline.py` permet le contrôle Chromium sans navigation réseau (test du DOM, clics, captures, 320/390/768 px, export, reset). La navigation réelle par HTTP et le service worker ne sont pas validés par ce test.
+
+**Références officielles :** article 72 de la Constitution (Légifrance), Vie-publique sur la déconcentration, DGCL sur les compétences des EPCI et les fonds de concours. Les textes applicables doivent être vérifiés pour toute situation réelle.

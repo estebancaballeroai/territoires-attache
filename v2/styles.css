@@ -8,3 +8,18 @@
 @media(max-width:790px){.top-pill.mobile-hide{display:none}.container{padding-bottom:112px}.split{grid-template-columns:1fr}.speaker-card{grid-template-columns:118px 1fr;gap:16px}.speaker-card img{width:118px;height:145px}.character-grid{grid-template-columns:repeat(2,1fr)}.location-card img{height:125px}.map-stage{height:335px}}
 @media(max-width:520px){.topbar{min-height:64px;padding:9px 15px}.brand-mark{width:37px;height:37px;font-size:1.45rem}.brand strong{font-size:1rem}.brand small{font-size:.6rem}.top-pill{padding:6px 9px;font-size:.62rem}.container{padding:19px 15px 115px}.map-stage{height:330px}.map-stage .stage-text{bottom:22px;left:18px;right:18px}.map-stage h1{font-size:2.2rem}.welcome-art{height:365px}.welcome-content{left:19px;right:19px;bottom:9%}.welcome-content h1{font-size:2.4rem}.opening-step{padding:20px}.opening-step p{font-size:1.18rem}.dashboard{gap:7px}.dash-card{padding:10px 6px}.dash-card strong{font-size:1.33rem}.dash-card small{font-size:.66rem}.location-grid{gap:9px}.location-card img{height:105px}.location-card .info{padding:11px}.location-card .info>strong{font-size:1.03rem}.location-card .info p{font-size:.71rem}.panel{padding:17px}.speech{padding:20px}.speech p{font-size:1.14rem}.speaker-card{grid-template-columns:95px 1fr;gap:12px}.speaker-card img{width:95px;height:115px}.speaker-card p{font-size:.83rem}.document-sheet{padding:20px}.sheet-heading{flex-direction:column;gap:4px}.sheet-prose p{text-align:left}.actions{display:grid;grid-template-columns:1fr}.actions .btn{width:100%}.character-grid{gap:9px}.character-tile img{height:130px}.ending-art{height:220px}.timeline-row{grid-template-columns:78px 1fr}.skill{grid-template-columns:83px 1fr 25px;font-size:.78rem}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+/* October — Episode 2: one continuing campaign, no separate quiz mode */
+.october-splash{position:relative;min-height:clamp(315px,50vw,480px);overflow:hidden;background:#183d32;color:#fff}
+.october-splash>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 43%}
+.october-splash::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#12392ff2 0%,#12392f35 90%)}
+.october-overlay{position:absolute;z-index:1;bottom:30px;left:max(20px,calc((100vw - 950px)/2));right:22px;max-width:700px}
+.october-overlay h1{color:white;margin:8px 0}.october-overlay p{font-size:1.1rem;max-width:600px}.october-overlay .eyebrow{color:#ebcb8a}
+.october-reading{max-width:830px}.october-story{font-family:var(--serif);font-size:clamp(1.24rem,2.5vw,1.55rem);line-height:1.75;margin-top:19px}
+.october-memory{border-left:5px solid #bd9759;padding:17px 20px;background:#eee9d9;border-radius:9px;margin:17px 0 23px}
+.october-memory p{margin:7px 0 0;line-height:1.7}.october-people{display:grid;gap:13px}
+.october-person{display:flex;gap:13px;align-items:center;padding:9px;background:#f4f3e8;border-radius:12px}
+.october-person img{width:66px;height:75px;object-fit:cover;border-radius:9px;flex-shrink:0}
+.october-person strong{display:block;font-family:var(--serif)}.october-person small{display:block}
+.october-reading .notice{margin-top:18px}.october-reading .opening-step{padding:25px}
+@media(max-width:520px){.october-overlay{left:17px;right:17px;bottom:18px}.october-overlay h1{font-size:2rem}.october-splash{min-height:315px}.october-story{font-size:1.2rem}.october-reading .opening-step{padding:18px}.october-people{gap:8px}.october-person{padding:7px}}
+@media(max-width:340px){.brand small{font-size:.55rem}.top-pill.gold{padding:5px 7px}.bottom-nav button{font-size:.59rem}.map-stage h1{font-size:1.95rem}}
