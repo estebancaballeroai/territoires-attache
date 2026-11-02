@@ -1,7 +1,7 @@
 {
-  "name": "TERRITOIRES 2.2 - Une annee pour faire ses preuves",
+  "name": "TERRITOIRES 2.3",
   "short_name": "TERRITOIRES",
-  "description": "RPG de culture territoriale : premier acte de trois episodes, de septembre a fin octobre",
+  "description": "Quatre épisodes, dont la médiathèque de Valrivière",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
