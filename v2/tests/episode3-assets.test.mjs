@@ -12,7 +12,7 @@ test('La V2.2 integre vraiment les nouvelles illustrations et le code au cache o
   const filepath=x.endsWith('.webp')?path.join(root,'assets',x):path.join(root,x);
   assert(fs.statSync(filepath).size>2000,filepath+' missing');
  }
- assert(sw.includes('territoires-v2-pilot-3'));
+ assert(sw.includes('territoires-v2-pilot-4'));
  assert(app.includes('ep3-begin')&&app.includes('ep3-finish'));
  assert(NOVEMBRE.locations.every(loc=>fs.existsSync(path.join(root,'assets',loc.image))));
 });
